@@ -15,9 +15,9 @@
 // let y=x.substring(10,20)
 // console.log(y)
 
-// substr method
+// // substr method
+// e method lo manam 0 nundi start chestam counting and manam eche 2 values anedhi ex:-10,9 ante 10 varaki  values hide ithadi ...next echina value anedhi 0 nundi start i 9 varaki mananki show chestundhi 
 
-
-let x="HTML is the standard markup language for Web pages"
-let y=x.substr(10,20)
-console.log(y)
+// let x="HTML is the standard markup language for Web pages"
+// let y=x.substr(10,20)
+// console.log(y)
