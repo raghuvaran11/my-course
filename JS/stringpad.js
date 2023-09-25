@@ -18,6 +18,19 @@
 // let padded = text.padStart(4,"0");
 // console.log(padded)
 
-let num="10"
-let text= num.padEnd(6,"x")
-console.log(text)
+// let num="10"
+// let text= num.padEnd(6,"x")
+// console.log(text)
+
+// TASK 
+
+// raghuvaranmanthena@gmail.com
+
+// raghu********thena@gmail.com 
+
+let email="raghuvaranmanthena@gmail.com"
+let first_name =email.slice(0,5)
+let starname=first_name.padEnd(14,"*")
+let output=email.slice(14)
+let result=starname.concat(output)
+console.log(result)
