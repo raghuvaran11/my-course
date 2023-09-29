@@ -17,9 +17,9 @@
 
 // 3... add and remove at a time cheyadam 
 
-let string =["string","push","pop","shift","unshift","array","raghu","ramesh","vinith","vinod"]
-console.log(string.push("kiwi"),string.pop())
-console.log(string.pop(),string.push("kiwi"))
+// let string =["string","push","pop","shift","unshift","array","raghu","ramesh","vinith","vinod"]
+// console.log(string.push("kiwi"),string.pop())
+// console.log(string.pop(),string.push("kiwi"))
 
 
 
