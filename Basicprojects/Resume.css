@@ -1,0 +1,23 @@
+#r1 {
+    text-align: center;
+    color: black;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.r2{
+    text-align: left;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#r3 {
+    text-align: right;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size:large;
+}
