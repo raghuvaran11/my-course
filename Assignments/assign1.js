@@ -14,9 +14,9 @@
 // // console.log(abbrev_name("Robin Singh"));
 // // "Robin S."
 
-// let abbrev_name="Robin Singh"
-// let output=abbrev_name.substring(0,7)
-// console.log(output)
+let abbrev_name="Robin Singh"
+let output=abbrev_name.substring(0,7)
+console.log(output)
 
 
 
