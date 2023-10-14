@@ -23,9 +23,8 @@
 .box4{
     background-color: rgb(214, 77, 152);
     display: flex;
-              
-
-
+   align-self: flex-end;
+   justify-content: center;
 }
 .container{
     background-color: rgb(114, 141, 80);

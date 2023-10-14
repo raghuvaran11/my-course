@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: #f65314;
+}
+.green{ background-color: #7cbb00;
+}
+.blue{
+    background-color: #00a1f1;
+}
+.yellow{
+
+    background-color: #ffbb00;
+}
+.microsoft{
+    width: 350px;
+    margin: 25px auto;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 0px 15px 15px 0px ;
+    float: left;
+ align-self: flex-start;
+}

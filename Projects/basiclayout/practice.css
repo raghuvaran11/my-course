@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgb(78, 6, 6);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: solid;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  background-color: rgb(24, 167, 192);
+    padding: 20px;
+  
+}
+.second{
+    color: rgb(69, 180, 69);
+}
+.both{
+    display: flex;
+}
+div{
+    color: rgb(21, 228, 21);
+}
+.part1{
+    background-image: url("/my-course/Projects/myself/pexels-photo-593655.jpeg");
+   width: 70%;
+    height: 60vh;
+    text-align:left;
+   align-self: center;
+   text-decoration: solid;
+  
+}
+.part2{
+
+   background-image: url("/my-course/Projects/myself/dark-interior-designs-for-your-home.jpg");;
+    width: 30%;
+    height: 60vh;
+    text-align: left;
+    text-decoration: solid;
+    color: white;
+
+}
+.footer {
+  background-image: url("/my-course/Projects/myself/WhatsApp\ Image\ 2023-10-08\ at\ 11.19.43\ AM.jpeg");
+    color: rgb(63, 5, 5);
+    text-align: center;
+    text-decoration: solid;
+    padding:30px;
+}
+.ul1{
+    color: rgb(226, 237, 247);
+    margin: 0px 0px 0px 30px;
+    list-style-type: none;
+    text-decoration: 20px solid;
+
+}
+.ul2{
+    margin: 0px 0px 0px 30px;
+    list-style-type: none;
+    text-decoration: 20px solid;
+    color: magenta;
+}
