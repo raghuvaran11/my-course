@@ -30,3 +30,4 @@
 // cars[0] = "shift"
 // console.log(cars)
 
+console.log(typeof 42)
