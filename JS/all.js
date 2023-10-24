@@ -250,7 +250,120 @@
 // names[1]="vanitha"
 // console.log(names)
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// console.log(fruits.toString())
-const nums = fruits.toString()
-console.log(nums)
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // console.log(fruits.toString())
+// const nums = fruits.toString()
+// console.log(nums)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango",];
+// const output = fruits.length
+// console.log(output)
+
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango","Banana", "Orange", "Apple", "Mango","Banana", "Orange", "Apple", "Mango","Banana", "Orange", "Apple", "Mango","Banana", "Orange", "Apple", "Mango","Banana", "Orange", "Apple", "Mango"];
+// const output = fruits.length-1
+// console.log(output)
+
+
+// const fruits = ["Banana", "Orange", "Apple"];
+// fruits[6] = "Lemon";
+// console.log(fruits)
+
+// <------------------------------- push means add element at end side ----------------------------->
+
+// const fruits = ["Banana", "Orange", "Apple"];
+// let output=fruits.push("raghu")
+// console.log(fruits,output)
+
+// <--------------------------------pop means remove a element at end side ----------------------->
+
+// const fruits = ["Banana", "Orange", "Apple"];
+// fruits.pop()
+// console.log(fruits)
+
+// <-------------------------shift means remove a element at starting ------------------>
+
+// const fruits = ["Banana", "Orange", "Apple"];
+// fruits.shift()
+// console.log(fruits)
+
+// <----------------------unshift means add a Element at starting position-------------->
+
+// const fruits = ["Banana", "Orange", "Apple"];
+// fruits.unshift("raghu")
+// console.log(fruits)
+
+// <-------------------replace chese method ----------------->
+
+// const fruits =["banana","apple","kiwi","orange"]
+// fruits[3]="raghu"
+// console.log(fruits)
+
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+// let mixed = myGirls.concat(myBoys)
+// console.log(mixed)
+
+// const arr1 = ["Cecilie", "Lone"];
+// const arr2 = ["Emil", "Tobias", "Linus"];
+// const arr3 = ["Robin", "Morgan"];
+// const myChildren = arr1.concat(arr2, arr3);
+// console.log(myChildren)
+
+// const myArr = [[1,2],[3,4],[5,6]];
+// const newArr = myArr.flat();
+// console.log(newArr)
+
+// const array =[(2,3),(4,5),(6,7)]
+// const New = array.flat()
+// console.log(New)  flat method lo () edhi use only 2nd number vastunnabi andhuku ala 
+
+// const array =[[1,2,3],[4,5,6],[7,8,9]]
+// const New =array.flat()
+// console.log(New)
+
+// const array =[[1,2,3],[4,5,6],[7,8,9]]
+// const New =array.flat()
+// console.log(New)
+
+// <-----------------splice method middle lo a position lo kavalo akkada add cheskovachu ----------->
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+// console.log(fruits)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango","raghu","mahesh","ramesh", "adya"];
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+// fruits.splice(4,1,"vanitha","ramya" ,"vindo","srikanth")
+// console.log(fruits)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
