@@ -25,7 +25,7 @@
 // }
 // num1(1,2,3)
 
-// claculator programme
+// calculator programme
 
 
 // const output=(a,b,operator)=>{
