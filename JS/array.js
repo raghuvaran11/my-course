@@ -26,7 +26,7 @@
 // console.log(car)
 
 // echina array nundi element ni change cheyadam
-// const cars = ["Saab", "Volvo", "BMW"];
-// cars[0] = "shift"
-// console.log(cars)
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "shift"
+console.log(cars)
 
