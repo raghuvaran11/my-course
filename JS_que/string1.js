@@ -144,6 +144,16 @@
 // console.log(op1)
 
 
-let x = " raghu,rahul,ramesh,ravi"
-let y = x.split(",")
-console.log(y)
+// let x = " raghu,rahul,ramesh,ravi"
+// let y = x.split(",")
+// console.log(y)
+// let text=""
+// for(let i=)
+let text = "Hello";
+const myArr = text.split("");
+
+text = "";
+for (let i = 0; i < myArr.length; i++) {
+  text += myArr[i]
+}
+console.log(text)
