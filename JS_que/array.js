@@ -60,10 +60,10 @@
 
 // multification of table method 
 
-let x= 5
-for (let i=1;i<=10;i++) {
-    console.log('${x} * ${i}= ${x*i}')
-}
+// let x= 5
+// for (let i=1;i<=10;i++) {
+//     console.log('${x} * ${i}= ${x*i}')
+// }
 
 
 // Generate and print the first `n` terms of the Fibonacci sequence using a `for` loop.
