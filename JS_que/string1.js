@@ -149,6 +149,8 @@
 // console.log(y)
 // let text=""
 // for(let i=)
+
+
 let text = "Hello";
 const myArr = text.split("");
 
