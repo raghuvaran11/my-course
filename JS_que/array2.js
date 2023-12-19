@@ -18,6 +18,14 @@
 // array.pop()
 // console.log(array)
 
-let array = ["mango","banana","kiwi","apple"]
-array.shift()
+// let array = ["mango","banana","kiwi","apple"]
+// array.shift()
+// console.log(array)
+// let array =["raghu","ramu","ramesh","suresh"]
+// delete array[2]
+// console.log(array)
+
+
+let array=["raghu","ramu","ramesh","suresh"]
+delete array[0]
 console.log(array)
