@@ -9,6 +9,15 @@
 //   }
   
 
-let array =["raghu","chinna","kanna","sonu"]
-array.push("lucky")
+// let array =["raghu","chinna","kanna","sonu"]
+// array.push("lucky")
+// console.log(array)
+
+
+// let array =["rakesh","flipkart","amazon","meesho","jio"]
+// array.pop()
+// console.log(array)
+
+let array = ["mango","banana","kiwi","apple"]
+array.shift()
 console.log(array)
