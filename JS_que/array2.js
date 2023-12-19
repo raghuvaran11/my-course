@@ -26,6 +26,8 @@
 // console.log(array)
 
 
-let array=["raghu","ramu","ramesh","suresh"]
-delete array[0]
-console.log(array)
+// let array=["raghu","ramu","ramesh","suresh"]
+// delete array[0]
+// console.log(array)
+
+let array= ["raghu","ramu","ramesh","suresh"]
