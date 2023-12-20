@@ -15,6 +15,27 @@
 
 // this is not working method
 
-let str="hello"
-let op=ReverseString(str)
-console.log(op)
+// let str="hello"
+// let op=ReverseString(str)
+// console.log(op)
+
+
+// **Question 2: Find the Maximum Number in an Array**
+
+// Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
+
+// let array=["3,5,9,10,15"]
+// let max=array[0]
+// for(let i=0;i<array.length;i++) {
+//     if(array[1]>max) {
+//         max=array[i]
+//     }console.log (max)
+// }console.log (max)
+
+
+
+let arra1=["3,5,9,10,15"]
+const min= Math.min(...arra1)
+const Max= Math.max(...arra1)
+console.log(min)
+console.log(Max)
