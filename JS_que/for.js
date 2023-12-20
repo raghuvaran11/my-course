@@ -28,10 +28,10 @@
 // console.log(markname)
 
 
-let name= "raghuvaranmanthena"
-let halfname=name.slice(0,5)
-console.log(halfname)
-let middlename =name.slice(5,10)
-console.log(middlename)
-let markname =middlename.padEnd(3,"*")
-console.log(markname)
+// let name= "raghuvaranmanthena"
+// let halfname=name.slice(0,5)
+// console.log(halfname)
+// let middlename =name.slice(5,10)
+// console.log(middlename)
+// let markname =middlename.padEnd(3,"*")
+// console.log(markname)
