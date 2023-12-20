@@ -71,10 +71,20 @@
 // console.log(op1)
 // for-loop method
 
-let str="this is a sample sentene"
-let count=0
-for(let i=0;i<=str.length;i++) {
-    if(str.charAt(i) ==' ') {
-        count++;
-    }
-}console.log(count)
+// let str="this is a sample sentene"
+// let count=0
+// for(let i=0;i<=str.length;i++) {
+//     if(str.charAt(i) ==' ') {
+//         count++;
+//     }
+// }console.log(count)
+
+// 9. Write a function `reverseWords` that takes a string as input and returns the string with its words reversed.
+
+let str ="hello world"
+let op=str.split(" ")
+console.log(op) 
+let op1 = op.reverse(' ')
+console.log(op1)
+let op2=op1.join(' ')
+console.log(op2)
