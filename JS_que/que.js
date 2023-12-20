@@ -57,6 +57,24 @@
 
 // 7. Write a function `capitalizeFirstLetter` that takes a string as input and returns the same string with the first letter capitalized.
 
-let string ="hello world"
-let op=string[0].toUpperCase()+string.slice(1)
-    console.log(op)
+// let string ="hello world"
+// let op=string[0].toUpperCase()+string.slice(1)
+//     console.log(op)
+
+
+
+//8. Write a function `countWords` that takes a string as input and returns the number of words in the string.
+// let str ="This is a sample sentence.";
+// let op = str.split(' ')
+// console.log(op)
+// let op1=op.length
+// console.log(op1)
+// for-loop method
+
+let str="this is a sample sentene"
+let count=0
+for(let i=0;i<=str.length;i++) {
+    if(str.charAt(i) ==' ') {
+        count++;
+    }
+}console.log(count)
