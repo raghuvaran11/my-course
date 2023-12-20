@@ -40,17 +40,23 @@
 // console.log(min)
 // console.log(Max)
 
-const array =["2,5,1,6,3,9,15"]
-const max =0
-for (let i=0;i<array.length;i++) {
-    if (array[i]>max){
-        max=array[i]
-    }
-    // else if (array[i]<max){
-    //     max=array[1]
-    // }
+// const array =["2,5,1,6,3,9,15"]
+// const max =0
+// for (let i=0;i<array.length;i++) {
+//     if (array[i]>max){
+//         max=array[i]
+//     }
+//     // else if (array[i]<max){
+//     //     max=array[1]
+//     // }
 
-    }console.log(max)
+//     }console.log(max)
 
 
 
+
+// 7. Write a function `capitalizeFirstLetter` that takes a string as input and returns the same string with the first letter capitalized.
+
+let string ="hello world"
+let op=string[0].toUpperCase()+string.slice(1)
+    console.log(op)
