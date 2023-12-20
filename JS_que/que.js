@@ -34,8 +34,23 @@
 
 
 
-let arra1=["3,5,9,10,15"]
-const min= Math.min(...arra1)
-const Max= Math.max(...arra1)
-console.log(min)
-console.log(Max)
+// let arra1=["3,5,9,10,15"]
+// const min= Math.min(...arra1)
+// const Max= Math.max(...arra1)
+// console.log(min)
+// console.log(Max)
+
+const array =["2,5,1,6,3,9,15"]
+const max =0
+for (let i=0;i<array.length;i++) {
+    if (array[i]>max){
+        max=array[i]
+    }
+    // else if (array[i]<max){
+    //     max=array[1]
+    // }
+
+    }console.log(max)
+
+
+
