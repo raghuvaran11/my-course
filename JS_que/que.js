@@ -93,9 +93,23 @@
 // 10. Write a function `removeVowels` that takes a string as input and returns the string with all vowels removed.
 
 
-let str= "this is a sample sentence"
-let op =str.split("") 
-console.log(op)
-let remove =/[aeiou]/ig
-let arr=remove.match(remove)
-console.log(arr)
+// let str= "this is a sample sentence"
+// let op =str.split("") 
+// console.log(op)
+// let remove =/[aeiou]/ig
+// let arr=remove.match(remove)
+// console.log(arr)
+
+
+// 11. Write a function `isAnagram` that takes two strings as input and returns `true` if they are anagrams (contain the same characters in a different order), and `false` otherwise.
+
+
+//  E method lo length match cheyali 
+
+// let str1= "listens"
+// let str2 = "slient"
+// function  AreAnagram(str1, str2) {
+//      return str1.split("").sort().join("")
+//      === str2.split("").sort().join("")
+// } 
+// console.log(AreAnagram(str1,str2))
