@@ -113,3 +113,11 @@
 //      === str2.split("").sort().join("")
 // } 
 // console.log(AreAnagram(str1,str2))
+
+
+// 12. Write a function `sumArray` that takes an array of numbers as input and returns the sum of all the numbers
+
+
+const array=[1,2,3,4,5]
+const sum = array.reduce((acc,val)=> acc+val,0)
+console.log(sum)
