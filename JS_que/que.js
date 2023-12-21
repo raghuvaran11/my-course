@@ -153,8 +153,17 @@
 // 17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
 
 
-let array = [1,2,3,4,5,6,7]
-const op =array.findIndex(findThree)
-function  findThree(value) {
-    return value === 5;
-} console.log(op)
+// let array = [1,2,3,4,5,6,7]
+// const op =array.findIndex(findThree)
+// function  findThree(value) {
+//     return value === 5;
+// } console.log(op)
+
+// 18. Write a function `filterEvenNumbers` that takes an array of numbers as input and returns a new array containing only the even numbers.
+
+
+let array =[1,2,3,4,5,6]
+const evenNumber=array.filter(num =>{
+    return num%2 ==0;
+}) 
+console.log(evenNumber)
