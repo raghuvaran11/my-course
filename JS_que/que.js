@@ -81,10 +81,21 @@
 
 // 9. Write a function `reverseWords` that takes a string as input and returns the string with its words reversed.
 
-let str ="hello world"
-let op=str.split(" ")
-console.log(op) 
-let op1 = op.reverse(' ')
-console.log(op1)
-let op2=op1.join(' ')
-console.log(op2)
+// let str ="hello world"
+// let op=str.split(" ")
+// console.log(op) 
+// let op1 = op.reverse(' ')
+// console.log(op1)
+// let op2=op1.join(' ')
+// console.log(op2)
+
+
+// 10. Write a function `removeVowels` that takes a string as input and returns the string with all vowels removed.
+
+
+let str= "this is a sample sentence"
+let op =str.split("") 
+console.log(op)
+let remove =/[aeiou]/ig
+let arr=remove.match(remove)
+console.log(arr)
