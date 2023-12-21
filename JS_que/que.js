@@ -22,7 +22,7 @@
 
 // **Question 2: Find the Maximum Number in an Array**
 
-// Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
+// // Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
 
 // let array=["3,5,9,10,15"]
 // let max=array[0]
@@ -118,6 +118,25 @@
 // 12. Write a function `sumArray` that takes an array of numbers as input and returns the sum of all the numbers
 
 
-const array=[1,2,3,4,5]
-const sum = array.reduce((acc,val)=> acc+val,0)
-console.log(sum)
+// const array=[1,2,3,4,5]
+// const sum = array.reduce((acc,val)=> acc+val,0)
+// console.log(sum)
+
+
+// 13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
+
+
+
+
+
+// 15. Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions
+
+let array =[1,2,3,5,6,7]
+let k=10
+function ArrayRotation(arr,numberOfShifts) {
+    for (let i=0; i<numberOfShifts;i++) {
+ arr.unshift(arr.pop());
+ console.log('step ${i+1}',arr)
+    }
+}
+console.log('final output:',ArrayRotation(array,k));
