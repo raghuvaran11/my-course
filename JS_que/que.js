@@ -131,12 +131,30 @@
 
 // 15. Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions
 
-let array =[1,2,3,5,6,7]
-let k=10
-function ArrayRotation(arr,numberOfShifts) {
-    for (let i=0; i<numberOfShifts;i++) {
- arr.unshift(arr.pop());
- console.log('step ${i+1}',arr)
-    }
-}
-console.log('final output:',ArrayRotation(array,k));
+// let array =[1,2,3,5,6,7]
+// let k=10
+// function ArrayRotation(arr,numberOfShifts) {
+//     for (let i=0; i<numberOfShifts;i++) {
+//  arr.unshift(arr.pop());
+//  console.log('step ${i+1}',arr)
+//     }
+// }
+// console.log('final output:',ArrayRotation(array,k));
+
+
+
+// 16. Write a function `removeFalsyValues` that takes an array and removes all falsy values (e.g., `false`, `null`, `0`, `""`, `undefined`, `NaN`).
+
+
+
+
+
+
+// 17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
+
+
+let array = [1,2,3,4,5,6,7]
+const op =array.findIndex(findThree)
+function  findThree(value) {
+    return value === 5;
+} console.log(op)
