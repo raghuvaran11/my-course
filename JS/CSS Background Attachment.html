@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background Attachment</title> <style>
+    body {
+        background-image: url("https://wallpapershome.com/images/pages/pic_h/4107.jpg");
+        background-repeat: no-repeat;
+        background-position:right top;
+        background-attachment:fixed;
+
+    } 
+    OR background: #ffffff url("img_tree.png") no-repeat right top;
+
+    * {
+        color:rgb(243, 230, 230);
+    }
+</style>
+</head>
+<body>
+    <h2>CSS Background Attachment:</h2>
+    <p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):</p>
+    <pre><b>Example
+        Specify that the background image should be fixed:
+        
+        body {
+          background-image: url("img_tree.png");
+          background-repeat: no-repeat;
+          background-position: right top;
+          background-attachment: fixed;
+        }</b></pre>
+        <h2> background scrolling:</h2>
+   <pre><b>Example
+    Specify that the background image should scroll with the rest of the page:
+    
+    body {
+      background-image: url("img_tree.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-attachment: scroll;
+    }
+    </b></pre><br><br><hr>
+    <p>To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.</p>
+
+<h2>Instead of writing:</h2>
+<pre><b>
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+You can use the shorthand property background:
+
+Example
+Use the shorthand property to set the background properties in one declaration:
+
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;</b>
+</pre>
+
+</body>
+</html>
