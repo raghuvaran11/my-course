@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+  #para1 {
+    color:aqua;
+    background-color:blueviolet;
+    text-align:center;
+}
+.center {
+    color:red;
+}
+p.large {
+    color:rgb(27, 240, 73);
+    text-align:center;
+  font-size:350%;
+}
+p.small {
+    color:rgb(11, 41, 3); 
+    font-size:10px;
+    text-align:center;
+
+}
+    </style>
+</head>
+<body>
+    <h2>The CSS id Selector: </h2>
+    <pre>
+    The id selector uses the id attribute of an HTML element to select a specific element.
+    The id of an element is unique within a page, so the id selector is used to select one unique element!
+    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+    </pre><br>
+    <h2>Example:</h2>
+    <p id="para1">The CSS rule below will be applied to the HTML element with id="para1": </p>
+    <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+    <p id="para1"> The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+    <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p> <br> <hr>
+    <h2>The CSS class Selector</h2>
+    <pre>
+    The class selector selects HTML elements with a specific class attribute.
+    To select elements with a specific class, write a period (.) character, followed by the class name.</pre>
+    <h2 class="center">This heading will not be affected</h2>
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="cener large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+    <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+    <p class="center small">This paragraph will be red, center-aligned, and in a small font-size.</p> 
+    <p class="center small">This paragraph will be red, center-aligned, and in a small font-size.</p> 
+    <hr>
+  
+
+</body>
+</html>
