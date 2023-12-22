@@ -169,8 +169,22 @@
 // console.log(evenNumber)
 
 // 19. odd number in array
-let array =[1,2,3,4,5,6,7,8,9,10,11]
-const oddNumber =array.filter(num =>{
-    return num%2!=0;
-})
-console.log(oddNumber)
+// let array =[1,2,3,4,5,6,7,8,9,10,11]
+// const oddNumber =array.filter(num =>{
+//     return num%2!=0;
+// })
+// console.log(oddNumber)
+
+
+
+// string lo first letter captilize cheyadam ala 
+
+const str ="js string working"
+const capitalized=(str)=> {
+    let parts=str.spilt(" ")
+    let newString= " "
+    parts.map((item)=>{
+        newString= ${item[0].toUpperCase()}${item.slice(1)}
+        console.log(newString)
+    }) 
+} 
