@@ -126,9 +126,35 @@
 // **10. Reverse an Array:**
 // Write a program to reverse the elements of an array using a `for` loop.
 
-let array=[1,2,3,4,5]
-let reverseArray=[];
-for (let i=array.length-1;i>=0;i--){
-    reverseArray.push(array[i])
-}
-console.log(reverseArray)
+// let array=[1,2,3,4,5]
+// let reverseArray=[];
+// for (let i=array.length-1;i>=0;i--){
+//     reverseArray.push(array[i])
+// }
+// console.log(reverseArray)
+
+
+
+// **Question 1: Reverse a String**
+
+// Write a function `reverseString` that takes a string as input and returns the reverse of that string.
+   
+
+
+// **Question 2: Find the Maximum Number in an Array**
+
+// Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
+
+
+
+
+
+// **Question 3: Count the Occurrences of a Character in a String**
+
+// Write a function `countChar` that takes a string and a character as input and returns the number of times that character appears in the string.
+
+
+
+// **Question 4: Remove Duplicates from an Array**
+
+// Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.

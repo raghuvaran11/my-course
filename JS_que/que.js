@@ -93,12 +93,12 @@
 // 10. Write a function `removeVowels` that takes a string as input and returns the string with all vowels removed.
 
 
-// let str= "this is a sample sentence"
-// let op =str.split("") 
-// console.log(op)
-// let remove =/[aeiou]/ig
-// let arr=remove.match(remove)
-// console.log(arr)
+let str = "this is a sample sentence"
+let op =str.split("") 
+console.log(op)
+let remove =/[aeiou]/ig
+let arr=remove.match(remove)
+console.log(arr)
 
 
 // 11. Write a function `isAnagram` that takes two strings as input and returns `true` if they are anagrams (contain the same characters in a different order), and `false` otherwise.
@@ -179,12 +179,12 @@
 
 // string lo first letter captilize cheyadam ala 
 
-const str ="js string working"
-const capitalized=(str)=> {
-    let parts=str.spilt(" ")
-    let newString= " "
-    parts.map((item)=>{
-        newString= ${item[0].toUpperCase()}${item.slice(1)}
-        console.log(newString)
-    }) 
-} 
+// const str ="js string working"
+// const capitalized=(str)=> {
+//     let parts=str.spilt(" ")
+//     let newString= " "
+//     parts.map((item)=>{
+//         newString= ${item[0].toUpperCase()}${item.slice(1)}
+//         console.log(newString)
+//     }) 
+// } 
