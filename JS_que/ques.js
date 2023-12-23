@@ -68,8 +68,67 @@
 // console.log(result)
 
 
-let str="hello"
-let x= str.split("")
-let y=x.reverse("")
-let z=y.join('')
-console.log(z)
+// let str="hello"
+// let x= str.split("")
+// let y=x.reverse("")
+// let z=y.join('')
+// console.log(z)
+
+// **6. Prime Number Check:**
+// Write a program to check if a given number `n` is prime using a `for` loop.
+
+// function prime(n) {
+//     if (n<2)
+//     return '${n} is not a prime number'
+//     for (let i = 2; i<n; i++){
+//         if( n % i === 0) {
+//             return `${n} is not a Prime Number`
+
+//         }
+//     }
+//     return `${n} is a Prime Number`
+// }
+// console.log(prime(29))
+
+
+// **7. Count Digits in a Number:**
+// Write a program to count the number of digits in a given number `n` using a `for` loop.
+
+
+
+// **8. Print Pattern:**
+// Write a program to print a pattern of stars using a `for` loop.
+
+
+// let row=5
+// for (let i=1;i<=row;i++){
+//     let pattern=""
+//     for (let j=1;j<=i;j++){
+//         pattern += " * "
+//     }
+//     console.log(pattern)
+// }
+
+
+// **9. Find Largest Element in an Array:**
+// Write a program to find the largest element in an array using a `for` loop.
+
+// const number =[2,5,6,9,8,7,1,3]
+// const largest=number[0]
+// for (let i=1;i<=number.length;i++) {
+//     if(number[i] < largest) {
+//      largest = number[i]
+
+//     }
+// } 
+// console.log(largest)
+
+// **10. Reverse an Array:**
+// Write a program to reverse the elements of an array using a `for` loop.
+
+let array=[1,2,3,4,5]
+let reverseArray=[];
+for (let i=array.length-1;i>=0;i--){
+    reverseArray.push(array[i])
+}
+console.log(reverseArray)
