@@ -139,6 +139,16 @@
 
 // Write a function `reverseString` that takes a string as input and returns the reverse of that string.
    
+// const string ="hello"
+// function reverseString (str) {
+//      let newString=" "
+//      for(let i=str.length-1;i>=0;i--){
+//             newString+=str[i]
+//         }
+//         return newString;
+// } 
+// const result =reverseString(string)
+// console.log(result)
 
 
 // **Question 2: Find the Maximum Number in an Array**
