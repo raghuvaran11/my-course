@@ -168,3 +168,13 @@
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
+
+const removeDuplicates=(input)=>{
+for(let i=0;i<input.length;i++) {
+console.log("for", i )
+}
+}
+const input =[1,2,3,1,4,5,2,4,3,6]
+ const output=removeDuplicates(input)
+ console.log(output)
+
