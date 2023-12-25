@@ -163,27 +163,30 @@
 
 // Write a function `countChar` that takes a string and a character as input and returns the number of times that character appears in the string.
 
-
-
+let str="this is a string"
+for(let i in str) {
+   let  print=(i,"=",str.count(i),"times")
+}
+console.log(print)
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
 
-const removeDuplicates=(input)=>{
-// for(let i=0;i<input.length;i++) {
-// console.log("for", i )
-// }
-let newarr=[]
-for(let i of input) {
+// const removeDuplicates=(input)=>{
+// // for(let i=0;i<input.length;i++) {
+// // console.log("for", i )
+// // }
+// let newarr=[]
+// for(let i of input) {
 
-    if(!newarr.includes(i)){
-        newarr.push(i)
-      }
-       console.log("newarr1",newarr)
-  }
-  console.log("newarr2",newarr)
-}
-const input =[1,2,3,1,4,5,2,4,3,6]
- const output=removeDuplicates(input)
- console.log(output)
+//     if(!newarr.includes(i)){
+//         newarr.push(i)
+//       }
+//        console.log("newarr1",newarr)
+//   }
+//   console.log("newarr2",newarr)
+// }
+// const input =[1,2,3,1,4,5,2,4,3,6]
+//  const output=removeDuplicates(input)
+//  console.log(output)
 
