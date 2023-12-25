@@ -170,9 +170,18 @@
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
 
 const removeDuplicates=(input)=>{
-for(let i=0;i<input.length;i++) {
-console.log("for", i )
-}
+// for(let i=0;i<input.length;i++) {
+// console.log("for", i )
+// }
+let newarr=[]
+for(let i of input) {
+
+    if(!newarr.includes(i)){
+        newarr.push(i)
+      }
+       console.log("newarr1",newarr)
+  }
+  console.log("newarr2",newarr)
 }
 const input =[1,2,3,1,4,5,2,4,3,6]
  const output=removeDuplicates(input)
