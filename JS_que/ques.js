@@ -228,11 +228,20 @@
 // them into a single sorted array.
 
 
-function mergeSortedArrays(arr1,arr2) {
-   let mergearray=[...arr1,...arr2]
-   let result=[...new Set(mergearray)]
-   console.log (result)
+// function mergeSortedArrays(arr1,arr2) {
+//    let mergearray=[...arr1,...arr2]
+//    let result=[...new Set(mergearray)]
+//    console.log (result)
+// }
+// let arr1 =[0,1,2,3,4]
+// let arr2 =[3,4,5,6,7,8,9]
+// mergeSortedArrays(arr1,arr2)
+
+
+// **Question 5: Check for Palindrome**
+// Write a function `isPalindrome` that takes a string as input and returns `true` if it's a
+// palindrome (reads the same forwards and backward), and `false` otherwise.
+function checkpalindrome(){
+   let input = "level"
+   let reverse=
 }
-let arr1 =[0,1,2,3,4]
-let arr2 =[3,4,5,6,7,8,9]
-mergeSortedArrays(arr1,arr2)
