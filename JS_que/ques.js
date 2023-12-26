@@ -155,7 +155,6 @@
 
 // Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
 
-function maximum () {
    let array= [5,6,7,9,10,2,12]
    let max = array[0]
    for (let i=0;i<array.length;i++) {
@@ -165,8 +164,6 @@ function maximum () {
    
    }
    console.log(max)
-}
-
 
 
 // **Question 3: Count the Occurrences of a Character in a String**
@@ -202,3 +199,14 @@ function maximum () {
 //  const output=removeDuplicates(input)
 //  console.log(output)
 
+
+// 14. Write a function `findAverage` that takes an array of numbers as input and returns
+// the average of all the numbers.
+
+
+//    let array=[5,2,6,8]
+//    let sum =0
+//    for(let i=0;i<array.length;i++) {
+//  sum += array[i]
+//    }
+//    console.log(sum/array.length)
