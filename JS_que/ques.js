@@ -155,7 +155,17 @@
 
 // Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
 
-
+function maximum () {
+   let array= [5,6,7,9,10,2,12]
+   let max = array[0]
+   for (let i=0;i<array.length;i++) {
+      if (array[i]>max) {
+         max=array[i]
+      }
+   
+   }
+   console.log(max)
+}
 
 
 
@@ -163,11 +173,13 @@
 
 // Write a function `countChar` that takes a string and a character as input and returns the number of times that character appears in the string.
 
-let str="this is a string"
-for(let i in str) {
-   let  print=(i,"=",str.count(i),"times")
-}
-console.log(print)
+// let str="this is a string"
+// for(let i in str) {
+//    let  print=(i,"=",str.count(i),"times")
+// }
+// console.log(print)
+
+
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
