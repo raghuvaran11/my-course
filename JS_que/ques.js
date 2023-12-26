@@ -155,16 +155,26 @@
 
 // Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
 
-   let array= [5,6,7,9,10,2,12]
-   let max = array[0]
-   for (let i=0;i<array.length;i++) {
-      if (array[i]>max) {
-         max=array[i]
-      }
+   // let array= [5,6,7,9,10,2,12]
+   // let max = array[0]
+   // for (let i=0;i<array.length;i++) {
+   //    if (array[i]>max) {
+   //       max=array[i]
+   //    }
    
-   }
-   console.log(max)
+   // }
+   // console.log(max)
 
+   // find minimum value of array
+
+   // let array = [2,1,3,5,9,8,7,0]
+   // let min= array[0]
+   // for(let i=0;i<array.length;i++) {
+   //    if (array[i]<min) {
+   //       min=array[i]
+   //    }
+   // }
+   // console.log (min)
 
 // **Question 3: Count the Occurrences of a Character in a String**
 
@@ -210,3 +220,19 @@
 //  sum += array[i]
 //    }
 //    console.log(sum/array.length)
+
+
+
+// **Question 6: Merge Two Sorted Arrays**
+// Write a function `mergeSortedArrays` that takes two sorted arrays as input and merges
+// them into a single sorted array.
+
+
+function mergeSortedArrays(arr1,arr2) {
+   let mergearray=[...arr1,...arr2]
+   let result=[...new Set(mergearray)]
+   console.log (result)
+}
+let arr1 =[0,1,2,3,4]
+let arr2 =[3,4,5,6,7,8,9]
+mergeSortedArrays(arr1,arr2)
