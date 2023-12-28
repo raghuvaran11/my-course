@@ -163,11 +163,11 @@
 
 // Write a function `countChar` that takes a string and a character as input and returns the number of times that character appears in the string.
 
-let str="this is a string"
-for(let i in str) {
-   let  print=(i,"=",str.count(i),"times")
-}
-console.log(print)
+// let str="this is a string"
+// for(let i in str) {
+//    let  print=(i,"=",str.Count(i),"times")
+// }
+// console.log(print)
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
@@ -190,3 +190,11 @@ console.log(print)
 //  const output=removeDuplicates(input)
 //  console.log(output)
 
+let str="dad"
+let len=str.length
+for(let i=0;i<len/2;i++){
+   if(str[i] !=str[len-1-i]) {
+      var msg="it is not a palindrome"
+   }
+}
+console.log("$ {str} : ${msg}")
