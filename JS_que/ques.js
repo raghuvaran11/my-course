@@ -215,16 +215,16 @@
 //  const output=removeDuplicates(input)
 //  console.log(output)
 
-<<<<<<< HEAD
-let str="dad"
-let len=str.length
-for(let i=0;i<len/2;i++){
-   if(str[i] !=str[len-1-i]) {
-      var msg="it is not a palindrome"
-   }
-}
-console.log("$ {str} : ${msg}")
-=======
+// <<<<<<< HEAD
+// let str="dad"
+// let len=str.length
+// for(let i=0;i<len/2;i++){
+//    if(str[i] !=str[len-1-i]) {
+//       var msg="it is not a palindrome"
+//    }
+// }
+// console.log("$ {str} : ${msg}")
+// =======
 
 // 14. Write a function `findAverage` that takes an array of numbers as input and returns
 // the average of all the numbers.
@@ -265,12 +265,22 @@ console.log("$ {str} : ${msg}")
 // }
 
 
-11. Write a function `isAnagram` that takes two strings as input and returns `true` if they
-are anagrams (contain the same characters in a different order), and `false` otherwise.
-**Example:**
-```javascript
-const input1 = "listen";
-const input2 = "silent";
-const output = isAnagram(input1, input2);
-console.log(output); // true
->>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
+// 11. Write a function `isAnagram` that takes two strings as input and returns `true` if they
+// are anagrams (contain the same characters in a different order), and `false` otherwise.
+// **Example:**
+// ```javascript
+// const input1 = "listen";
+// const input2 = "silent";
+// const output = isAnagram(input1, input2);
+// console.log(output); // true
+// >>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
+
+
+
+// let str1= "listens"
+// let str2 = "slient"
+// function  AreAnagram(str1, str2) {
+//      return str1.split("").sort().join("")
+//      === str2.split("").sort().join("")
+// } 
+// console.log(AreAnagram(str1,str2))
