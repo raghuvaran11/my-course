@@ -181,18 +181,17 @@
 // Write a function `countChar` that takes a string and a character as input and returns the number of times that character appears in the string.
 
 // let str="this is a string"
-// for(let i in str) {
-<<<<<<< HEAD
+// for(let i in str) 
 //    let  print=(i,"=",str.Count(i),"times")
 // }
 // console.log(print)
-=======
+
 //    let  print=(i,"=",str.count(i),"times")
 // }
 // console.log(print)
 
 
->>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
+
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
@@ -284,3 +283,13 @@
 //      === str2.split("").sort().join("")
 // } 
 // console.log(AreAnagram(str1,str2))
+
+
+
+
+let arr2=[1,2,3,4,5,6,7]
+for(let i=0;i<arr2.length;i++){
+   if (i%2==0){
+      
+   }
+}
