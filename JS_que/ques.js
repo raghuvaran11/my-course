@@ -155,9 +155,26 @@
 
 // Write a function `findMax` that takes an array of numbers as input and returns the maximum number from the array.
 
+   // let array= [5,6,7,9,10,2,12]
+   // let max = array[0]
+   // for (let i=0;i<array.length;i++) {
+   //    if (array[i]>max) {
+   //       max=array[i]
+   //    }
+   
+   // }
+   // console.log(max)
 
+   // find minimum value of array
 
-
+   // let array = [2,1,3,5,9,8,7,0]
+   // let min= array[0]
+   // for(let i=0;i<array.length;i++) {
+   //    if (array[i]<min) {
+   //       min=array[i]
+   //    }
+   // }
+   // console.log (min)
 
 // **Question 3: Count the Occurrences of a Character in a String**
 
@@ -165,9 +182,17 @@
 
 // let str="this is a string"
 // for(let i in str) {
+<<<<<<< HEAD
 //    let  print=(i,"=",str.Count(i),"times")
 // }
 // console.log(print)
+=======
+//    let  print=(i,"=",str.count(i),"times")
+// }
+// console.log(print)
+
+
+>>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
 // **Question 4: Remove Duplicates from an Array**
 
 // Write a function `removeDuplicates` that takes an array of numbers as input and returns a new array with duplicate values removed.
@@ -190,6 +215,7 @@
 //  const output=removeDuplicates(input)
 //  console.log(output)
 
+<<<<<<< HEAD
 let str="dad"
 let len=str.length
 for(let i=0;i<len/2;i++){
@@ -198,3 +224,53 @@ for(let i=0;i<len/2;i++){
    }
 }
 console.log("$ {str} : ${msg}")
+=======
+
+// 14. Write a function `findAverage` that takes an array of numbers as input and returns
+// the average of all the numbers.
+
+
+//    let array=[5,2,6,8]
+//    let sum =0
+//    for(let i=0;i<array.length;i++) {
+//  sum += array[i]
+//    }
+//    console.log(sum/array.length)
+
+
+
+// **Question 6: Merge Two Sorted Arrays**
+// Write a function `mergeSortedArrays` that takes two sorted arrays as input and merges
+// them into a single sorted array.
+
+
+// function mergeSortedArrays(arr1,arr2) {
+//    let mergearray=[...arr1,...arr2]
+//    let result=[...new Set(mergearray)]
+//    console.log (result)
+// }
+// let arr1 =[0,1,2,3,4]
+// let arr2 =[3,4,5,6,7,8,9]
+// mergeSortedArrays(arr1,arr2)
+
+
+// **Question 5: Check for Palindrome**
+// Write a function `isPalindrome` that takes a string as input and returns `true` if it's a
+// palindrome (reads the same forwards and backward), and `false` otherwise.
+
+
+// function checkpalindrome(){
+//    let input = "level"
+//    let reverse=
+// }
+
+
+11. Write a function `isAnagram` that takes two strings as input and returns `true` if they
+are anagrams (contain the same characters in a different order), and `false` otherwise.
+**Example:**
+```javascript
+const input1 = "listen";
+const input2 = "silent";
+const output = isAnagram(input1, input2);
+console.log(output); // true
+>>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
