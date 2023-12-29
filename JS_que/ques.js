@@ -287,12 +287,12 @@
 
 
 
-let arr2=[1,2,3,4,5,6,7]
-for(let i=0;i<arr2.length;i++){
-   if (i%2==0){
+// let arr2=[1,2,3,4,5,6,7]
+// for(let i=0;i<arr2.length;i++){
+//    if (i%2==0){
       
-   }
-}
+//    }
+// }
  
 
 const arr1 =[1,2]
