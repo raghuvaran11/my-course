@@ -207,3 +207,23 @@ console.log(arr)
 //     return value === 5;
 // } console.log(op)
 console.log()
+
+
+13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
+
+
+
+
+
+// 15. Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions
+
+// let array =[1,2,3,5,6,7]
+// let k=10
+// function ArrayRotation(arr,numberOfShifts) {
+//     for (let i=0; i<numberOfShifts;i++) {
+//  arr.unshift(arr.pop());
+//  console.log('step ${i+1}',arr)
+//     }
+// }
+// console.log('final output:',ArrayRotation(array,k));
+
