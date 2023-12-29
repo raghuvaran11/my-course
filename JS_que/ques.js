@@ -291,22 +291,5 @@
 // for(let i=0;i<arr2.length;i++){
 //    if (i%2==0){
       
-//    }
-// }
-
-
-
-
-// **Question 6: Merge Two Sorted Arrays**
-// Write a function `mergeSortedArrays` that takes two sorted arrays as input and merges
-// them into a single sorted array.
-
-
-// function mergeSortedArrays(arr1,arr2) {
-//    let mergearray=[...arr1,...arr2]
-//    let result=[...new Set(mergearray)]
-//    console.log (result)
-// }
-// let arr1 =[0,1,2,3,4]
-// let arr2 =[3,4,5,6,7,8,9]
-// mergeSortedArrays(arr1,arr2)
+   }
+}
