@@ -188,3 +188,11 @@ console.log(arr)
 //         console.log(newString)
 //     }) 
 // } 
+
+// const str ="js string working"
+// const capitalized=(str)=> {
+//     let parts=str.spilt(" ")
+//     let newString= " "
+//     parts.map((item)=>{
+//         newString= ${item[0].toUpperCase()}${item.slice(1)}
+//         console.log
