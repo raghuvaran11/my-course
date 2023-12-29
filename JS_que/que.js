@@ -196,3 +196,14 @@ console.log(arr)
 //     parts.map((item)=>{
 //         newString= ${item[0].toUpperCase()}${item.slice(1)}
 //         console.log
+
+
+17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
+
+
+// let array = [1,2,3,4,5,6,7]
+// const op =array.findIndex(findThree)
+// function  findThree(value) {
+//     return value === 5;
+// } console.log(op)
+console.log()
