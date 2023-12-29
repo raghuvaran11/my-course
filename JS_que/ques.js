@@ -295,7 +295,13 @@
 // }
  
 
-const arr1 =[1,2]
-const arr2 = [3,4]
-const arr3 =arr1.contact(arr2);
-console.log(arr3==);
+// const arr1 =[1,2]
+// const arr2 = [3,4]
+// const arr3 =arr1.contact(arr2);
+// console.log(arr3==);
+
+
+/ const input2 = "silent";
+// const output = isAnagram(input1, input2);
+// console.log(output); // true
+// >>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
