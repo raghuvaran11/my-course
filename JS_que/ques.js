@@ -291,5 +291,17 @@
 // for(let i=0;i<arr2.length;i++){
 //    if (i%2==0){
       
-   }
-}
+//    }
+// }
+const scorers =[
+   //    {name: "ram", goals: 4},
+   //    {name: "raghu", goals :3},
+   //    {name: "raju",goals:3},
+   //    {name:"seetha",goals:3}
+   // ];
+   // console.log(scoreres[0].name);
+   // console.log(scorers[0].goals);
+   
+   // console.log(scorers[1].name);
+   // console.log(scorers[1].goals);
+   

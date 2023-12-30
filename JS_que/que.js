@@ -198,7 +198,7 @@ console.log(arr)
 //         console.log
 
 
-17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
+// 17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
 
 
 // let array = [1,2,3,4,5,6,7]
@@ -209,7 +209,7 @@ console.log(arr)
 console.log()
 
 
-13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
+// 13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
 
 
 
