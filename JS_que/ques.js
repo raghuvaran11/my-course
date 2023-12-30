@@ -293,6 +293,7 @@
       
 //    }
 // }
+<<<<<<< HEAD
 const scorers =[
    //    {name: "ram", goals: 4},
    //    {name: "raghu", goals :3},
@@ -305,3 +306,65 @@ const scorers =[
    // console.log(scorers[1].name);
    // console.log(scorers[1].goals);
    
+=======
+ 
+
+// const arr1 =[1,2]
+// const arr2 = [3,4]
+// const arr3 =arr1.contact(arr2);
+// console.log(arr3==);
+
+
+// / const input2 = "silent";
+// const output = isAnagram(input1, input2);
+// console.log(output); // true
+
+
+// const array = [1,2,3,4,5];
+// let sum=0;
+// array.forEach(n=> sum += n);
+// console.log(sum)
+
+
+// <html>
+//    <script language="javascript">
+//       var a,b;
+//       a=10;
+//       b=20;
+//       c=a+b;
+//       document. write("sum of no.s" +c)
+//    </script>
+// </html>
+
+
+
+// const findVowels =(str) => {
+//    const vowels =["a","e","i","o","u"];
+//    let count = 0;
+//    for (let char of str. toLowerCase()){
+//       if (vowels.includes(char)){
+//      count++;
+//    }
+// }
+// return count;
+// const scorers =[
+//    {name: "ram", goals: 4},
+//    {name: "raghu", goals :3},
+//    {name: "raju",goals:3},
+//    {name:"seetha",goals:3}
+// ];
+// console.log(scoreres[0].name);
+// console.log(scorers[0].goals);
+
+// console.log(scorers[1].name);
+// console.log(scorers[1].goals);
+
+
+
+let number =4;
+if(number %2==0){
+   console.log("the number is even")
+}
+else{
+   console.log("the number is odd")
+}
