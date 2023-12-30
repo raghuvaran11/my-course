@@ -324,13 +324,23 @@
 
 
 
-const findVowels =(str) => {
-   const vowels =["a","e","i","o","u"];
-   let count = 0;
-   for (let char of str. toLowerCase()){
-      if (vowels.includes(char)){
-     count++;
-   }
-}
-return count;
-}
+// const findVowels =(str) => {
+//    const vowels =["a","e","i","o","u"];
+//    let count = 0;
+//    for (let char of str. toLowerCase()){
+//       if (vowels.includes(char)){
+//      count++;
+//    }
+// }
+// return count;
+const scorers =[
+   {name: "ram", goals: 4},
+   {name: "raghu", goals :3},
+   {name: "raju",goals:3},
+   {name:"seetha",goals:3}
+];
+console.log(scoreres[0].name);
+console.log(scorers[0].goals);
+
+console.log(scorers[1].name);
+console.log(scorers[1].goals);
