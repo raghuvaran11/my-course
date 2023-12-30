@@ -361,19 +361,26 @@ const scorers =[
 
 
 
-let number =4;
-if(number %2==0){
-   console.log("the number is even")
-}
-else{
-   console.log("the number is odd")
-}
+// let number =4;
+// if(number %2==0){
+//    console.log("the number is even")
+// }
+// else{
+//    console.log("the number is odd")
+// }
 
 
-let number =4;
-if(number %2==0){
-   console.log("the number is even")
-}
-else{
-   console.log("the number is odd")
-}
+// let number =4;
+// if(number %2==0){
+//    console.log("the number is even")
+// }
+// else{
+//    console.log("the number is odd")
+// }
+
+// let email="robin_singh@example.com"
+// let first_name=email.slice(0,5)
+// let pad=first_name.padEnd(12,".")
+// let remaining=email.substring(11)
+// let output=pad.concat(remaining)
+// console.log(output)
