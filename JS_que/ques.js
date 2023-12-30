@@ -301,13 +301,7 @@
 // console.log(arr3==);
 
 
-// / const input2 = "silent";
+/ const input2 = "silent";
 // const output = isAnagram(input1, input2);
 // console.log(output); // true
 // >>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
-
-
-const array =[1,2,3,4,5];
-let sum =0;
-array.forEach(n=> sum += n);
-console.log(sum);

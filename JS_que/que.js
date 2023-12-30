@@ -188,3 +188,42 @@ console.log(arr)
 //         console.log(newString)
 //     }) 
 // } 
+
+// const str ="js string working"
+// const capitalized=(str)=> {
+//     let parts=str.spilt(" ")
+//     let newString= " "
+//     parts.map((item)=>{
+//         newString= ${item[0].toUpperCase()}${item.slice(1)}
+//         console.log
+
+
+17. Write a function `findIndex` that takes an array and an element as input and returns the index of the first occurrence of the element in the array. If the element is not found, return -1.
+
+
+// let array = [1,2,3,4,5,6,7]
+// const op =array.findIndex(findThree)
+// function  findThree(value) {
+//     return value === 5;
+// } console.log(op)
+console.log()
+
+
+13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
+
+
+
+
+
+// 15. Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions
+
+// let array =[1,2,3,5,6,7]
+// let k=10
+// function ArrayRotation(arr,numberOfShifts) {
+//     for (let i=0; i<numberOfShifts;i++) {
+//  arr.unshift(arr.pop());
+//  console.log('step ${i+1}',arr)
+//     }
+// }
+// console.log('final output:',ArrayRotation(array,k));
+
