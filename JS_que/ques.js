@@ -306,7 +306,18 @@
 // console.log(output); // true
 
 
-const array = [1,2,3,4,5];
-let sum=0;
-array.forEach(n=> sum += n);
-console.log(sum)
+// const array = [1,2,3,4,5];
+// let sum=0;
+// array.forEach(n=> sum += n);
+// console.log(sum)
+
+
+<html>
+   <script language="javascript">
+      var a,b;
+      a=10;
+      b=20;
+      c=a+b;
+      document. write("sum of no.s" +c)
+   </script>
+</html>
