@@ -399,6 +399,11 @@
 
 // reverse of array method 
 
+// const arr=[1,2,3,4,5,6]
+// const op=arr.reverse()
+// console.log(op)
+
+
 const arr=[1,2,3,4,5,6]
-const op=arr.reverse()
+const op=[...arr].reverse()
 console.log(op)
