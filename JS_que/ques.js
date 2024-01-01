@@ -404,6 +404,21 @@
 // console.log(op)
 
 
-const arr=[1,2,3,4,5,6]
-const op=[...arr].reverse()
-console.log(op)
+// const arr=[1,2,3,4,5,6]
+// const op=[...arr].reverse()
+// console.log(op)
+
+
+// Write a function `findIntersection` that takes two arrays as input and returns an array
+// containing the elements that are common to both input arrays.
+
+
+
+const arr1=[1,2,3,4,5]
+const arr2=[6,3,4,5,2]
+for(let i= 0;i<arr1.length;i++){
+   for (j=0;j<arr2.length;j++){
+      if(arr1[i]==arr2[j])
+      
+   }
+}
