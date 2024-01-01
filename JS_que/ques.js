@@ -390,9 +390,15 @@
 // the index of the first occurrence of the element in the array. If the element is not found,
 // return -1.
 
-const numbers = [1,2,3,4,5,6]
-const op= numbers.findIndex(findThree)
-function findThree(value) {
-   return value===3;
-}
+// const numbers = [1,2,3,4,5,6]
+// const op= numbers.findIndex(findThree)
+// function findThree(value) {
+//    return value===3;
+// }
+// console.log(op)
+
+// reverse of array method 
+
+const arr=[1,2,3,4,5,6]
+const op=arr.reverse()
 console.log(op)
