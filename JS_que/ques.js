@@ -293,8 +293,9 @@
       
 //    }
 // }
-<<<<<<< HEAD
-const scorers =[
+
+
+// const scorers =[
    //    {name: "ram", goals: 4},
    //    {name: "raghu", goals :3},
    //    {name: "raju",goals:3},
@@ -304,9 +305,7 @@ const scorers =[
    // console.log(scorers[0].goals);
    
    // console.log(scorers[1].name);
-   // console.log(scorers[1].goals);
-   
-=======
+   // console.log(scorers[1].goals
  
 
 // const arr1 =[1,2]
@@ -384,3 +383,16 @@ const scorers =[
 // let remaining=email.substring(11)
 // let output=pad.concat(remaining)
 // console.log(output)
+
+
+
+// 17. Write a function `findIndex` that takes an array and an element as input and returns
+// the index of the first occurrence of the element in the array. If the element is not found,
+// return -1.
+
+const numbers = [1,2,3,4,5,6]
+const op= numbers.findIndex(findThree)
+function findThree(value) {
+   return value===3;
+}
+console.log(op)
