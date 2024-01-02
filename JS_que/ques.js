@@ -450,10 +450,20 @@
 
 // 22. Write a function `countWords` that takes a string as input and returns the number of
 // words in the string.
-function CountWord (str){
-   return str.split(' ').length;
-}
-console.log(CountWord('hello there,how are you?'))
+// function CountWord (str){
+//    return str.split(' ').length;
+// }
+// console.log(CountWord('hello there,how are you?'))
 
 
+// 23. Write a function `reverseWords` that takes a string as input and returns the string
+// with its words reversed.
 
+// / let str= "hello world"
+// let reverse =""
+// for(let i=str.length-1;i>=0;i--){
+//     reverse+=str[i]
+// }
+// console.log(reverse)
+
+// function-- model
