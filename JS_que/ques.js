@@ -446,3 +446,14 @@
 // const inputArray2 = [3, 4, 5, 6, 7];
 // const output = findUnique(inputArray1, inputArray2);
 // console.log(output); // [1, 2, 6, 7]
+
+
+// 22. Write a function `countWords` that takes a string as input and returns the number of
+// words in the string.
+function CountWord (str){
+   return str.split(' ').length;
+}
+console.log(CountWord('hello there,how are you?'))
+
+
+
