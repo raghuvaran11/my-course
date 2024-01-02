@@ -467,3 +467,7 @@
 // console.log(reverse)
 
 // function-- model
+
+
+// 24. Write a function `removeVowels` that takes a string as input and returns the string
+// with all vowels removed.
