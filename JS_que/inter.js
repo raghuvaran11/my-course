@@ -75,3 +75,20 @@
 // let y=x.reverse("")
 // let z=y.join('')
 // console.log(z)
+
+// **6. Prime Number Check:**
+// Write a program to check if a given number `n` is prime using a `for` loop.
+
+
+// function prime(n) {
+//     if (n<2)
+//     return '${n} is not a prime number'
+//     for (let i = 2; i<n; i++){
+//         if( n % i === 0) {
+//             return `${n} is not a Prime Number`
+
+//         }
+//     }
+//     return `${n} is a Prime Number`
+// }
+// console.log(prime(29))
