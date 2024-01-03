@@ -33,11 +33,11 @@
 //     console.log(temp)
 // }
 
-let a=0,b=1
-let n=5
-for (let i=0;i<=n;i++) {
-    let temp =a+b
-    a=b
-    b=temp
-    console.log(temp)
+// *4. Print Multiplication Table:**
+// Write a program to print the multiplication table of a given number `n` using a `for` loop.
+
+let str= 10
+for (let i =0;i<=10;i++){
+   let op= str*i
+   console.log(op)
 }
