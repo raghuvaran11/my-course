@@ -36,8 +36,42 @@
 // *4. Print Multiplication Table:**
 // Write a program to print the multiplication table of a given number `n` using a `for` loop.
 
-let str= 10
-for (let i =0;i<=10;i++){
-   let op= str*i
-   console.log(op)
-}
+// let str= 10
+// for (let i =0;i<=10;i++){
+//    let op= str*i
+//    console.log(op)
+// }
+
+
+
+// **5. Reverse a String:**
+// Write a program to reverse a string using a `for` loop.
+
+
+// let str= "hello world"
+// let reverse =""
+// for(let i=str.length-1;i>=0;i--){
+//     reverse+=str[i]
+// }
+// console.log(reverse)
+
+// function-- model
+
+
+// const string ="hello"
+// function reverseString (str) {
+//      let newString=" "
+//      for(let i=str.length-1;i>=0;i--){
+//             newString+=str[i]
+//         }
+//         return newString;
+// } 
+// const result =reverseString(string)
+// console.log(result)
+
+
+// let str="hello"
+// let x= str.split("")
+// let y=x.reverse("")
+// let z=y.join('')
+// console.log(z)
