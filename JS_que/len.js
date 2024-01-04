@@ -53,13 +53,20 @@
 
 
 
-// fibonacci method
+// // fibonacci method
 
-let a=0,b=1
-let fibo=10
-for(let i =0;i<=fibo;i++){
-  let temp=a+b
-  a=b
-  b=temp
-  console.log(temp)
+// let a=0,b=1
+// let fibo=10
+// for(let i =0;i<=fibo;i++){
+//   let temp=a+b
+//   a=b
+//   b=temp
+//   console.log(temp)
+// }
+
+
+let number=10
+for (let i=0;i<=5;i++){
+  let mul=number*i
+  console.log(mul)
 }
