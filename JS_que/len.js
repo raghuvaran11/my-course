@@ -35,9 +35,18 @@
 
 // sum of natural numbers
 
+// let numbers=10
+// let sum = 0
+// for (let i=0;i<=numbers;i++){
+//   sum +=i;
+// }
+// console.log(sum)
+
+// factorial of numbers
+
 let numbers=10
-let sum = 0
-for (let i=0;i<=numbers;i++){
-  sum +=i;
+let factorial =1
+for (let i=1;i<=numbers;i++) {
+  factorial*=i
 }
-console.log(sum)
+console.log(factorial)
