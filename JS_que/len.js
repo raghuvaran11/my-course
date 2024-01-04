@@ -11,14 +11,14 @@
 // }
 
 
-let row= 5
-for (let i = 1; i <= row; i++) {
-    let pattern = "";
-    for (let j = 1; j <= i; j++) {
-      pattern += "*";
-    }
-    console.log(pattern);
-  }
+// let row= 5
+// for (let i = 1; i <= row; i++) {
+//     let pattern = "";
+//     for (let j = 1; j <= i; j++) {
+//       pattern += "*";
+//     }
+//     console.log(pattern);
+//   }
   
 
 // **10. Reverse an Array:**
@@ -30,3 +30,14 @@ for (let i = 1; i <= row; i++) {
 //     reverseArray.push(array[i])
 // }
 // console.log(reverseArray)
+
+
+
+// sum of natural numbers
+
+let numbers=10
+let sum = 0
+for (let i=0;i<=numbers;i++){
+  sum +=i;
+}
+console.log(sum)
