@@ -44,9 +44,22 @@
 
 // factorial of numbers
 
-let numbers=10
-let factorial =1
-for (let i=1;i<=numbers;i++) {
-  factorial*=i
+// let numbers=10
+// let factorial =1
+// for (let i=1;i<=numbers;i++) {
+//   factorial*=i
+// }
+// console.log(factorial)
+
+
+
+// fibonacci method
+
+let a=0,b=1
+let fibo=10
+for(let i =0;i<=fibo;i++){
+  let temp=a+b
+  a=b
+  b=temp
+  console.log(temp)
 }
-console.log(factorial)
