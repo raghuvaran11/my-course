@@ -64,9 +64,18 @@
 //   console.log(temp)
 // }
 
+//  Multification
+// let number=10
+// for (let i=0;i<=5;i++){
+//   let mul=number*i
+//   console.log(mul)
+// }
 
-let number=10
-for (let i=0;i<=5;i++){
-  let mul=number*i
-  console.log(mul)
+
+// reverse string 
+let string = "hello"
+let result= ""
+for (let i=string.length-1;i>=0;i--){
+  result +=string[i]
 }
+console.log(result)
