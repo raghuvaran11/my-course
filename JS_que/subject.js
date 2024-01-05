@@ -17,6 +17,12 @@
 // console.log(typeof(op))
 
 
-const string= "this is a string length"
-console.log(string)
-console.log(string.length)
+// const string= "this is a string length"
+// console.log(string)
+// console.log(string.length)
+
+let text = "We are the so-called \"Vikings\" from the north."
+console.log(text)
+
+let text1 = 'We are the so-called "Vikings" from the north.'
+console.log(text1)
