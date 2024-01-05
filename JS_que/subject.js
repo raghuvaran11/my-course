@@ -10,8 +10,13 @@
 // const op= typeof(number)
 // console.log(op)
 
-const string = "this is string"
-const number= 10
-const op =string+number
-console.log(op)
-console.log(typeof(op))
+// const string = "this is string"
+// const number= 10
+// const op =string+number
+// console.log(op)
+// console.log(typeof(op))
+
+
+const string= "this is a string length"
+console.log(string)
+console.log(string.length)
