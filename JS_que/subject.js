@@ -41,8 +41,20 @@
 // console.log(typeof(y))
 
 
-let x = "string"
-let y = new String("John");
-console.log(typeof(x))
-console.log(typeof(y))
+// let x = "string"
+// let y = new String("John");
+// console.log(typeof(x))
+// console.log(typeof(y))
 
+// JavaScript String at() method
+
+// at method lo number tiskonte manam tiskonna string lo vunna letter ni chupistadhi 
+
+let string ="JavaScript String at"
+let op = string.at(11)
+console.log(op)
+
+
+let str ="javascript string"
+let op1=str[11]
+console.log(op1)
