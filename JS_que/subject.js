@@ -50,11 +50,23 @@
 
 // at method lo number tiskonte manam tiskonna string lo vunna letter ni chupistadhi 
 
-let string ="JavaScript String at"
-let op = string.at(11)
-console.log(op)
+// let string ="JavaScript String at"
+// let op = string.at(11)
+// console.log(op)
 
 
-let str ="javascript string"
-let op1=str[11]
-console.log(op1)
+// let str ="javascript string"
+// let op1=str[11]
+// console.log(op1)
+
+// JavaScript String slice()
+
+// let str ="JavaScript String slice"
+// let op = str.slice(6)
+// let op1= str.slice(1,12)
+// let op2= str.slice(0,4)
+// let op3= str.slice(-5,-1)
+// console.log(op)
+// console.log(op1)
+// console.log(op2)
+// console.log(op3)
