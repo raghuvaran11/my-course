@@ -59,7 +59,10 @@
 // let op1=str[11]
 // console.log(op1)
 
-// JavaScript String slice()
+// JavaScript String slice() ......................................
+
+// slice() extracts a part of a string and returns the extracted part in a new string.
+// The method takes 2 parameters: start position, and end position (end not included).
 
 // let str ="JavaScript String slice"
 // let op = str.slice(6)
@@ -70,3 +73,14 @@
 // console.log(op1)
 // console.log(op2)
 // console.log(op3)
+
+
+// SUBSTRING---METHOD  ....................................
+
+// let string = "javascript substring method"
+// let op = string.substring(1,8)
+// let op1 = string.substring(8)
+// // let op2 = string.substring(-5,-1)  this method is not working on substring 
+// console.log(op)
+// console.log(op1)
+// console.log(op2)
