@@ -84,3 +84,12 @@
 // console.log(op)
 // console.log(op1)
 // console.log(op2)
+
+
+
+// SUBSTR ---METHOD ......................................................
+
+// let string ="this is a substr method"
+// const op =string.substr(6)
+// console.log(op) 
+// e method kuda same substring lane vuntadhi last nundi count cheyalemu
