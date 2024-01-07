@@ -113,12 +113,22 @@
 // string()
 
 
-function func() {
-	//Original Array
-	let arr = [23, 56, 87, 32, 75, 13];
-	//Extracted array
-	let new_arr = arr.slice(2);
-	console.log(arr);
-	console.log(new_arr);
-}
-func();
+// function func() {
+// 	//Original Array
+// 	let arr = [23, 56, 87, 32, 75, 13];
+// 	//Extracted array
+// 	let new_arr = arr.slice(2);
+// 	console.log(arr);
+// 	console.log(new_arr);
+// }
+// func();
+
+
+
+// JavaScript String toUpperCase()..........................................
+
+let string = "javascript string touppercase"
+let op = string.toUpperCase()
+console.log(op)
+
+
