@@ -95,12 +95,19 @@
 // e method kuda same substring lane vuntadhi last nundi count cheyalemu
 
 
-function func() {
-	// Original Array
-	let arr = [23, 56, 87, 32, 75, 13];
-	// Extracted array
-	let new_arr = arr.slice(2, 4);
-	console.log(arr);
-	console.log(new_arr);
+// function func() {
+// 	// Original Array
+// 	let arr = [23, 56, 87, 32, 75, 13];
+// 	// Extracted array
+// 	let new_arr = arr.slice(2, 4);
+// 	console.log(arr);
+// 	console.log(new_arr);
+// }
+// func();
+
+function string () {
+    let arr1=[1,2,3,4,6,5,9]
+    let newarr1 = arr1.slice(1,3)
+    console.log(newarr1)
 }
-func();
+string()
