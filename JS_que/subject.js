@@ -105,9 +105,9 @@
 // console.log(abbrev_name("Robin Singh"));
 // "Robin S."
 
-let string = "Robin Singh"
-let op =string.substring(0,7)
-console.log(op)
+// let string = "Robin Singh"
+// let op =string.substring(0,7)
+// console.log(op)
 
 
 
@@ -165,4 +165,18 @@ console.log(op)
 //  console.log(op)
 // }
 // uppercase()
+
+
+// 4)Write a JavaScript function to capitalize the first letter of a string.
+// Test Data :
+// console.log(capitalize('js string exercises'));
+// "Js string exercises"
+
+// let string = "js string exercise"
+// let op =string[0].toUpperCase()+string.slice(1)
+// console.log(op)
+
+let string = "js string exercise"
+let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
+console.log(op1)
 
