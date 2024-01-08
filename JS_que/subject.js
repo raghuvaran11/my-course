@@ -72,7 +72,22 @@
 // console.log(op)
 // console.log(op1)
 // console.log(op2)
+
+
 // console.log(op3)
+// 1)Write a JavaScript function to extract a specified number of characters from a string.
+// Test Data :
+// console.log(truncate_string("Robin Singh",4));
+// "Robi"
+
+// let x="Robin Singh"
+// let y=x.slice(0,4)
+// console.log(y)
+
+// let name ="Robin Singh"
+// let outputname= name.slice(0,4)
+// console.log(outputname)
+
 
 
 // SUBSTRING---METHOD  ....................................
@@ -84,6 +99,15 @@
 // console.log(op)
 // console.log(op1)
 // console.log(op2)
+
+// 2)Write a JavaScript function to convert a string into abbreviated form.
+// Test Data :
+// console.log(abbrev_name("Robin Singh"));
+// "Robin S."
+
+let string = "Robin Singh"
+let op =string.substring(0,7)
+console.log(op)
 
 
 
@@ -125,18 +149,8 @@
 
 
 
-// 1)Write a JavaScript function to extract a specified number of characters from a string.
-// Test Data :
-// console.log(truncate_string("Robin Singh",4));
-// "Robi"
 
-// let x="Robin Singh"
-// let y=x.slice(0,4)
-// console.log(y)
 
-let name ="Robin Singh"
-let outputname= name.slice(0,4)
-console.log(outputname)
 
 
 // JavaScript String toUpperCase()..........................................
@@ -145,10 +159,10 @@ console.log(outputname)
 // let op = string.toUpperCase()
 // console.log(op)
 
-function uppercase(){
- let string ="javascript string touppercase"
- let op=string.toUpperCase()
- console.log(op)
-}
-uppercase()
+// function uppercase(){
+//  let string ="javascript string touppercase"
+//  let op=string.toUpperCase()
+//  console.log(op)
+// }
+// uppercase()
 
