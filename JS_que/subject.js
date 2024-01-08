@@ -127,8 +127,14 @@
 
 // JavaScript String toUpperCase()..........................................
 
-let string = "javascript string touppercase"
-let op = string.toUpperCase()
-console.log(op)
+// let string = "javascript string touppercase"
+// let op = string.toUpperCase()
+// console.log(op)
 
+function uppercase(){
+ let string ="javascript string touppercase"
+ let op=string.toUpperCase()
+ console.log(op)
+}
+uppercase()
 
