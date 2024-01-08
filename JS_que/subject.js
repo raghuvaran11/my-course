@@ -125,6 +125,20 @@
 
 
 
+// 1)Write a JavaScript function to extract a specified number of characters from a string.
+// Test Data :
+// console.log(truncate_string("Robin Singh",4));
+// "Robi"
+
+// let x="Robin Singh"
+// let y=x.slice(0,4)
+// console.log(y)
+
+let name ="Robin Singh"
+let outputname= name.slice(0,4)
+console.log(outputname)
+
+
 // JavaScript String toUpperCase()..........................................
 
 // let string = "javascript string touppercase"
