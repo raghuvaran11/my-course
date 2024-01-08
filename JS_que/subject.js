@@ -186,6 +186,10 @@
 //  let op = string.toLowerCase()
 //  console.log(op)
 
-let string = "JS TOLOWERCASE METHOD"
-let op= string[0].toLowerCase()+string.slice(1)
-console.log(op)
+// let string = "JS TOLOWERCASE METHOD"
+// let op= string[0].toLowerCase()+string.slice(1)
+// console.log(op)
+
+// let string = "js string exercise"
+// let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
+// console.log(op1)
