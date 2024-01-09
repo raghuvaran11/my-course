@@ -193,3 +193,11 @@
 // let string = "js string exercise"
 // let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
 // console.log(op1)
+
+// JavaScript String concat() .......................................
+
+
+let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
+console.log(text3)
