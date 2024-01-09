@@ -228,6 +228,11 @@
 
 
 // JavaScript String Padding...........................
+// let text = "5";
+// let padded = text.padStart(4,"0");
+// console.log(padded)
+
+
 let text = "5";
-let padded = text.padStart(4,"0");
+let padded = text.padStart(4,"x");
 console.log(padded)
