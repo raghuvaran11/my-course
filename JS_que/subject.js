@@ -203,9 +203,25 @@
 // console.log(text3)
 
 
-let text1 = "Hello";
-let text2 = "World";
-let text3 =201
-let text4 = text1.concat(" ", text2," ",text3);
-console.log(text4)
+// let text1 = "Hello";
+// let text2 = "World";
+// let text3 =201
+// let text4 = text1.concat(" ", text2," ",text3);
+// console.log(text4)
 
+
+
+// JavaScript String trim()........................................
+// let text1 = "      Hello World!      ";
+// let text2 = text1.trim();
+// console.log(text2)
+
+
+// let text1 = "     Hello World!     ";
+// let text2 = text1.trimStart();
+// console.log(text2)
+
+
+let text1 = "     Hello World!     ";
+let text2 = text1.trimEnd();
+console.log(text2)
