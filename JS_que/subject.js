@@ -253,3 +253,10 @@ let name= "raghuvaran"
 let halfname=name.slice(-5)
 let markname=halfname.padStart(name.length,"*")
 console.log(markname)
+
+
+let name1="manthena raghuvaran"
+let halfname1=name1.slice(-10)
+console.log(halfname1)
+let markname1=halfname1.padStart(name1.length,"*")
+console.log(markname1)
