@@ -261,8 +261,14 @@
 // let markname1=halfname1.padStart(name1.length,"*")
 // console.log(markname1)
 
-let name="raghu"
-let half=name.slice(0,3)
-console.log(half)
-let op =half.padEnd(name.length,"*")
-console.log(op)
+// let name="raghu"
+// let half=name.slice(0,3)
+// console.log(half)
+// let op =half.padEnd(name.length,"*")
+// console.log(op)
+
+let name= "raghuvaran"
+let op1=name.slice(0,3)
+console.log(op1)
+let op2=op1.padEnd(name.length,"*")
+console.log(op2)
