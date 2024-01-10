@@ -233,6 +233,11 @@
 // console.log(padded)
 
 
-let text = "5";
-let padded = text.padStart(4,"x");
-console.log(padded)
+// let text = "5";
+// let padded = text.padStart(4,"x");
+// console.log(padded)
+
+
+let string = "raghu"
+let op=string.padEnd(5,"*")
+console.log(op)
