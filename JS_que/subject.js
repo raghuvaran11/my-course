@@ -249,14 +249,20 @@
 // let op1=string.padStart(5,"*")
 // console.log(op1)
 
-let name= "raghuvaran"
-let halfname=name.slice(-5)
-let markname=halfname.padStart(name.length,"*")
-console.log(markname)
+// let name= "raghuvaran"
+// let halfname=name.slice(-5)
+// let markname=halfname.padStart(name.length,"*")
+// console.log(markname)
 
 
-let name1="manthena raghuvaran"
-let halfname1=name1.slice(-10)
-console.log(halfname1)
-let markname1=halfname1.padStart(name1.length,"*")
-console.log(markname1)
+// let name1="manthena raghuvaran"
+// let halfname1=name1.slice(-10)
+// console.log(halfname1)
+// let markname1=halfname1.padStart(name1.length,"*")
+// console.log(markname1)
+
+let name="raghu"
+let half=name.slice(0,3)
+console.log(half)
+let op =half.padEnd(name.length,"*")
+console.log(op)
