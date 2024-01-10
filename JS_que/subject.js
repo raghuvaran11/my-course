@@ -243,8 +243,13 @@
 // console.log(op)
 
 
-let string="raghuvaran"
-let op=string.slice(5)
-console.log(op)
-let op1=string.padStart(5,"*")
-console.log(op1)
+// let string="raghuvaran"
+// let op=string.slice(5)
+// console.log(op)
+// let op1=string.padStart(5,"*")
+// console.log(op1)
+
+let name= "raghuvaran"
+let halfname=name.slice(-5)
+let markname=halfname.padStart(name.length,"*")
+console.log(markname)
