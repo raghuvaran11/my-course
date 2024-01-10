@@ -238,6 +238,13 @@
 // console.log(padded)
 
 
-let string = "raghu"
-let op=string.padEnd(5,"*")
+// let string = "raghu"
+// let op=string.padEnd(5,"*")
+// console.log(op)
+
+
+let string="raghuvaran"
+let op=string.slice(5)
 console.log(op)
+let op1=string.padStart(5,"*")
+console.log(op1)
