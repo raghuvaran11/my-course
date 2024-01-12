@@ -293,10 +293,18 @@
 // console.log(op)
 
 
-let string = "javascript replaceall method" 
-let op = string.replaceAll("javascript replaceall method" ,"javascrpt")
-console.log(op)
+// let string = "javascript replaceall method" 
+// let op = string.replaceAll("javascript replaceall method" ,"javascrpt")
+// console.log(op)
+
+// let text = "Please visit Microsoft!";
+// let newText = text.replace("Microsoft", "W3Schools");
+// console.log(newText)
+
+// By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:.............
+
 
 let text = "Please visit Microsoft!";
-let newText = text.replace("Microsoft", "W3Schools");
+let newText = text.replace("MICROSOFT", "W3Schools");
 console.log(newText)
+
