@@ -304,7 +304,17 @@
 // By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:.............
 
 
-let text = "Please visit Microsoft!";
-let newText = text.replace("MICROSOFT", "W3Schools");
+// let text = "Please visit Microsoft!";
+// let newText = text.replace("MICROSOFT", "W3Schools");
+// console.log(newText)
+
+// To replace all matches, use a regular expression with a /g flag (global match):......................
+
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace(/Microsoft/g, "W3Schools");
 console.log(newText)
+
+let string = "please visit msoffcie and msoffice and msoffice"
+let newString=string.replace(/msoffice/g,"google")
+console.log(newString)
 
