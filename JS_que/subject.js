@@ -310,11 +310,16 @@
 
 // To replace all matches, use a regular expression with a /g flag (global match):......................
 
-let text = "Please visit Microsoft and Microsoft!";
-let newText = text.replace(/Microsoft/g, "W3Schools");
-console.log(newText)
+// let text = "Please visit Microsoft and Microsoft!";
+// let newText = text.replace(/Microsoft/g, "W3Schools");
+// console.log(newText)
 
-let string = "please visit msoffcie and msoffice and msoffice"
-let newString=string.replace(/msoffice/g,"google")
-console.log(newString)
+// let string = "please visit msoffcie and msoffice and msoffice"
+// let newString=string.replace(/msoffice/g,"google")
+// console.log(newString)
+
+// To replace case insensitive, use a regular expression with an /i flag (insensitive):................
+// let text = "Please visit Microsoft and Microsoft!";
+// let newText = text.replace(/Microsoft/i, "W3Schools");
+// console.log(newText)
 
