@@ -267,8 +267,27 @@
 // let op =half.padEnd(name.length,"*")
 // console.log(op)
 
-let name= "raghuvaran"
-let op1=name.slice(0,3)
-console.log(op1)
-let op2=op1.padEnd(name.length,"*")
-console.log(op2)
+// let name= "raghuvaran"
+// let op1=name.slice(0,3)
+// console.log(op1)
+// let op2=op1.padEnd(name.length,"*")
+// console.log(op2)
+
+// // 3)Write a JavaScript function that hides email addresses to prevent unauthorized access.
+// // Test Data :
+// // console.log(protect_email("robin_singh@example.com"));
+// // "robin...@example.com"
+
+// let email="robin_singh@example.com"
+// let first_name=email.slice(0,5)
+// let pad=first_name.padEnd(12,".")
+// let remaining=email.substring(11)
+// let output=pad.concat(remaining)
+// console.log(output)
+
+
+// javascript replace method ....................................................
+
+let string = "javascript replace"
+let op = string.replace( "replace","add")
+console.log(op)
