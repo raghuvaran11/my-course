@@ -288,6 +288,11 @@
 
 // javascript replace method ....................................................
 
-let string = "javascript replace"
-let op = string.replace( "replace","add")
+// let string = "javascript replace"
+// let op = string.replace( "replace","add")
+// console.log(op)
+
+
+let string = "javascript replaceall method" 
+let op = string.replaceAll("javascript replaceall method" ,"javascrpt")
 console.log(op)
