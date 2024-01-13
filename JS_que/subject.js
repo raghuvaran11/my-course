@@ -149,10 +149,6 @@
 
 
 
-
-
-
-
 // JavaScript String toUpperCase()..........................................
 
 // let string = "javascript string touppercase"
@@ -180,7 +176,20 @@
 // let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
 // console.log(op1)
 
-// TOLOWERCASE METHOD .......................................
+let capitalize=(str)=>{
+    let parts=str.split(" ")
+    let newString=" "
+//     console.log(parts)
+//     console.log('${parts[0][0].toUpperCase()}${parts[0].slice(1)')
+parts.map((items)=>{
+// console.log(items)
+newString+='${items[0].toUpperCase()}${items.slice(1)}'
+console.log("newString",newString)
+})
+}
+console.log(capitalize("js string exercise"))
+
+// TOLOWERCASE METHOD ......................................................
 
 //  let string = "JS TOLOWERCASE METHOD"
 //  let op = string.toLowerCase()
@@ -194,7 +203,7 @@
 // let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
 // console.log(op1)
 
-// JavaScript String concat() .......................................
+// JavaScript String concat() ....................................................
 
 
 // let text1 = "Hello";
@@ -211,7 +220,7 @@
 
 
 
-// JavaScript String trim()........................................
+// JavaScript String trim()......................................................
 // let text1 = "      Hello World!      ";
 // let text2 = text1.trim();
 // console.log(text2)
@@ -227,7 +236,7 @@
 // console.log(text2)
 
 
-// JavaScript String Padding...........................
+// JavaScript String Padding.........................................
 // let text = "5";
 // let padded = text.padStart(4,"0");
 // console.log(padded)
