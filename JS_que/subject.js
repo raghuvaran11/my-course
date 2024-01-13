@@ -348,6 +348,10 @@
 // array[2]="manthena"
 // console.log(array)
 
-let array =["raghu,varan,manthena"]
+// let array =["raghu,varan,manthena"]
+// let op = array.length
+// console.log(op)
+
+let array =["raghu","varan","manthena"]
 let op = array.length
 console.log(op)
