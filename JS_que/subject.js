@@ -1,3 +1,7 @@
+
+// ....................................STRING ---METHODS.........................................
+
+
 // total string methods
 
 // const string = "total string methods"
@@ -176,18 +180,18 @@
 // let op1=string.slice(0,7)+string[7].toUpperCase()+string.slice(8)
 // console.log(op1)
 
-let capitalize=(str)=>{
-    let parts=str.split(" ")
-    let newString=" "
-//     console.log(parts)
-//     console.log('${parts[0][0].toUpperCase()}${parts[0].slice(1)')
-parts.map((items)=>{
-// console.log(items)
-newString+='${items[0].toUpperCase()}${items.slice(1)}'
-console.log("newString",newString)
-})
-}
-console.log(capitalize("js string exercise"))
+// let capitalize=(str)=>{
+//     let parts=str.split(" ")
+//     let newString=" "
+// //     console.log(parts)
+// //     console.log('${parts[0][0].toUpperCase()}${parts[0].slice(1)')
+// parts.map((items)=>{
+// // console.log(items)
+// newString+='${items[0].toUpperCase()}${items.slice(1)}'
+// console.log("newString",newString)
+// })
+// }
+// console.log(capitalize("js string exercise"))
 
 // TOLOWERCASE METHOD ......................................................
 
@@ -332,3 +336,14 @@ console.log(capitalize("js string exercise"))
 // let newText = text.replace(/Microsoft/i, "W3Schools");
 // console.log(newText)
 
+
+
+// .........................................ARRAY-- METHODS................................................
+
+
+
+let array = []
+array[0]="raghu"
+array[1]="varan"
+array[2]="manthena"
+console.log(array)
