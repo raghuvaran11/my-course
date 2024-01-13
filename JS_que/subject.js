@@ -356,7 +356,11 @@
 // let op = array.length
 // console.log(op)
 
+// let array =["raghu","varan","manthena"]
+// array[0]="suresh"
+// array[2]="ramesh"
+// console.log(array)
+
 let array =["raghu","varan","manthena"]
-array[0]="suresh"
-array[2]="ramesh"
-console.log(array)
+const op =array[array.length-1]
+console.log(op)
