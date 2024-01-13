@@ -342,8 +342,12 @@
 
 
 
-let array = []
-array[0]="raghu"
-array[1]="varan"
-array[2]="manthena"
-console.log(array)
+// let array = []
+// array[0]="raghu"
+// array[1]="varan"
+// array[2]="manthena"
+// console.log(array)
+
+let array =["raghu,varan,manthena"]
+let op = array.length
+console.log(op)
