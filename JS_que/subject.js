@@ -378,3 +378,9 @@
 // const array = ["raghu","mallesh","suresh"]
 // const size =array.length
 // console.log(size)
+
+// JavaScript Array toString().................................
+
+// let array = ["raghu","mallesh","suresh"]
+// let string =array.toString()
+// console.log(string)
