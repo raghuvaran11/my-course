@@ -384,3 +384,6 @@
 // let array = ["raghu","mallesh","suresh"]
 // let string =array.toString()
 // console.log(string)
+let string =("raghu,varan")
+let array =string.split()
+console.log(array)
