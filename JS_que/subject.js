@@ -361,6 +361,10 @@
 // array[2]="ramesh"
 // console.log(array)
 
-let array =["raghu","varan","manthena"]
-const op =array[array.length-1]
-console.log(op)
+// let array =["raghu","varan","manthena"]
+// const op =array[array.length-1]
+// console.log(op)
+
+const cars = new Array("Saab", "Volvo", "BMW");
+console.log(new Array)
+console.log(cars)
