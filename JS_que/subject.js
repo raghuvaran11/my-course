@@ -365,6 +365,16 @@
 // const op =array[array.length-1]
 // console.log(op)
 
-const cars = new Array("Saab", "Volvo", "BMW");
-console.log(new Array)
-console.log(cars)
+// const cars = new Array("Saab", "Volvo", "BMW");
+// console.log(new Array)
+// console.log(cars)
+
+// const points = new Array(40, 100, 1, 5, 25, 10);
+// const points = [40, 100, 1, 5, 25, 10];
+// console.log(points)
+
+// JavaScript Array length......................................
+
+// const array = ["raghu","mallesh","suresh"]
+// const size =array.length
+// console.log(size)
