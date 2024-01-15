@@ -400,6 +400,11 @@
 
 // JavasCript Array join()........................................................................
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const op = fruits.join(" * ")
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const op = fruits.join(" * ")
+// console.log(op)
+
+// JavaScript Array pop()......................................................................
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+const op =fruits.pop()
 console.log(op)
