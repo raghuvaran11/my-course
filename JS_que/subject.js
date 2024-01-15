@@ -418,6 +418,12 @@
 // const op =fruits.push("raghu")
 // console.log(op)
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"]
-fruits.push("raghu")
-console.log(fruits)
+// const fruits = ["Banana", "Orange", "Apple", "Mango"]
+// fruits.push("raghu")
+// console.log(fruits)
+
+// JavaScript Array shift().............................................................................
+// const names =["raghu","ramesh","school"]
+// names.shift()
+// console.log(names)
+
