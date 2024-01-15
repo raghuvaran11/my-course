@@ -427,3 +427,6 @@
 // names.shift()
 // console.log(names)
 
+const names =["raghu","ramesh","school"]
+const names1=names.shift()
+console.log(names1)
