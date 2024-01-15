@@ -409,6 +409,11 @@
 // const op =fruits.pop()
 // console.log(op)
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"]
+// fruits.pop()
+// console.log(fruits)
+
+// JavaScript Array push().............................................................
 const fruits = ["Banana", "Orange", "Apple", "Mango"]
-fruits.pop()
-console.log(fruits)
+const op =fruits.push("raghu")
+console.log(op)
