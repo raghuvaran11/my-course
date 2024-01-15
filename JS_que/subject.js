@@ -405,6 +405,10 @@
 // console.log(op)
 
 // JavaScript Array pop()......................................................................
+// const fruits = ["Banana", "Orange", "Apple", "Mango"]
+// const op =fruits.pop()
+// console.log(op)
+
 const fruits = ["Banana", "Orange", "Apple", "Mango"]
-const op =fruits.pop()
-console.log(op)
+fruits.pop()
+console.log(fruits)
