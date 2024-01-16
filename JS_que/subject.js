@@ -444,5 +444,11 @@
 // array.unshift("manthena")
 // console.log(array)
 
-const array = ["raghu","varan"]
-console.log(array.unshift("manthena"))
+// const array = ["raghu","varan"]
+// console.log(array.unshift("manthena"))
+
+// JavaScript Array delete().............................................................
+
+const text = ["apple","banana","custred apple","dragon fruit"]
+delete text[0]
+console.log(text)
