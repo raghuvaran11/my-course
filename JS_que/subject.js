@@ -422,11 +422,19 @@
 // fruits.push("raghu")
 // console.log(fruits)
 
+
 // JavaScript Array shift().............................................................................
+
 // const names =["raghu","ramesh","school"]
 // names.shift()
 // console.log(names)
 
+// const names =["raghu","ramesh","school"]
+// const names1=names.shift()
+// console.log(names1)
+
+
+//  JavaScript Array unshift().............................................................................
 const names =["raghu","ramesh","school"]
-const names1=names.shift()
+const names1=names.unshift("manthena")
 console.log(names1)
