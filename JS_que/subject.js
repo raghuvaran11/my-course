@@ -440,6 +440,9 @@
 // const names1=names.unshift("manthena")
 // console.log(names1)
 
+// const array = ["raghu","varan"]
+// array.unshift("manthena")
+// console.log(array)
+
 const array = ["raghu","varan"]
-array.unshift("manthena")
-console.log(array)
+console.log(array.unshift("manthena"))
