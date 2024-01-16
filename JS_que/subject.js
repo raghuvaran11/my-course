@@ -454,5 +454,13 @@
 // console.log(text)
 
 
-const text = ["apple","banana","custred apple","dragon fruit"]
-console.log(delete text[0])
+// const text = ["apple","banana","custred apple","dragon fruit"]
+// console.log(delete text[0])
+
+// JavaScript Array concat()........................................................
+
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+
+const myChildren = myGirls.concat(myBoys);
+console.log(myChildren)
