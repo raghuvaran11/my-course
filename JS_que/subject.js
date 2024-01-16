@@ -435,6 +435,11 @@
 
 
 //  JavaScript Array unshift().............................................................................
-const names =["raghu","ramesh","school"]
-const names1=names.unshift("manthena")
-console.log(names1)
+
+// const names =["raghu","ramesh","school"]
+// const names1=names.unshift("manthena")
+// console.log(names1)
+
+const array = ["raghu","varan"]
+array.unshift("manthena")
+console.log(array)
