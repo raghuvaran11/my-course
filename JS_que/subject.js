@@ -449,6 +449,10 @@
 
 // JavaScript Array delete().............................................................
 
+// const text = ["apple","banana","custred apple","dragon fruit"]
+// delete text[0]
+// console.log(text)
+
+
 const text = ["apple","banana","custred apple","dragon fruit"]
-delete text[0]
-console.log(text)
+console.log(delete text[0])
