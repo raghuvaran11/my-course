@@ -459,8 +459,20 @@
 
 // JavaScript Array concat()........................................................
 
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+
+// const myChildren = myGirls.concat(myBoys);
+// console.log(myChildren)
+
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+// const text =["raghu","varan"]
+// const myChildren = myGirls.concat(myBoys,text);
+// console.log(myChildren)
+
 const myGirls = ["Cecilie", "Lone"];
 const myBoys = ["Emil", "Tobias", "Linus"];
-
-const myChildren = myGirls.concat(myBoys);
+const text =["raghu","varan"]
+const myChildren = myBoys.concat(myGirls,text);
 console.log(myChildren)
