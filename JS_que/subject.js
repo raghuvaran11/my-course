@@ -498,6 +498,12 @@
 // const newArr = myArr.flat();
 // console.log(newArr)
 
-const myArr = [[1,2,3],[3,4,5],[5,6,7]];
-const newArr = myArr.flat();
-console.log(newArr)
+// const myArr = [[1,2,3],[3,4,5],[5,6,7]];
+// const newArr = myArr.flat();
+// console.log(newArr)
+
+// JavaScript Array splice()..................................................................
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 2, "Lemon", "Kiwi");
+console.log(fruits)
