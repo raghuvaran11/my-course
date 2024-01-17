@@ -471,8 +471,14 @@
 // const myChildren = myGirls.concat(myBoys,text);
 // console.log(myChildren)
 
-const myGirls = ["Cecilie", "Lone"];
-const myBoys = ["Emil", "Tobias", "Linus"];
-const text =["raghu","varan"]
-const myChildren = myBoys.concat(myGirls,text);
-console.log(myChildren)
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+// const text =["raghu","varan"]
+// const myChildren = myBoys.concat(myGirls,text);
+// console.log(myChildren)
+
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(2, 0);
+console.log(fruits)
