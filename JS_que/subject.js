@@ -488,6 +488,12 @@
 // console.log(fruits)
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango","Kiwi"];
-fruits.copyWithin(2, 0);
-console.log(fruits)
+// const fruits = ["Banana", "Orange", "Apple", "Mango","Kiwi"];
+// fruits.copyWithin(2, 0);
+// console.log(fruits)
+
+
+// JavaScript Array flat()...................................................
+const myArr = [[1,2],[3,4],[5,6]];
+const newArr = myArr.flat();
+console.log(newArr)
