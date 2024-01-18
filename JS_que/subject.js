@@ -514,6 +514,12 @@
 // JavaScript Array toSpliced()...................................................................
 
 
-const months = ["Jan", "Feb", "Mar", "Apr"];
-const spliced = months.toSpliced(0, 1);
-console.log(spliced)
+// const months = ["Jan", "Feb", "Mar", "Apr]
+// const spliced = months.toSp"];liced(0, 1);
+// console.log(spliced)
+
+// JavaScript Array slice().............................
+
+const string = ["Jan", "Feb", "Mar", "Apr"]
+const op = string.slice(0,1)
+console.log(op)
