@@ -520,6 +520,10 @@
 
 // JavaScript Array slice().............................
 
+// const string = ["Jan", "Feb", "Mar", "Apr"]
+// const op = string.slice(0,1)
+// console.log(op)
+
 const string = ["Jan", "Feb", "Mar", "Apr"]
-const op = string.slice(0,1)
+const op = string.slice(1,3)
 console.log(op)
