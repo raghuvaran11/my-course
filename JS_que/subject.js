@@ -504,6 +504,9 @@
 
 // JavaScript Array splice()..................................................................
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 2, "Lemon", "Kiwi");
+// console.log(fruits)
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(2, 2, "Lemon", "Kiwi");
+fruits.splice(1, 2, "Lemon", "Kiwi");
 console.log(fruits)
