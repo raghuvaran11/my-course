@@ -507,6 +507,13 @@
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.splice(2, 2, "Lemon", "Kiwi");
 // console.log(fruits)
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(1, 2, "Lemon", "Kiwi");
-console.log(fruits)
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(1, 2, "Lemon", "Kiwi");
+// console.log(fruits)
+
+// JavaScript Array toSpliced()...................................................................
+
+
+const months = ["Jan", "Feb", "Mar", "Apr"];
+const spliced = months.toSpliced(0, 1);
+console.log(spliced)
