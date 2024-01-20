@@ -84,3 +84,17 @@
 //     b=temp;
 // console.log(temp)
 // }
+
+// let stack=[]
+// stack.push(10)
+// stack.push(20)
+// stack.push(30)
+// stack.pop()
+// stack.push(40)
+// console.log(stack)
+  
+// let stack=[ ]
+// stack.push ( "10","20","30" )
+// stack.pop()
+// stack.push("40")
+// console.log(stack)
