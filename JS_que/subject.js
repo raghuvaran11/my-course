@@ -527,3 +527,20 @@
 // const string = ["Jan", "Feb", "Mar", "Apr"]
 // const op = string.slice(1,3)
 // console.log(op)
+
+
+
+// ................................................................................................................
+// ............................................ASSIGNMENTS.........................................................
+// ................................................................................................................
+
+
+
+// 1)Write a JavaScript function to extract a specified number of characters from a string.
+// Test Data :
+// console.log(truncate_string("Robin Singh",4));
+// "Robi"
+
+let name = "Robin Singh"
+let op = name.slice(0,4)
+console.log(op)
