@@ -557,7 +557,23 @@
 // console.log(abbrev_name("Robin Singh"));
 // "Robin S."
 
-let testdata ="Robin Singh"
-let op= testdata.slice(0,7)+"."
-let op1=op+"."
-console.log(op)
+// let testdata ="Robin Singh"
+// let op= testdata.slice(0,7)+"."
+// let op1=op+"."
+// console.log(op)
+
+// 3)Write a JavaScript function that hides email addresses to prevent unauthorized access.
+// Test Data :
+// console.log(protect_email("robin_singh@example.com"));
+// "robin...@example.com"
+
+
+let email ="raghu.mr199@gmail.com"
+let halfname=email.slice(0,4)
+console.log(halfname)
+let padendname= halfname.padEnd(9,".")
+console.log(padendname)
+let endname = email.slice(11)
+console.log(endname)
+const finaloutput=padendname+endname
+console.log(finaloutput)
