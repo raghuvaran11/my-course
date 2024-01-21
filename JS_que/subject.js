@@ -541,6 +541,18 @@
 // console.log(truncate_string("Robin Singh",4));
 // "Robi"
 
-let name = "Robin Singh"
-let op = name.slice(0,4)
-console.log(op)
+// let name = "Robin Singh"
+// let op = name.slice(0,4)
+// console.log(op)
+
+function name () {
+    let op=name.slice(0,5)
+    console.log(op)
+}
+// name="robin singh";
+
+
+// 2)Write a JavaScript function to convert a string into abbreviated form.
+// Test Data :
+// console.log(abbrev_name("Robin Singh"));
+// "Robin S."
