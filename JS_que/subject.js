@@ -586,6 +586,11 @@
 // console.log(capitalize('js string exercises'));
 // "Js string exercises"
 
-let string= "js string exercises"
-let op = string[0].toUpperCase()+string.slice(1)
-console.log(op)
+// let string= "js string exercises"
+// let op = string[0].toUpperCase()+string.slice(1)
+// console.log(op)
+
+
+// let string="js string exercises"
+// let output=string.replace("j","J")
+// console.log(output)
