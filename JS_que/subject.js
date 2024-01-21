@@ -545,10 +545,10 @@
 // let op = name.slice(0,4)
 // console.log(op)
 
-function name () {
-    let op=name.slice(0,5)
-    console.log(op)
-}
+// function name () {
+//     let op=name.slice(0,5)
+//     console.log(op)
+// }
 // name="robin singh";
 
 
@@ -556,3 +556,8 @@ function name () {
 // Test Data :
 // console.log(abbrev_name("Robin Singh"));
 // "Robin S."
+
+let testdata ="Robin Singh"
+let op= testdata.slice(0,7)+"."
+let op1=op+"."
+console.log(op)
