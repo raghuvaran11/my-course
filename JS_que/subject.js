@@ -568,12 +568,24 @@
 // "robin...@example.com"
 
 
-let email ="raghu.mr199@gmail.com"
-let halfname=email.slice(0,4)
-console.log(halfname)
-let padendname= halfname.padEnd(9,".")
-console.log(padendname)
-let endname = email.slice(11)
-console.log(endname)
-const finaloutput=padendname+endname
-console.log(finaloutput)
+// let email ="raghu.mr199@gmail.com"
+// let halfname=email.slice(0,4)
+// console.log(halfname)
+// let padendname= halfname.padEnd(9,".")
+// console.log(padendname)
+// let endname = email.slice(11)
+// console.log(endname)
+// const finaloutput=padendname+endname
+// console.log(finaloutput)
+
+
+
+
+ // 4)Write a JavaScript function to capitalize the first letter of a string.
+// Test Data :
+// console.log(capitalize('js string exercises'));
+// "Js string exercises"
+
+let string= "js string exercises"
+let op = string[0].toUpperCase()+string.slice(1)
+console.log(op)
