@@ -608,6 +608,11 @@
 // let op= string[0].toLowerCase()+string.slice(1)
 // console.log(op)
 
-let string = "JS STRING EXCERCISES"
-let op = string.toLowerCase()
+// let string = "JS STRING EXCERCISES"
+// let op = string.toLowerCase()
+// console.log(op)
+
+
+let string='js string exercises'
+let op = string.replace("e","E")
 console.log(op)
