@@ -594,3 +594,20 @@
 // let string="js string exercises"
 // let output=string.replace("j","J")
 // console.log(output)
+
+// let string="js string exercises"
+// let parts=string.split()
+// console.log(parts)
+
+// 5)Write a JavaScript function to uncapitalize the first character of a string.
+// Test Data :
+// console.log(Uncapitalize('Js string exercises'));
+// "js string exercises"
+
+// let string='Js string exercises'
+// let op= string[0].toLowerCase()+string.slice(1)
+// console.log(op)
+
+let string = "JS STRING EXCERCISES"
+let op = string.toLowerCase()
+console.log(op)
