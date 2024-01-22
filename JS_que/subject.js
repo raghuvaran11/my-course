@@ -648,16 +648,31 @@
 // year."
 
 
-let year= 2023
-if (year % 400==0,year % 100 ==0) 
-{
-    console.log("this is leap year")
-}
-  else if (year % 4==0,year %=! 0)  
-  {
-    console.log("this is  leap year")
-} 
-  else 
-  {
-    console.log("not leap year")
-}
+// let year= 2023
+// if (year % 400==0,year % 100 ==0) 
+// {
+//     console.log("this is leap year")
+// }
+//   else if (year % 4==0,year %=! 0)  
+//   {
+//     console.log("this is  leap year")
+// } 
+//   else 
+//   {
+//     console.log("not leap year")
+// }
+
+
+// 10)Positive, Negative, or Zero
+// Write a function positiveNegativeZero that takes a number as input and prints "Positive" if the
+// number is greater than 0, "Negative" if it's less than 0, and "Zero" if it's equal to 0.
+
+// let number = 6
+// if (number>0){
+//     console.log("Positive number")
+// } else if (number==0){
+//     console.log("zero number")
+
+// }else {
+//     console.log("negative number")
+// }
