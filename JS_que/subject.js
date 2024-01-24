@@ -718,3 +718,28 @@
 // } else {
 //     console.log("not-allowed")
 // }
+
+// 14)Ticket Pricing
+// Write a function calculateTicketPrice that takes two parameters: a person's age and whether
+// they have a student ID (true or false). If the person is under 18 or a student, they get a discount.
+// If both conditions are met, return "Discounted price," otherwise return "Regular price."
+// let student = 21
+// if (student>=18 && isstudent)  {
+//     console.log("discount price")
+// } else {
+//     console.log ("regular price")
+// }  2 conditions ni add cheyadam ala ???????????????????????????????
+
+// 15)Username Validation
+// Write a function validateUsername that takes a username as input. The function should return
+// "Valid" if the username has at least 6 characters and contains only letters and numbers.
+// Otherwise, return "Invalid."
+
+// let username=9
+// if (username>=6) {
+//     console.log("Valid")
+// }
+//  else {
+//     console.log("Invalid")
+// }
+
