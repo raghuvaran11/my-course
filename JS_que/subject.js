@@ -682,19 +682,29 @@
 // Write a function calculateGrade that takes a student's score as input and prints their
 // corresponding grade: "A" for scores 90 and above, "B" for scores 80-89, "C" for scores 70-79,
 // "D" for scores 60-69, and "F" for scores below 60.
-  let score= 70
-  if (score>=90){
-    console.log("GRADE-A")
-  } 
-  else if (score>90){
-    console.log("GRADE-B")
-  }
-  else if (score>80){
-    console.log("GRADE-C")
-  }
-  else if (score>70){
-    console.log("GRADE-D")
-  } else{
-    console.log("GRADE- F")
-  }
+//   let score= 70
+//   if (score>=90){
+//     console.log("GRADE-A")
+//   } 
+//   else if (score>90){
+//     console.log("GRADE-B")
+//   }
+//   else if (score>80){
+//     console.log("GRADE-C")
+//   }
+//   else if (score>70){
+//     console.log("GRADE-D")
+//   } else{
+//     console.log("GRADE- F")
+//   }
   
+// 12)Even or Odd
+// Write a function evenOrOdd that takes an integer as input and prints "Even" if the number is
+// even, and "Odd" if the number is odd.
+
+let number =9
+if(number%2  ==0) {
+    console.log("this is even number")
+} else {
+    console.log("this is odd number")
+}
