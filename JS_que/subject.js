@@ -702,9 +702,19 @@
 // Write a function evenOrOdd that takes an integer as input and prints "Even" if the number is
 // even, and "Odd" if the number is odd.
 
-let number =9
-if(number%2  ==0) {
-    console.log("this is even number")
+// let number =9
+// if(number%2  ==0) {
+//     console.log("this is even number")
+// } else {
+//     console.log("this is odd number")
+// }
+
+// 13)Age Eligibility
+// Write a function checkAge that takes an age as input. The function should return "Allowed" if the
+// age is between 18 and 65 (inclusive), and "Not allowed" otherwise.
+let age=15
+if (age>=18 && age<=65){
+    console.log("allowed")
 } else {
-    console.log("this is odd number")
+    console.log("not-allowed")
 }
