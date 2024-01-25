@@ -776,3 +776,20 @@
 // fruits.unshift("grape")
 // fruits.shift()
 // console.log(fruits)
+
+
+// 18)Stack Operations
+// Implement a stack using an array. Create a stack called `myStack` and perform the following
+// operations:
+// - Push the values 10, 20, and 30 onto the stack.
+// - Pop the top element from the stack.
+// - Push the value 40 onto the stack.
+// Print the stack after each operation.
+
+// let stack=[]
+// stack.push(10)
+// stack.push(20)
+// stack.push(30)
+// stack.pop()
+// stack.push(40)
+// console.log(stack)
