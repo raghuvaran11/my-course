@@ -829,3 +829,9 @@
 //   return a * b;
 // }
 // console.log(x)
+
+let sum = myfunction (1,15);
+function myfunction (a,b) {
+    return a+b;
+}
+console.log(sum)
