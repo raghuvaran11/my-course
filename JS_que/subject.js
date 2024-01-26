@@ -817,3 +817,15 @@
 // shoppinglist.push("eggs,milk,bread,vegetables")
 // delete shoppinglist[2] 
 // console.log(shoppinglist)
+
+
+
+
+// ................................................FUNCTIONS METHOD ................................................
+// let x = myFunction(4, 3);
+
+// function myFunction(a, b) {
+
+//   return a * b;
+// }
+// console.log(x)
