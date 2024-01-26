@@ -842,7 +842,11 @@
 // }
 // console.log(string)
 
-const sum1 =(a,b) =>{
-    console.log(a,b)
+// const sum1 =(a,b) =>{
+//     console.log(a,b)
+// }
+// sum1("raghu"," 1")
+const name =(a,b)=>{
+ console.log(a+b)
 }
-sum1("raghu"," 1")
+name("super","10")
