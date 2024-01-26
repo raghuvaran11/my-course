@@ -830,8 +830,14 @@
 // }
 // console.log(x)
 
-let sum = myfunction (1,15);
-function myfunction (a,b) {
-    return a+b;
-}
-console.log(sum)
+// let sum = myfunction (1,15);
+// function myfunction (a,b) {
+//     return a+b;
+// }
+// console.log(sum)
+
+// let string = mystring("raghu")
+// function mystring (){
+//   let op = mystring.length
+// }
+// console.log(string)
