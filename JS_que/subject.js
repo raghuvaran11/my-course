@@ -846,7 +846,19 @@
 //     console.log(a,b)
 // }
 // sum1("raghu"," 1")
-const name =(a,b)=>{
- console.log(a+b)
+// const name =(a,b)=>{
+//  console.log(a+b)
+// }
+// name("super","10")
+const output=(a,b,operator)=>{
+    if(operator=="+"){
+        console.log(a+b)
+    }  else if (operator=="-"){
+        console.log(a-b)
+    }  else if (operator=="*"){
+        console.log(a*b)
+    } else if (operator=="/"){
+        console.log(a/b)
+    }
 }
-name("super","10")
+output(12,14,"/")
