@@ -841,3 +841,8 @@
 //   let op = mystring.length
 // }
 // console.log(string)
+
+const sum1 =(a,b) =>{
+    console.log(a,b)
+}
+sum1("raghu"," 1")
