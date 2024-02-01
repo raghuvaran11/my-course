@@ -850,15 +850,24 @@
 //  console.log(a+b)
 // }
 // name("super","10")
-const output=(a,b,operator)=>{
-    if(operator=="+"){
-        console.log(a+b)
-    }  else if (operator=="-"){
-        console.log(a-b)
-    }  else if (operator=="*"){
-        console.log(a*b)
-    } else if (operator=="/"){
-        console.log(a/b)
-    }
+// const output=(a,b,operator)=>{
+//     if(operator=="+"){
+//         console.log(a+b)
+//     }  else if (operator=="-"){
+//         console.log(a-b)
+//     }  else if (operator=="*"){
+//         console.log(a*b)
+//     } else if (operator=="/"){
+//         console.log(a/b)
+//     }
+// }
+// output(12,14,"/")
+
+
+function functionName (num1,num2){
+    let results=num1+num2
+   
+   console.log(results)
 }
-output(12,14,"/")
+
+functionName(10,5)
