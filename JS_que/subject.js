@@ -864,10 +864,16 @@
 // output(12,14,"/")
 
 
-function functionName (num1,num2){
-    let results=num1+num2
+// function functionName (num1,num2){
+//     let results=num1+num2
    
-   console.log(results)
-}
+//    console.log(results)
+// }
 
-functionName(10,5)
+// functionName(10,5)
+
+function division () {
+    let op = 10/5
+    console.log(op)
+}
+division (10,5)
