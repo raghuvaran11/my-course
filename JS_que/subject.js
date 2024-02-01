@@ -872,8 +872,15 @@
 
 // functionName(10,5)
 
-function division () {
-    let op = 10/5
-    console.log(op)
+// function division () {
+//     let op = 10/5
+//     console.log(op)
+// }
+// division (10,5)
+ 
+let sum = function (num1,num2){
+    let results= num1+num2 
+    // console.log(results)
+    return results;
 }
-division (10,5)
+console.log(sum(10,15))
