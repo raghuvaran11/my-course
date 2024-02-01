@@ -878,9 +878,15 @@
 // }
 // division (10,5)
  
-let sum = function (num1,num2){
-    let results= num1+num2 
-    // console.log(results)
+// let sum = function (num1,num2){
+//     let results= num1+num2 
+//     // console.log(results)
+//     return results;
+// }
+// console.log(sum(10,15))
+
+function sum (str1,str2){
+    let results =str1+str2
     return results;
 }
-console.log(sum(10,15))
+console.log(sum("raghu","varan"))
