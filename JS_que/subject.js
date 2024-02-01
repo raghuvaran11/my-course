@@ -885,8 +885,13 @@
 // }
 // console.log(sum(10,15))
 
-function sum (str1,str2){
-    let results =str1+str2
-    return results;
+// function sum (str1,str2){
+//     let results =str1+str2
+//     return results;
+// }
+// console.log(sum("raghu","varan"))
+function string (){
+    let resluts= typeof(string) 
+     
 }
-console.log(sum("raghu","varan"))
+console.log(string("this is my function topic"))
