@@ -950,8 +950,14 @@
 // } 
 // console.log(string("hello world"))
 
+// function string (inputValue) {
+//     let result = inputValue.slice(0,8)
+//     return result
+// }
+// console.log(string("hello world"))
+
 function string (inputValue) {
-    let result = inputValue.slice(0,8)
+    let result= inputValue.slice(-5)
     return result
 }
 console.log(string("hello world"))
