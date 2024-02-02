@@ -956,9 +956,15 @@
 // }
 // console.log(string("hello world"))
 
+// function string (inputValue) {
+//     let result= inputValue.slice(-5)
+//     return result
+// }
+// console.log(string("hello world"))
+
+
 function string (inputValue) {
-    let result= inputValue.slice(-5)
+    let result= inputValue.substring(1,5)
     return result
 }
 console.log(string("hello world"))
-
