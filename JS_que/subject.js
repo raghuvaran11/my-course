@@ -890,8 +890,20 @@
 //     return results;
 // }
 // console.log(sum("raghu","varan"))
-function string (){
-    let resluts= typeof(string) 
+// function string = ()=>{
+//     let resluts= typeof(string) 
+//     return resluts;
      
+// }
+// console.log(string("this is my function topic"))
+
+// function string() {
+//     let result = string.length
+// console.log(result)
+// }
+// string("this is a function menthod")
+let string ="raghu"
+function stringLength ( ){
+    console.log (stringLength= string.length)
 }
-console.log(string("this is my function topic"))
+console.log(stringLength)
