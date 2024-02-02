@@ -890,6 +890,8 @@
 //     return results;
 // }
 // console.log(sum("raghu","varan"))
+
+
 // function string = ()=>{
 //     let resluts= typeof(string) 
 //     return resluts;
@@ -902,8 +904,28 @@
 // console.log(result)
 // }
 // string("this is a function menthod")
-let string ="raghu"
-function stringLength ( ){
-    console.log (stringLength= string.length)
+// let string ="raghu"
+// function stringLength ( ){
+//     console.log (stringLength= string.length)
+// }
+// console.log(stringLength)
+
+// let inputString="raghu"
+// function findStringLength(inputString) {
+// let length = 0;
+// for (let i = 0; i < inputString.length; i++) {
+//     length++;
+// }
+// return length;
+// }
+
+// let findStringLength ="hello world";
+// function findStringLength(inputString) {
+//     return findStringLength.length;
+// }
+// console.log(findStringLength)
+
+function findStringLength (inputString) {
+    return inputString.length
 }
-console.log(stringLength)
+console.log(findStringLength("hello world"))
