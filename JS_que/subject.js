@@ -931,11 +931,28 @@
 // console.log(findStringLength("hello world"))
 
 
-function findString (inputValue) {
-    let result = inputValue.length
-    // return result;
-    console.log(result)
+// function findString (inputValue) {
+//     let result = inputValue.length
+//     // return result;
+//     console.log(result)
 
+// }
+// findString("hello world")
+
+// function string(inputValue) {
+//     return inputValue.slice(3)
+// }
+// console.log(string("hello world"))
+
+
+// function string (inputValue) {
+//     return inputValue.slice(0,8)
+// } 
+// console.log(string("hello world"))
+
+function string (inputValue) {
+    let result = inputValue.slice(0,8)
+    return result
 }
-findString("hello world")
+console.log(string("hello world"))
 
