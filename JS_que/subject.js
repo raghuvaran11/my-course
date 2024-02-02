@@ -925,7 +925,17 @@
 // }
 // console.log(findStringLength)
 
-function findStringLength (inputString) {
-    return inputString.length
+// function findStringLength (inputString) {
+//     return inputString.length
+// }
+// console.log(findStringLength("hello world"))
+
+
+function findString (inputValue) {
+    let result = inputValue.length
+    // return result;
+    console.log(result)
+
 }
-console.log(findStringLength("hello world"))
+findString("hello world")
+
