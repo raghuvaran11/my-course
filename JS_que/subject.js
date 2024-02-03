@@ -983,7 +983,18 @@
 // }
 // console.log(AddTwostrings("raghu","varan"))
 
-function stringUppercase (inputValue) {
-    return inputValue.toUpperCase()
+// function stringUppercase (inputValue) {
+//     return inputValue.toUpperCase()
+// }
+// console.log(stringUppercase("this is a uppercase method"))
+
+
+// 1)Write a JavaScript function to extract a specified number of characters from a string.
+// Test Data :
+// console.log(truncate_string("Robin Singh",4));
+// "Robi"
+
+function truncateString (inputValue){
+    return inputValue.slice(0,4);
 }
-console.log(stringUppercase("this is a uppercase method"))
+console.log(truncateString("Robin Singh"))
