@@ -969,14 +969,21 @@
 // }
 // console.log(string("hello world"))
 
+
 // function string (inputValue) {
 //     let result= inputValue.substr1,5)
 //     return result
 // }
 // console.log(string("hello world"))
 
+
 // function AddTwostrings (inputValue1,inputValue2){
 //     let result= inputValue1.concat(inputValue2)
 //     return result
 // }
 // console.log(AddTwostrings("raghu","varan"))
+
+function stringUppercase (inputValue) {
+    return inputValue.toUpperCase()
+}
+console.log(stringUppercase("this is a uppercase method"))
