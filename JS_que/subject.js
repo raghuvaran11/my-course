@@ -963,8 +963,14 @@
 // console.log(string("hello world"))
 
 
-function string (inputValue) {
-    let result= inputValue.substring(1,5)
+// function string (inputValue) {
+//     let result= inputValue.substring(1,5)
+//     return result
+// }
+// console.log(string("hello world"))
+
+function AddTwostrings (inputValue1,inputValue2){
+    let result= inputValue1.concat(inputValue2)
     return result
 }
-console.log(string("hello world"))
+console.log(AddTwostrings("raghu","varan"))
