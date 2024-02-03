@@ -1004,7 +1004,20 @@
 // console.log(abbrev_name("Robin Singh"));
 // "Robin S."
 
-function abbrev_name (inputValue) {
-    return inputValue.slice(0,7)+"."
+// function abbrev_name (inputValue) {
+//     return inputValue.slice(0,7)+"."
+// }
+// console.log(abbrev_name("Robin Singh"))
+
+// 3)Write a JavaScript function that hides email addresses to prevent unauthorized access.
+// Test Data :
+// console.log(protect_email("robin_singh@example.com"));
+// "robin...@example.com"
+
+function protectEmail (inputValue) {
+    let email= inputValue.slice(0,5)
+    let emailPad = email.padEnd(14,".")
+    let lastId =inputValue.slice(11)
+    return emailPad.concat(lastId)
 }
-console.log(abbrev_name("Robin Singh"))
+console.log (protectEmail("Robin_Singh@gmail.com"))
