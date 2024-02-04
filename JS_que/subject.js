@@ -1014,10 +1014,21 @@
 // console.log(protect_email("robin_singh@example.com"));
 // "robin...@example.com"
 
-function protectEmail (inputValue) {
-    let email= inputValue.slice(0,5)
-    let emailPad = email.padEnd(14,".")
-    let lastId =inputValue.slice(11)
-    return emailPad.concat(lastId)
+// function protectEmail (inputValue) {
+//     let email= inputValue.slice(0,5)
+//     let emailPad = email.padEnd(14,".")
+//     let lastId =inputValue.slice(11)
+//     return emailPad.concat(lastId)
+// }
+// console.log (protectEmail("Robin_Singh@gmail.com"))
+
+
+// 4)Write a JavaScript function to capitalize the first letter of a string.
+// Test Data :
+// console.log(capitalize('js string exercises'));
+// "Js string exercises"
+
+function capitalize (inputValue) {
+    return inputValue[0].toUpperCase()+inputValue.slice(1)
 }
-console.log (protectEmail("Robin_Singh@gmail.com"))
+console.log(capitalize("js string exercises"))
