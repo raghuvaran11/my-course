@@ -1028,7 +1028,17 @@
 // console.log(capitalize('js string exercises'));
 // "Js string exercises"
 
+// function capitalize (inputValue) {
+//     return inputValue[0].toUpperCase()+inputValue.slice(1)
+// }
+// console.log(capitalize("js string exercises"))
+
+// 5)Write a JavaScript function to uncapitalize the first character of a string.
+// Test Data :
+// console.log(Uncapitalize('Js string exercises'));
+// "js string exercises"
+
 function capitalize (inputValue) {
-    return inputValue[0].toUpperCase()+inputValue.slice(1)
+    return inputValue[0].toLowerCase()+inputValue.slice(1)
 }
-console.log(capitalize("js string exercises"))
+console.log(capitalize("Js string exercises"))
