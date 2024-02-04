@@ -1091,4 +1091,4 @@ if (inputValue % 400==0,inputValue % 100 ==0)
     console.log("not leap year")
 }
 }
-console.log(leapYear(2024))
+console.log(leapYear(2023))
