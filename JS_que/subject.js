@@ -1051,21 +1051,44 @@
 // prints a greeting based on the time of day: "Good morning" for hours 6-11, "Good afternoon" for
 // hours 12-17, and "Good evening" for hours 18-23.
 
-function time(inputValue) {
-inputValue
-    if (inputValue<=11){
-        console.log("Good Morning")
-    } 
-    else if (inputValue<=17) {
-        console.log("Good AfterNoon")
-    }
-    else if (inputValue<=23) {
-        console.log("Good Evening")
-    }
-    else {
-        console.log("Good Night")
-    } 
-    return time;
+// function time(inputValue) {
+// inputValue
+//     if (inputValue<=11){
+//         console.log("Good Morning")
+//     } 
+//     else if (inputValue<=17) {
+//         console.log("Good AfterNoon")
+//     }
+//     else if (inputValue<=23) {
+//         console.log("Good Evening")
+//     }
+//     else {
+//         console.log("Good Night")
+//     } 
+//     return time;
  
+// }
+// console.log(time(4))
+
+
+
+
+// 9)Leap Year Check
+// Write a function isLeapYear that takes a year as input and prints "Leap year" if the year is
+// divisible by 4 and not divisible by 100, or if it's divisible by 400. Otherwise, print "Not a leap
+// year."
+function leapYear(inputValue){
+if (inputValue % 400==0,inputValue % 100 ==0) 
+{
+    console.log("this is leap year")
 }
-console.log(time(4))
+  else if (inputValue% 4==0,inputValue %=! 0)  
+  {
+    console.log("this is  leap year")
+} 
+  else 
+  {
+    console.log("not leap year")
+}
+}
+console.log(leapYear(2024))
