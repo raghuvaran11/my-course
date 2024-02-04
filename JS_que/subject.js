@@ -1051,15 +1051,15 @@
 // prints a greeting based on the time of day: "Good morning" for hours 6-11, "Good afternoon" for
 // hours 12-17, and "Good evening" for hours 18-23.
 
-function  time (inputValue) {
-
-    if (time<=11){
+function time(inputValue) {
+inputValue
+    if (inputValue<=11){
         console.log("Good Morning")
     } 
-    else if (time<=17) {
+    else if (inputValue<=17) {
         console.log("Good AfterNoon")
     }
-    else if (time<=23) {
+    else if (inputValue<=23) {
         console.log("Good Evening")
     }
     else {
@@ -1068,4 +1068,4 @@ function  time (inputValue) {
     return time;
  
 }
-console.log(time(6))
+console.log(time(4))
