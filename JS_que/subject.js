@@ -1038,7 +1038,34 @@
 // console.log(Uncapitalize('Js string exercises'));
 // "js string exercises"
 
-function capitalize (inputValue) {
-    return inputValue[0].toLowerCase()+inputValue.slice(1)
+// function capitalize (inputValue) {
+//     return inputValue[0].toLowerCase()+inputValue.slice(1)
+// }
+// console.log(capitalize("Js string exercises"))
+
+
+
+
+// 6)Time of Day Greeting
+// Write a function greetTimeOfDay that takes the current hour as input (in 24-hour format) and
+// prints a greeting based on the time of day: "Good morning" for hours 6-11, "Good afternoon" for
+// hours 12-17, and "Good evening" for hours 18-23.
+
+function  time (inputValue) {
+
+    if (time<=11){
+        console.log("Good Morning")
+    } 
+    else if (time<=17) {
+        console.log("Good AfterNoon")
+    }
+    else if (time<=23) {
+        console.log("Good Evening")
+    }
+    else {
+        console.log("Good Night")
+    } 
+    return time;
+ 
 }
-console.log(capitalize("Js string exercises"))
+console.log(time(6))
