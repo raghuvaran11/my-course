@@ -1077,18 +1077,34 @@
 // Write a function isLeapYear that takes a year as input and prints "Leap year" if the year is
 // divisible by 4 and not divisible by 100, or if it's divisible by 400. Otherwise, print "Not a leap
 // year."
-function leapYear(inputValue){
-if (inputValue % 400==0,inputValue % 100 ==0) 
-{
-    console.log("this is leap year")
-}
-  else if (inputValue% 4==0,inputValue %=! 0)  
-  {
-    console.log("this is  leap year")
-} 
-  else 
-  {
-    console.log("not leap year")
-}
-}
-console.log(leapYear(2023))
+
+
+// function leapYear(inputValue){
+// if (inputValue % 400==0,inputValue % 100 ==0) 
+// {
+//     console.log("this is leap year")
+// }
+//   else if (inputValue% 4==0,inputValue %=! 0)  
+//   {
+//     console.log("this is  leap year")
+// } 
+//   else 
+//   {
+//     console.log("not leap year")
+// }
+// }
+// console.log(leapYear(2023))
+
+ // 10)Positive, Negative, or Zero
+// Write a function positiveNegativeZero that takes a number as input and prints "Positive" if the
+// number is greater than 0, "Negative" if it's less than 0, and "Zero" if it's equal to 0.
+
+// function Numbers (inputValue) {
+//     if (inputValue>=0){
+//         console.log("this is a postive number")
+//     } else {
+//         console.log("this is a negative number")
+//     }
+//     return Numbers
+// }
+// Numbers(-15)
