@@ -1099,12 +1099,15 @@
 // Write a function positiveNegativeZero that takes a number as input and prints "Positive" if the
 // number is greater than 0, "Negative" if it's less than 0, and "Zero" if it's equal to 0.
 
-// function Numbers (inputValue) {
-//     if (inputValue>=0){
-//         console.log("this is a postive number")
-//     } else {
-//         console.log("this is a negative number")
-//     }
-//     return Numbers
-// }
-// Numbers(-15)
+function Numbers (inputValue) {
+    if (inputValue>=0){
+        console.log("this is a postive number")
+    } else if (inputValue==0){
+        console.log("this is a zero number")
+    }
+    else {
+        console.log("this is a negative number")
+    }
+    return Numbers
+}
+Numbers(-15)
