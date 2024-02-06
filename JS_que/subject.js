@@ -1170,12 +1170,34 @@
 // Write a function validateUsername that takes a username as input. The function should return
 // "Valid" if the username has at least 6 characters and contains only letters and numbers.
 // Otherwise, return "Invalid."
-function UserName (inputValue){
-    if (inputValue>=6){
-        console.log("vaild")
-    }else {
-        console.log("invalid")
-    }
-    return UserName
+// function UserName (inputValue){
+//     if (inputValue>=6){
+//         console.log("vaild")
+//     }else {
+//         console.log("invalid")
+//     }
+//     return UserName
+// }
+// UserName(6)
+
+
+// 16)Color Selection
+// Write a function selectColor that takes a color choice ("red", "blue", "green") and whether the
+// color is available (true or false). If the color is available and the choice is "blue" or "green,"
+// return "Selected." If the choice is "red," return "Not available." For any other choice, return
+// "Invalid choice."
+
+
+function selectColor(color) {
+if (color=="blue") {
+    console.log("is available")
+} else if (color=="green"){
+    console.log("is available")
+} else if (color== "red") {
+    console.log("is not available")
+}else {
+    console.log("invaild choice")
 }
-UserName(6)
+return selectColor;
+}
+selectColor("green")
