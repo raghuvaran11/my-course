@@ -1156,12 +1156,26 @@
 // Write a function checkAge that takes an age as input. The function should return "Allowed" if the
 // age is between 18 and 65 (inclusive), and "Not allowed" otherwise.
 
-function Age (inputValue){
-    if (inputValue>18 && inputValue<=65){
-        console.log("Allowed")
-    } else{
-        console.log('Not-Allowed')
+// function Age (inputValue){
+//     if (inputValue>18 && inputValue<=65){
+//         console.log("Allowed")
+//     } else{
+//         console.log('Not-Allowed')
+//     }
+//     return Age;
+// } 
+// Age(70)
+
+// 15)Username Validation
+// Write a function validateUsername that takes a username as input. The function should return
+// "Valid" if the username has at least 6 characters and contains only letters and numbers.
+// Otherwise, return "Invalid."
+function UserName (inputValue){
+    if (inputValue>=6){
+        console.log("vaild")
+    }else {
+        console.log("invalid")
     }
-    return Age;
-} 
-Age(70)
+    return UserName
+}
+UserName(6)
