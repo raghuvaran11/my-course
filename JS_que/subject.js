@@ -1099,15 +1099,55 @@
 // Write a function positiveNegativeZero that takes a number as input and prints "Positive" if the
 // number is greater than 0, "Negative" if it's less than 0, and "Zero" if it's equal to 0.
 
-function Numbers (inputValue) {
-    if (inputValue>=0){
-        console.log("this is a postive number")
-    } else if (inputValue==0){
-        console.log("this is a zero number")
+// function Numbers (inputValue) {
+//     if (inputValue>0){
+//         console.log("this is a postive number")
+//     } else if (inputValue==0){
+//         console.log("this is a zero number")
+//     }
+//     else {
+//         console.log("this is a negative number")
+//     }
+//     return Numbers
+// }
+// Numbers(0)
+
+// 11)Grade Calculator
+// Write a function calculateGrade that takes a student's score as input and prints their
+// corresponding grade: "A" for scores 90 and above, "B" for scores 80-89, "C" for scores 70-79,
+// "D" for scores 60-69, and "F" for scores below 60.
+
+// let score=35
+
+
+// function Students (inputValue) {
+
+//     if (inputValue>=90){
+//         console.log("this is A-Grade")
+//     } else if (inputValue>=80){
+//         console.log("this is B-Grade")
+//     } else if (inputValue<=70){
+//         console.log("this is C-Grade")
+//     } else if (inputValue<=60) {
+//         console.log("this is D-Grade")
+//     } else {
+//         console.log("this is F-Grade")
+//     }
+//     return Students
+// }
+// Students(75)
+
+
+// 12)Even or Odd
+// Write a function evenOrOdd that takes an integer as input and prints "Even" if the number is
+// even, and "Odd" if the number is odd.
+
+function EvenOrOdd (inputValue){
+    if (inputValue%2==0){
+        console.log("this is a even number")
+    } else {
+        console.log("this is odd number")
     }
-    else {
-        console.log("this is a negative number")
-    }
-    return Numbers
+    return EvenOrOdd
 }
-Numbers(-15)
+EvenOrOdd(15)
