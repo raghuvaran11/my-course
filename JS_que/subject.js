@@ -1204,7 +1204,13 @@
 
 
 // ....................................... MAP Function.apply...............................
-const Students =["suresh","raghu","mahesh","naresh","ranjith"]
-Students.map((item)=>{
-    console.log(item)
+// const Students =["suresh","raghu","mahesh","naresh","ranjith"]
+// Students.map((item)=>{
+//     console.log(item)
+// })
+
+
+const Marks =[1,2,3,55,6,4,8,6,5]
+Marks.map((item,index)=>{
+    console.log(item,index)
 })
