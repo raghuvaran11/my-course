@@ -1244,6 +1244,11 @@
 // let z=y.join('')
 // console.log(z)
 
-const arr1=[1,2,3]
-const arr2=[4,5,6,7,8]
-console.log(...arr1,...arr2)
+// const arr1=[1,2,3]
+// const arr2=[4,5,6,7,8]
+// console.log(...arr1,...arr2)
+// mergetwo arrays 
+const arr1=[1,2,3,4,5]
+const arr2 =[5,6,7,8,9]
+const mergetwoarrays = [...arr1,...arr2]
+console.log(mergetwoarrays)
