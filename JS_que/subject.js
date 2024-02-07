@@ -1221,7 +1221,11 @@
 //     console.log(index,item+1)
 // })
 
-const list =["raghu",10,"naresh","suresh",25,"apple"]
-list.map((item,index)=>{
-    console.log(item,index)
-})
+// const list =["raghu",10,"naresh","suresh",25,"apple"]
+// list.map((item,index)=>{
+//     console.log(item,index)
+// })
+
+const app (props)=>{
+    {props.name}
+}
