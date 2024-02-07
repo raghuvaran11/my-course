@@ -1210,7 +1210,13 @@
 // })
 
 
-const Marks =[1,2,3,55,6,4,8,6,5]
-Marks.map((item,index)=>{
-    console.log(item,index)
+// const Marks =[1,2,3,55,6,4,8,6,5]
+// Marks.map((item,index)=>{
+//     console.log(item,index)
+// })
+
+
+const list =["raghu",10,"naresh","suresh",25,"apple"]
+list.map((index,item)=>{
+    console.log(index,item+1)
 })
