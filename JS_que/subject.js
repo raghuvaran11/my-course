@@ -1229,3 +1229,10 @@
 const app (props)=>{
     {props.name}
 }
+
+// const fruits=["apple","banana"]
+// let add= fruits.push("orange")
+// fruits.pop()
+// fruits.unshift("grape")
+// fruits.shift()
+// console.log(fruits)
