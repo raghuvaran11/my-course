@@ -1272,7 +1272,17 @@
 // })
 
 
-let names= ["raghu","varan","manthena"]
-names.map((items)=> {
-    console.log(items)
-})
+// let names= ["raghu","varan","manthena"]
+// names.map((items)=> {
+//     console.log(items)
+// })
+
+function sum(...numbers) {
+    let total= 0
+    for (const num of numbers){
+        total +=num
+
+    } return total 
+
+}
+console.log(sum(1,2,3,4,5))
