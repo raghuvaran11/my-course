@@ -1216,7 +1216,12 @@
 // })
 
 
+// const list =["raghu",10,"naresh","suresh",25,"apple"]
+// list.map((index,item)=>{
+//     console.log(index,item+1)
+// })
+
 const list =["raghu",10,"naresh","suresh",25,"apple"]
-list.map((index,item)=>{
-    console.log(index,item+1)
+list.map((item,index)=>{
+    console.log(item,index)
 })
