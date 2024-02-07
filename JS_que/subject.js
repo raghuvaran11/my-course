@@ -1256,6 +1256,17 @@
 // const mergetwoarrays = [...arr1,...arr2]
 // console.log(mergetwoarrays)
 
-const objt1= [a=1,b=2,c=3,d=4]
-const objt2= [e=5,f=6,g=7,h=8]
-console.log(...objt1,...objt2)
+// const objt1= [a=1,b=2,c=3,d=4]
+// const objt2= [e=5,f=6,g=7,h=8]
+// console.log(...objt1,...objt2)
+
+
+// let names= ("raghu","varan","manthena")
+// names.map((items)=> {
+//     console.log(items)
+// })
+
+const list =["raghu",10,"naresh","suresh",25,"apple"]
+list.map((index,item)=>{
+    console.log(index,item+1)
+})
