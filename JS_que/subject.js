@@ -1226,9 +1226,9 @@
 //     console.log(item,index)
 // })
 
-const app (props)=>{
-    {props.name}
-}
+// const app (props)=>{
+//     {props.name}
+// }
 
 // const fruits=["apple","banana"]
 // let add= fruits.push("orange")
@@ -1236,3 +1236,14 @@ const app (props)=>{
 // fruits.unshift("grape")
 // fruits.shift()
 // console.log(fruits)
+
+
+// let str="hello"
+// let x= str.split("")
+// let y=x.reverse("")
+// let z=y.join('')
+// console.log(z)
+
+const arr1=[1,2,3]
+const arr2=[4,5,6,7,8]
+console.log(...arr1,...arr2)
