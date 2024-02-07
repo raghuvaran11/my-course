@@ -1188,16 +1188,23 @@
 // "Invalid choice."
 
 
-function selectColor(color) {
-if (color=="blue") {
-    console.log("is available")
-} else if (color=="green"){
-    console.log("is available")
-} else if (color== "red") {
-    console.log("is not available")
-}else {
-    console.log("invaild choice")
-}
-return selectColor;
-}
-selectColor("green")
+// function selectColor(color) {
+// if (color=="blue") {
+//     console.log("is available")
+// } else if (color=="green"){
+//     console.log("is available")
+// } else if (color== "red") {
+//     console.log("is not available")
+// }else {
+//     console.log("invaild choice")
+// }
+// return selectColor;
+// }
+// selectColor("green")
+
+
+// ....................................... MAP Function.apply...............................
+const Students =["suresh","raghu","mahesh","naresh","ranjith"]
+Students.map((item)=>{
+    console.log(item)
+})
