@@ -1277,12 +1277,21 @@
 //     console.log(items)
 // })
 
-function sum(...numbers) {
-    let total= 0
-    for (const num of numbers){
-        total +=num
+// function sum(...numbers) {
+//     let total= 0
+//     for (const num of numbers){
+//         total +=num
 
-    } return total 
+//     } return total 
 
-}
-console.log(sum(1,2,3,4,5))
+// }
+// console.log(sum(1,2,3,4,5))
+
+
+// let array =[1,2,3,4,5,6]
+// array.map((index)=>{
+//     console.log(index)
+// })
+let arr1 =[1,2,3,4]
+let ar2=[5,6,7,8]
+console.log(...arr1,...ar2)
