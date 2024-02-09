@@ -1292,6 +1292,23 @@
 // array.map((index)=>{
 //     console.log(index)
 // })
-let arr1 =[1,2,3,4]
-let ar2=[5,6,7,8]
-console.log(...arr1,...ar2)
+// let arr1 =[1,2,3,4]
+// let ar2=[5,6,7,8]
+// console.log(...arr1,...ar2)
+
+
+// 1. Sum of Natural Numbers:**
+// Write a program to calculate the sum of natural numbers from 1 to `n` using a `for` loop.
+// function naturalnumber (input){
+//     let sum=0
+//     for (let i=1;i<=naturalnumber;i++){
+//         sum+= i
+//     } return naturalnumber
+// }
+// naturalnumber(5)
+
+let number = 5
+let sum =0
+for (let i=0;i<=number;i++){
+    sum+= i
+}console.log(sum)
