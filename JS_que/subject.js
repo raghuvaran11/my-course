@@ -1339,7 +1339,18 @@
 // let ar2=[4,5,6]
 // console.log(...ar1,...ar2)
 
-let cars =["shift","honda","citz","suzuki"]
-cars.map((item)=>{
-    console.log(item)
-})
+// let cars =["shift","honda","citz","suzuki"]
+// cars.map((item)=>{
+//     console.log(item)
+// })
+
+// **4. Print Multiplication Table:**
+// Write a program to print the multiplication table of a given number `n` using a `for` loop.
+
+let n=10
+
+for(let i=0;i<=n;i++){
+    let multi =n*i
+    console.log(multi)
+
+}
