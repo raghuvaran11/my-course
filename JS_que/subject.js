@@ -1335,6 +1335,11 @@
 //     console.log(temp)
 // }
 
-let ar1= [1,2,3]
-let ar2=[4,5,6]
-console.log(...ar1,...ar2)
+// let ar1= [1,2,3]
+// let ar2=[4,5,6]
+// console.log(...ar1,...ar2)
+
+let cars =["shift","honda","citz","suzuki"]
+cars.map((item)=>{
+    console.log(item)
+})
