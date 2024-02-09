@@ -1326,11 +1326,15 @@
 // *3. Fibonacci Sequence:**
 // Generate and print the first `n` terms of the Fibonacci sequence using a `for` loop.
 
-let a=0,b=1
-let n=10
-for (let i=0;i<=n;i++){
-    let temp=a+b
-    a=b
-    b=temp
-    console.log(temp)
-}
+// let a=0,b=1
+// let n=10
+// for (let i=0;i<=n;i++){
+//     let temp=a+b
+//     a=b
+//     b=temp
+//     console.log(temp)
+// }
+
+let ar1= [1,2,3]
+let ar2=[4,5,6]
+console.log(...ar1,...ar2)
