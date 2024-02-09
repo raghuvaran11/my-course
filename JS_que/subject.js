@@ -1307,8 +1307,18 @@
 // }
 // naturalnumber(5)
 
-let number = 5
-let sum =0
-for (let i=0;i<=number;i++){
-    sum+= i
-}console.log(sum)
+// let number = 5
+// let sum =0
+// for (let i=0;i<=number;i++){
+//     sum+= i
+// }console.log(sum)
+
+// **2. Factorial of a Number:**
+// Write a program to calculate the factorial of a given number `n` using a `for` loop.
+
+let n= 10
+let factorial = 1
+for(let i=1;i<=n;i++){
+    factorial *= i
+}
+ console.log(factorial)
