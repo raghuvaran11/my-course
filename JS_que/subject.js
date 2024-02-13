@@ -1371,18 +1371,29 @@
 // }
 // console.log(reversearray)
 
-import react,{useState} from "raect"
+// import react,{useState} from "raect"
 
-const app=()=>{
-    const [count,setCount]=useState(0)
-    const increamentcountvalue =()=>{
-        setCount(count+1)
-    }
-    const decreamentcountvalue=()=>{
-        setCount(count-1)
-    }
-}
+// const app=()=>{
+//     const [count,setCount]=useState(0)
+//     const increamentcountvalue =()=>{
+//         setCount(count+1)
+//     }
+//     const decreamentcountvalue=()=>{
+//         setCount(count-1)
+//     }
+// }
 
-<h1>{count}</h1>
-<button onClick = {increamentcountvalue}>increment</button>
-<button onClick = {decreamentcountvalue}>decrement</button>
+// <h1>{count}</h1>
+// <button onClick = {increamentcountvalue}>increment</button>
+// <button onClick = {decreamentcountvalue}>decrement</button>
+
+
+// let string = "hello world"
+// let count =0
+// let vowels =["a","e","i","o","u"]
+
+// for(result of string.toLowerCase()){
+//     if(vowels.includes(result)){
+//         count++
+//     }
+// }console.log(count)
