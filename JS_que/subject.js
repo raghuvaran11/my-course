@@ -1356,10 +1356,17 @@
 // }
 // console.log("hello")
 
-let array=[1,2,3]
-let newarray=[]
-for (let i=array.length-1;i>=0;i--){
-    newarray.push(array[i])
+// let array=[1,2,3]
+// let newarray=[]
+// for (let i=array.length-1;i>=0;i--){
+//     newarray.push(array[i])
 
+// }
+// console.log(newarray)
+
+let array =[1,2,3,4,5,6]
+let reversearray=[]
+for(let i=array.length-1;i>=0;i--){
+    reversearray.push(array[i])
 }
-console.log(newarray)
+console.log(reversearray)
