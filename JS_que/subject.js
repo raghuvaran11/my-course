@@ -1364,9 +1364,25 @@
 // }
 // console.log(newarray)
 
-let array =[1,2,3,4,5,6]
-let reversearray=[]
-for(let i=array.length-1;i>=0;i--){
-    reversearray.push(array[i])
+// let array =[1,2,3,4,5,6]
+// let reversearray=[]
+// for(let i=array.length-1;i>=0;i--){
+//     reversearray.push(array[i])
+// }
+// console.log(reversearray)
+
+import react,{useState} from "raect"
+
+const app=()=>{
+    const [count,setCount]=useState(0)
+    const increamentcountvalue =()=>{
+        setCount(count+1)
+    }
+    const decreamentcountvalue=()=>{
+        setCount(count-1)
+    }
 }
-console.log(reversearray)
+
+<h1>{count}</h1>
+<button onClick = {increamentcountvalue}>increment</button>
+<button onClick = {decreamentcountvalue}>decrement</button>
