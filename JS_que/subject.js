@@ -1397,3 +1397,11 @@
 //         count++
 //     }
 // }console.log(count)
+let string= "this is web developement course"
+let count=0
+let vowels=['a','e','i','o','u']
+for(result of string.toLowerCase()){
+    if(vowels.includes(result)){
+        count++
+    }
+} console.log(count)
