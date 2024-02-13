@@ -1347,10 +1347,19 @@
 // **4. Print Multiplication Table:**
 // Write a program to print the multiplication table of a given number `n` using a `for` loop.
 
-let n=10
+// let n=10
 
-for(let i=0;i<=n;i++){
-    let multi =n*i
-    console.log(multi)
+// for(let i=0;i<=n;i++){
+//     let multi =n*i
+//     console.log(multi)
+
+// }
+// console.log("hello")
+
+let array=[1,2,3]
+let newarray=[]
+for (let i=array.length-1;i>=0;i--){
+    newarray.push(array[i])
 
 }
+console.log(newarray)
