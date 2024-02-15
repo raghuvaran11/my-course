@@ -1437,3 +1437,30 @@
 //   count++
 // }
 // console.log(count)
+
+
+// function isPalindrome(str) {
+//     // Remove non-alphanumeric characters and convert to lowercase
+//     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  
+//     // Compare the original and reversed strings
+//     return cleanStr === cleanStr.split('').reverse().join('');
+//   }
+  
+//   // Example usage:
+//   const testString = "madem";
+//   if (isPalindrome(testString)) {
+//     console.log(`"${testString}" is a palindrome.`);
+//   } else {
+//     console.log(`"${testString}" is not a palindrome.`);
+//   }
+function isPalindrome(str){
+  const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+  return cleanstr===cleanstr.split('').reverse().join('');
+}
+const testString="madam"
+if(isPalindrome(testString)){
+  console.log(`"${testString}" is a palindrome.`);
+} else {
+  console.log(`"${testString}" is not a palindrome.`);
+}
