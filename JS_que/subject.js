@@ -1454,13 +1454,32 @@
 //   } else {
 //     console.log(`"${testString}" is not a palindrome.`);
 //   }
-function isPalindrome(str){
-  const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
-  return cleanstr===cleanstr.split('').reverse().join('');
-}
-const testString="madam"
-if(isPalindrome(testString)){
-  console.log(`"${testString}" is a palindrome.`);
-} else {
-  console.log(`"${testString}" is not a palindrome.`);
-}
+
+
+// function isPalindrome(str){
+//   const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+//   return cleanstr===cleanstr.split('').reverse().join('');
+// }
+// const testString="madam"
+// if(isPalindrome(testString)){
+//   console.log(`"${testString}" is a palindrome.`);
+// } else {
+//   console.log(`"${testString}" is not a palindrome.`);
+// }
+
+
+// import react,{useState} from "raect"
+
+// const app=()=>{
+//     const [count,setCount]=useState(0)
+//     const increamentcountvalue =()=>{
+//         setCount(count+1)
+//     }
+//     const decreamentcountvalue=()=>{
+//         setCount(count-1)
+//     }
+// }
+
+// <h1>{count}</h1>
+// <button onClick = {increamentcountvalue}>increment</button>
+// <button onClick = {decreamentcountvalue}>decrement</button>
