@@ -1428,3 +1428,12 @@
 //     console.log(`"${testString}" is not a palindrome.`);
 //   }
   
+
+// let string="this is vowelcount method"
+// let count=0
+// let vowel =['a','e','i','o','u']
+// for (result of string.toLowerCase()){
+//   if(vowel.includes(result))
+//   count++
+// }
+// console.log(count)
