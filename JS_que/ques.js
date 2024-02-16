@@ -516,8 +516,21 @@
 // }
 // console.log(reverse)
 
-let str="hello world"
-let reverse=""
-for (let i = str.length-1;i>=0;i--){
-   reverse=str[i]
-} console.log(reverse)
+// let str="hello world"
+// let reverse=""
+// for (let i = str.length-1;i>=0;i--){
+//    reverse=str[i]
+// } console.log(reverse)
+
+
+// 22. Write a function `countWords` that takes a string as input and returns the number of
+// words in the string.
+// function CountWord (str){
+//    return str.split(' ').length;
+// }
+// console.log(CountWord('hello there,how are you?'))
+
+function countword(str){
+   return str.split('').length;
+}
+console.log(countword("hello, how are you "))

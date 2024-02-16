@@ -1486,17 +1486,17 @@
 
 
 
-const app=()=>{
-    const [count,setCount]=useState(10)
-    const increamentcountvalue =()=>{
-        setCount(count+2)
-    } 
-    const decreamentcountvalue =()=>{
-        setCount(count-1)
-    }
+// const app=()=>{
+//     const [count,setCount]=useState(10)
+//     const increamentcountvalue =()=>{
+//         setCount(count+2)
+//     } 
+//     const decreamentcountvalue =()=>{
+//         setCount(count-1)
+//     }
 
-}
-<h1>{count}</h1>
-<button onclick={increamentcountvalue}>increment</button>
-<button onclick={decreamentcountvalue}>decrement</button>
+// }
+// <h1>{count}</h1>
+// <button onclick={increamentcountvalue}>increment</button>
+// <button onclick={decreamentcountvalue}>decrement</button>
 
