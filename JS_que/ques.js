@@ -484,14 +484,23 @@
 //   console.log(`"${testString}" is not a palindrome.`);
 // }
 
-function isPalindrome(str){
-   const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
-   return cleanstr=== cleanstr.split('').reverse().join('')
-}const teststring="madam"
-if(isPalindrome(teststring)){
-   console.log(`"${testString}" is a palindrome.`)
-} else {
-   console.log(`"${testString}" is not a palindrome.`)
+// function isPalindrome(str){
+//    const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+//    return cleanstr=== cleanstr.split('').reverse().join('')
+// }const teststring="madam"
+// if(isPalindrome(teststring)){
+//    console.log(`"${testString}" is a palindrome.`)
+// } else {
+//    console.log(`"${testString}" is not a palindrome.`)
+// }
+
+
+const string ="this is a vowels "
+const coumt=0
+const vowels=['a','e','i','o','u']
+for (result of string.toLowerCase()){
+   if(vowels.includes(result)){
+       count++
+   }
 }
-
-
+console.log(count)
