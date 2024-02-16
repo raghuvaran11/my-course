@@ -471,3 +471,27 @@
 
 // 24. Write a function `removeVowels` that takes a string as input and returns the string
 // with all vowels removed.
+
+
+// function isPalindrome(str){
+//   const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+//   return cleanstr===cleanstr.split('').reverse().join('');
+// }
+// const testString="madam"
+// if(isPalindrome(testString)){
+//   console.log(`"${testString}" is a palindrome.`);
+// } else {
+//   console.log(`"${testString}" is not a palindrome.`);
+// }
+
+function isPalindrome(str){
+   const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+   return cleanstr=== cleanstr.split('').reverse().join('')
+}const teststring="madam"
+if(isPalindrome(teststring)){
+   console.log(`"${testString}" is a palindrome.`)
+} else {
+   console.log(`"${testString}" is not a palindrome.`)
+}
+
+
