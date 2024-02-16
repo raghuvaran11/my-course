@@ -1483,3 +1483,20 @@
 // <h1>{count}</h1>
 // <button onClick = {increamentcountvalue}>increment</button>
 // <button onClick = {decreamentcountvalue}>decrement</button>
+
+
+
+const app=()=>{
+    const [count,setCount]=useState(10)
+    const increamentcountvalue =()=>{
+        setCount(count+2)
+    } 
+    const decreamentcountvalue =()=>{
+        setCount(count-1)
+    }
+
+}
+<h1>{count}</h1>
+<button onclick={increamentcountvalue}>increment</button>
+<button onclick={decreamentcountvalue}>decrement</button>
+
