@@ -530,7 +530,14 @@
 // }
 // console.log(CountWord('hello there,how are you?'))
 
-function countword(str){
-   return str.split('').length;
-}
-console.log(countword("hello, how are you "))
+// function countword(str){
+//    return str.split('').length;
+// }
+// console.log(countword("hello, how are you "))
+
+
+
+// onst inputArray1 = [1, 2, 3, 4, 5];
+// const inputArray2 = [3, 4, 5, 6, 7];
+// const output = findUnique(inputArray1, inputArray2);
+// console.log(output); // [1, 2, 6, 7]
