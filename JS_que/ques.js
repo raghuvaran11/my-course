@@ -551,6 +551,9 @@
 // let array=[1,2,3]
 // array.push(4)
 // console.log(array)
-let array =[1,2,3,4]
-array.pop()
-console.log(array)
+// let array =[1,2,3,4]
+// array.pop()
+// console.log(array)
+
+let string=("Enumerating objects: 7, done.")
+console.log(string.toUpperCase())
