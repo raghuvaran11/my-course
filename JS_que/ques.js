@@ -548,6 +548,9 @@
 // console.log(output); // [1, 2, 6, 7]
 
 
-let array=[1,2,3]
-array.push(4)
+// let array=[1,2,3]
+// array.push(4)
+// console.log(array)
+let array =[1,2,3,4]
+array.pop()
 console.log(array)
