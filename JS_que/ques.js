@@ -546,3 +546,8 @@
 // const inputArray2 = [3, 4, 5, 6, 7];
 // const output = findUnique(inputArray1, inputArray2);
 // console.log(output); // [1, 2, 6, 7]
+
+
+let array=[1,2,3]
+array.push(4)
+console.log(array)
