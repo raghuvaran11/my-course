@@ -43,15 +43,32 @@
 // studentDetail,name="ravi"
 // console.log(studentDetail)
 
+// const studentDetail={
+//     name:"raghu",
+//     age:30,
+//     qualification:"btech"
+// }
+// const teacherdetails={
+//     tname:"rakesh",
+//     age:33,
+//     qualification1:"btech"
+// }
+// const newdetail={...studentDetail,...teacherdetails}
+// console.log(newdetail)
+
+
 const studentDetail={
     name:"raghu",
     age:30,
-    qualification:"btech"
+    qualification:"btech",
+    address:"mancherial"
+
 }
 const teacherdetails={
     tname:"rakesh",
-    age:33,
-    qualification1:"btech"
+    tage:33,
+    tqualification:"btech",
+    taddress:"hyderabad"
 }
 const newdetail={...studentDetail,...teacherdetails}
 console.log(newdetail)
