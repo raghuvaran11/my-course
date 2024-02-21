@@ -34,11 +34,20 @@
 // }
 // console.log(sum(1,2,3,4,5))
 
-const studentDetail={
-    name:"raghu",
-    age: 22
+// const studentDetail={
+//     name:"raghu",
+//     age: 22
+// }
+// studentDetail["city"]="hyderabad"
+// studentDetail.flat=103
+// studentDetail,name="ravi"
+// console.log(studentDetail)
+
+const studentDetail=
+{name:"raghu",
+age:30
 }
-studentDetail["city"]="hyderabad"
+studentDetail["city"]="mancherial"
 studentDetail.flat=103
-studentDetail,name="ravi"
+studentDetail.name="ravi"
 console.log(studentDetail)
