@@ -33,3 +33,12 @@
 //     return total;
 // }
 // console.log(sum(1,2,3,4,5))
+
+const studentDetail={
+    name:"raghu",
+    age: 22
+}
+studentDetail["city"]="hyderabad"
+studentDetail.flat=103
+studentDetail,name="ravi"
+console.log(studentDetail)
