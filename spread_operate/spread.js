@@ -57,18 +57,23 @@
 // console.log(newdetail)
 
 
-const studentDetail={
-    name:"raghu",
-    age:30,
-    qualification:"btech",
-    address:"mancherial"
+// const studentDetail={
+//     name:"raghu",
+//     age:30,
+//     qualification:"btech",
+//     address:"mancherial"
 
-}
-const teacherdetails={
-    tname:"rakesh",
-    tage:33,
-    tqualification:"btech",
-    taddress:"hyderabad"
-}
-const newdetail={...studentDetail,...teacherdetails}
-console.log(newdetail)
+// }
+// const teacherdetails={
+//     tname:"rakesh",
+//     tage:33,
+//     tqualification:"btech",
+//     taddress:"hyderabad"
+// }
+// const newdetail={...studentDetail,...teacherdetails}
+// console.log(newdetail)
+
+const details=[{name:"raghu",age:30},{name:"suman",age:25},{name:"vinod",age:10}]
+details.map((item)=>{
+    console.log(item)
+})
