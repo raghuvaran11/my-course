@@ -43,11 +43,15 @@
 // studentDetail,name="ravi"
 // console.log(studentDetail)
 
-const studentDetail=
-{name:"raghu",
-age:30
+const studentDetail={
+    name:"raghu",
+    age:30,
+    qualification:"btech"
 }
-studentDetail["city"]="mancherial"
-studentDetail.flat=103
-studentDetail.name="ravi"
-console.log(studentDetail)
+const teacherdetails={
+    tname:"rakesh",
+    age:33,
+    qualification1:"btech"
+}
+const newdetail={...studentDetail,...teacherdetails}
+console.log(newdetail)
