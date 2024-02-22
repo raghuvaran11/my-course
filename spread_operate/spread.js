@@ -73,7 +73,11 @@
 // const newdetail={...studentDetail,...teacherdetails}
 // console.log(newdetail)
 
-const details=[{name:"raghu",age:30},{name:"suman",age:25},{name:"vinod",age:10}]
-details.map((item)=>{
-    console.log(item)
+// const details=[{name:"raghu",age:30},{name:"suman",age:25},{name:"vinod",age:10}]
+// details.map((item)=>{
+//     console.log(item)
+// })
+const studentDetail=[{name:"raghu",age:30},{name:"suman",age:25},{name:"vinod",age:10}]
+studentDetail.map((item,index)=>{
+    console.log(index,item)
 })
