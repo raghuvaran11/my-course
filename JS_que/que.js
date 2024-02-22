@@ -228,9 +228,16 @@
 // console.log('final output:',ArrayRotation(array,k));
 
 
-let numbers=5
-let sum=0
-for(let i=0;i<=numbers;i++){
-    sum +=i
+// let numbers=5
+// let sum=0
+// for(let i=0;i<=numbers;i++){
+//     sum +=i
+// }
+// console.log(sum)
+
+let number=5
+let factorial=1
+for(let i=1;i<=number;i++){
+    factorial *=i
 }
-console.log(sum)
+console.log(factorial)
