@@ -248,9 +248,24 @@
 //   console.log(multi)
 // }
 
-let string="hello"
-let  reverse=" "
+// let string="hello"
+// let  reverse=" "
+// for (let i=string.length-1;i>=0;i--){
+//     reverse+=string[i]
+// }
+// console.log(reverse)
+
+// let string="hello world"
+// let reverse=""
+// for (let i=string.length-1;i>=0;i--){
+//     reverse += string[i]
+// }
+// console.log(reverse)
+
+let string="adda"
+let reverse=""
 for (let i=string.length-1;i>=0;i--){
-    reverse+=string[i]
+    reverse += string[i]
 }
 console.log(reverse)
+
