@@ -555,5 +555,5 @@
 // array.pop()
 // console.log(array)
 
-let string=("Enumerating objects: 7, done.")
-console.log(string.toUpperCase())
+// let string=("Enumerating objects: 7, done.")
+// console.log(string.toUpperCase())

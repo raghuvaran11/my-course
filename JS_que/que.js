@@ -93,12 +93,12 @@
 // 10. Write a function `removeVowels` that takes a string as input and returns the string with all vowels removed.
 
 
-let str = "this is a sample sentence"
-let op =str.split("") 
-console.log(op)
-let remove =/[aeiou]/ig
-let arr=remove.match(remove)
-console.log(arr)
+// let str = "this is a sample sentence"
+// let op =str.split("") 
+// console.log(op)
+// let remove =/[aeiou]/ig
+// let arr=remove.match(remove)
+// console.log(arr)
 
 
 // 11. Write a function `isAnagram` that takes two strings as input and returns `true` if they are anagrams (contain the same characters in a different order), and `false` otherwise.
@@ -206,7 +206,7 @@ console.log(arr)
 // function  findThree(value) {
 //     return value === 5;
 // } console.log(op)
-console.log()
+// console.log()
 
 
 // 13. Write a function `findMin` that takes an array of numbers as input and returns the minimum number in the array
@@ -227,3 +227,10 @@ console.log()
 // }
 // console.log('final output:',ArrayRotation(array,k));
 
+
+let numbers=5
+let sum=0
+for(let i=0;i<=numbers;i++){
+    sum +=i
+}
+console.log(sum)
