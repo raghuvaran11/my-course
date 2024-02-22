@@ -247,3 +247,10 @@
 //   let multi=number*i
 //   console.log(multi)
 // }
+
+let string="hello"
+let  reverse=" "
+for (let i=string.length-1;i>=0;i--){
+    reverse+=string[i]
+}
+console.log(reverse)
