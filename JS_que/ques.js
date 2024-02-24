@@ -558,6 +558,11 @@
 // let string=("Enumerating objects: 7, done.")
 // console.log(string.toUpperCase())
 
-let array=[1,2,3,4]
-array.push(5)
-console.log(array)
+// let array=[1,2,3,4]
+// array.push(5)
+// console.log(array)
+
+onst inputArray1 = [1, 2, 3, 4, 5];
+const inputArray2 = [3, 4, 5, 6, 7];
+const output = findUnique(inputArray1, inputArray2);
+console.log(output); // [1, 2, 6, 7]
