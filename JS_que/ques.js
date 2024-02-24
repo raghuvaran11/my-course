@@ -568,8 +568,19 @@
 // console.log(output); // [1, 2, 6, 7]
 
 
-function countword(str){
-   return str.split('').length;
-}
-console.log(countword("hello, how are you "))
+// function countword(str){
+//    return str.split('').length;
+// }
+// console.log(countword("hello, how are you "))
 
+
+
+const string ="this is a vowels "
+const coumt=0
+const vowels=['a','e','i','o','u']
+for (result of string.toLowerCase()){
+   if(vowels.includes(result)){
+       count++
+   }
+}
+console.log(count)
