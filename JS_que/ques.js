@@ -575,12 +575,19 @@
 
 
 
-const string ="this is a vowels "
-const coumt=0
-const vowels=['a','e','i','o','u']
-for (result of string.toLowerCase()){
-   if(vowels.includes(result)){
-       count++
-   }
-}
-console.log(count)
+// const string ="this is a vowels "
+// const coumt=0
+// const vowels=['a','e','i','o','u']
+// for (result of string.toLowerCase()){
+//    if(vowels.includes(result)){
+//        count++
+//    }
+// }
+// console.log(count)
+
+
+// let str="hello world"
+// let reverse=""
+// for (let i = str.length-1;i>=0;i--){
+//    reverse=str[i]
+// } console.log(reverse)
