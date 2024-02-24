@@ -557,3 +557,7 @@
 
 // let string=("Enumerating objects: 7, done.")
 // console.log(string.toUpperCase())
+
+let array=[1,2,3,4]
+array.push(5)
+console.log(array)
