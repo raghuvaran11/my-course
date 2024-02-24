@@ -562,7 +562,14 @@
 // array.push(5)
 // console.log(array)
 
-onst inputArray1 = [1, 2, 3, 4, 5];
-const inputArray2 = [3, 4, 5, 6, 7];
-const output = findUnique(inputArray1, inputArray2);
-console.log(output); // [1, 2, 6, 7]
+// const inputArray1 = [1, 2, 3, 4, 5];
+// const inputArray2 = [3, 4, 5, 6, 7];
+// const output = findUnique(inputArray1, inputArray2);
+// console.log(output); // [1, 2, 6, 7]
+
+
+function countword(str){
+   return str.split('').length;
+}
+console.log(countword("hello, how are you "))
+
