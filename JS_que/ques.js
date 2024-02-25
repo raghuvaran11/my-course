@@ -614,5 +614,8 @@
 // string("hello world")
 
 
-const string ="THIS IS MY HELLO PAGE"
-console.log(string.toLowerCase())
+// const string ="THIS IS MY HELLO PAGE"
+// console.log(string.toLowerCase())
+
+const string ="this is a my life"
+console.log(string.slice(2))
