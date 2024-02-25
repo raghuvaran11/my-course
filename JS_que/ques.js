@@ -592,15 +592,17 @@
 //    reverse=str[i]
 // } console.log(reverse)
 
-function isPalindrome(str){
-     const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
-     return cleanstr===cleanstr.split('').reverse().join('');
-   }
-   const testString="madam"
-   if(isPalindrome(testString)){
-     console.log(`"${testString}" is a palindrome.`);
-   } else {
-     console.log(`"${testString}" is not a palindrome.`);
-   }
+// function isPalindrome(str){
+//      const cleanstr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+//      return cleanstr===cleanstr.split('').reverse().join('');
+//    }
+//    const testString="madam"
+//    if(isPalindrome(testString)){
+//      console.log(`"${testString}" is a palindrome.`);
+//    } else {
+//      console.log(`"${testString}" is not a palindrome.`);
+//    }
    
-   
+const string ="hello world"
+const results=string.toUpperCase()
+console.log(results)
