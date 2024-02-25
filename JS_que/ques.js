@@ -603,6 +603,12 @@
 //      console.log(`"${testString}" is not a palindrome.`);
 //    }
    
-const string ="hello world"
-const results=string.toUpperCase()
-console.log(results)
+// const string ="hello world"
+// const results=string.toUpperCase()
+// console.log(results)
+
+function string(str){
+  const result=string.toUpperCase()
+  console.log(result)
+}
+string("hello world")
