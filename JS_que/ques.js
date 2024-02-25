@@ -607,8 +607,12 @@
 // const results=string.toUpperCase()
 // console.log(results)
 
-function string(str){
-  const result=string.toUpperCase()
-  console.log(result)
-}
-string("hello world")
+// function string(str){
+//   const result=string.toUpperCase()
+//   console.log(result)
+// }
+// string("hello world")
+
+
+const string ="THIS IS MY HELLO PAGE"
+console.log(string.toLowerCase())
