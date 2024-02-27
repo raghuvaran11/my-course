@@ -637,9 +637,15 @@
 
 
 // **2. Factorial of a Number:**
-let number=5
-let factorial=1
-for(let i=1;i<=number;i++){
-   factorial *= i
+// let number=5
+// let factorial=1
+// for(let i=1;i<=number;i++){
+//    factorial *= i
+// }
+// console.log(factorial)
+// 3.mutlfication
+let number=10
+for(let i=0;i<=10;i++){
+let multi=number*i;
+console.log(multi)
 }
-console.log(factorial)
