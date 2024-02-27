@@ -644,8 +644,27 @@
 // }
 // console.log(factorial)
 // 3.mutlfication
-let number=10
-for(let i=0;i<=10;i++){
-let multi=number*i;
-console.log(multi)
+// let number=10
+// for(let i=0;i<=10;i++){
+// let multi=number*i;
+// console.log(multi)
+// }
+
+// **3. Fibonacci Sequence:**
+// let a=0,b=1;
+// let n=10
+// for (let i=0;i<=n;i++){
+//     let temp=a+b;
+//     a=b;
+//     b=temp;
+//     console.log(temp)
+// }
+let a=0
+let b=1
+let n=10
+for(let i=0;i<=n;i++){
+   let fibo=a+b;
+   a=b;
+   b=fibo;
+   console.log(fibo)
 }
