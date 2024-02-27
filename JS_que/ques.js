@@ -671,9 +671,15 @@
 
 
 // **5. Reverse a String:**
-let string="hello world"
-let reverse=""
-for(let i=string.length-1;i>=0;i--){
-   reverse+=string[i]
+// let string="hello world"
+// let reverse=""
+// for(let i=string.length-1;i>=0;i--){
+//    reverse+=string[i]
+// }
+// console.log(reverse)
+let str="hello world"
+let reverse =""
+for (let i=str.length-1;i>=0;i--){
+   reverse+=str[i]
 }
 console.log(reverse)
