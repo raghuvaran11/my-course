@@ -659,12 +659,21 @@
 //     b=temp;
 //     console.log(temp)
 // }
-let a=0
-let b=1
-let n=10
-for(let i=0;i<=n;i++){
-   let fibo=a+b;
-   a=b;
-   b=fibo;
-   console.log(fibo)
+// let a=0
+// let b=1
+// let n=10
+// for(let i=0;i<=n;i++){
+//    let fibo=a+b;
+//    a=b;
+//    b=fibo;
+//    console.log(fibo)
+// }
+
+
+// **5. Reverse a String:**
+let string="hello world"
+let reverse=""
+for(let i=string.length-1;i>=0;i--){
+   reverse+=string[i]
 }
+console.log(reverse)
