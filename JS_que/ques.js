@@ -685,9 +685,32 @@
 // }
 // console.log(reverse)
 
-let str="hello"
-let reverse=""
-for(let i=str.length-1;i>=0;i--){
-   reverse+=str[i]
+// let str="hello"
+// let reverse=""
+// for(let i=str.length-1;i>=0;i--){
+//    reverse+=str[i]
+// }
+// console.log(reverse)
+
+
+// **8. Print Pattern:**
+// Write a program to print a pattern of stars using a `for` loop.
+
+
+// let row=5
+// for (let i=1;i<=row;i++){
+//     let pattern=""
+//     for (let j=1;j<=i;j++){
+//         pattern += " * "()
+//     };
+//     console.log(pattern)
+// }
+
+let row =5
+for(let i=1;i<=row;i++){
+   let pattern=""
+   for(let j=1;j<=i;j++){
+      pattern+="*"
+   };
+   console.log(pattern)
 }
-console.log(reverse)
