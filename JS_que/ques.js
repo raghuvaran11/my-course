@@ -736,13 +736,27 @@
 // }
 // console.log(prime(9))
 
-function prime(n) {
-   if(n<2)
-   return`${n} is not a prime number`
-for (let i =2;i<n;i++){
-   if(n%i===0){
-      return `${n} is not a prime number`
-   }
-}return `${n} is a Prime Number`
-}
-console.log(prime(9))
+// function prime(n) {
+//    if(n<2)
+//    return`${n} is not a prime number`
+// for (let i =2;i<n;i++){
+//    if(n%i===0){
+//       return `${n} is not a prime number`
+//    }
+// }return `${n} is a Prime Number`
+// }
+// console.log(prime(9))
+
+
+// **9. Find Largest Element in an Array:**
+// Write a program to find the largest element in an array using a `for` loop.
+
+// const number =[2,5,6,9,8,7,1,3]
+// const largest=number[0]
+// for (let i=1;i<=number.length;i++) {
+//     if(number[i] < largest) {
+//      largest = number[i]
+
+//     }
+// } 
+// console.log(largest)
