@@ -778,10 +778,29 @@
 //       pattern+="*"
 //    }console.log(pattern)
 // }
-let row=5
-for(let i=1;i<=row;i++){
-   let pattern=""
-   for(let j=1;j<=i;j++){
-      pattern += "*"
-   }console.log(pattern)
-}
+// let row=5
+// for(let i=1;i<=row;i++){
+//    let pattern=""
+//    for(let j=1;j<=i;j++){
+//       pattern += "*"
+//    }console.log(pattern)
+// }
+// function prime(n) {
+   //    if(n<2)
+   //    return`${n} is not a prime number`
+   // for (let i =2;i<n;i++){
+   //    if(n%i===0){
+   //       return `${n} is not a prime number`
+   //    }
+   // }return `${n} is a Prime Number`
+   // }
+   // console.log(prime(9))
+    function prime (n){
+      if(n<2)
+      return `${n}is not a prime number`
+   for(let i=2;i<n;i++){
+      if(n%i===0){
+         return `${n}is not a prime number`
+      }
+   }return `${n} is a Prime Number`
+    }console.log(prime(9))
