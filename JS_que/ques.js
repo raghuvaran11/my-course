@@ -807,21 +807,21 @@
    //  }console.log(prime(9))
 
   
-   const number =[2,5,6,9,8,7,1,3]
-   const largest=number[0]
-   for (let i=1;i<=number.length;i++) {
-       if(number[i] < largest) {
-        largest == number[i]
+   // const number =[2,5,6,9,8,7,1,3]
+   // const largest=number[0]
+   // for (let i=1;i<=number.length;i++) {
+   //     if(number[i] < largest) {
+   //      largest == number[i]
    
-       }
-   } 
-   console.log(largest)
+   //     }
+   // } 
+   // console.log(largest)
 
-   // const number=[1,2,3,4,5,6,7,8,9]
-   // let largest= number[0]
-   // for(let i=1;i<=number.length;i++){
-   //    if(number[i]<largest){
-   //       lnumber=number[i]
-   //    }
-   // } console.log(largest)
+   const number=[1,2,3,4,5,6,7,8,9]
+   let largest= number[0]
+   for(let i=1;i>=number.length;i++){
+      if(number[i]<largest){
+         lnumber=number[i]
+      }
+   } console.log(largest)
    
