@@ -806,12 +806,22 @@
    // }return `${n} is a Prime Number`
    //  }console.log(prime(9))
 
-    function prime(n){
-      if(n<2){
-         return `${n} is not a prime number`
-      }for (let i=2;i<=n;i++){
-         if(n%i===0){
-            return `${n} is not a prime number`
-         }
-      }return`${n} is  a prime number`
-    }console.log(prime(21))
+  
+   const number =[2,5,6,9,8,7,1,3]
+   const largest=number[0]
+   for (let i=1;i<=number.length;i++) {
+       if(number[i] < largest) {
+        largest == number[i]
+   
+       }
+   } 
+   console.log(largest)
+
+   // const number=[1,2,3,4,5,6,7,8,9]
+   // let largest= number[0]
+   // for(let i=1;i<=number.length;i++){
+   //    if(number[i]<largest){
+   //       lnumber=number[i]
+   //    }
+   // } console.log(largest)
+   
