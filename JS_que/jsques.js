@@ -16,6 +16,7 @@
 // } console.log(factorial)
 
 // **3. Fibonacci Sequence:**
+
 // let a=0,b=1;
 // let n=10
 // for (let i=0;i<=n;i++){
@@ -26,9 +27,21 @@
 // }
 
 // **4. Reverse a String:**
+
 // let string="hello world"
 // let reverse=""
 // for(let i=string.length-1;i>=0;i--){
 //    reverse+=string[i]
 // }
 // console.log(reverse)
+
+// **5. Print Pattern:**
+
+// let row=5
+// for (let i=1;i<=row;i++){
+//     let pattern=""
+//     for (let j=1;j<=i;j++){
+//         pattern += " * "()
+//     };
+//     console.log(pattern)
+// }
