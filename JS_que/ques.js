@@ -817,13 +817,13 @@
    // } 
    // console.log(largest)
 
-   const number=[1,2,3,4,5,6,7,8,9]
-   let largest= number[0]
-   for(let i=1;i<=number.length;i++){
-      if(number[i]>largest){
-         lnumber=number[i]
-      }
-   } console.log(largest)
+   // const number=[1,2,3,4,5,6,7,8,9]
+   // let largest= number[0]
+   // for(let i=1;i<=number.length;i++){
+   //    if(number[i]>largest){
+   //       lnumber=number[i]
+   //    }
+   // } console.log(largest)
    
 //    function findLargestNumber(numbers) {
 //       if (numbers.length === 0) {
@@ -845,22 +845,37 @@
 //   let numbersList = [10, 5, 8, 20, 15];
 //   console.log(findLargestNumber(numbersList));
   
-function findSmallestValue(numbers) {
-   if (numbers.length === 0) {
-       return "The list is empty.";
-   }
+// function findSmallestValue(numbers) {
+//    if (numbers.length === 0) {
+//        return "The list is empty.";
+//    }
 
-   let smallestValue = numbers[0];
+//    let smallestValue = numbers[0];
 
-   for (let i = 1; i < numbers.length; i++) {
-       if (numbers[i] < smallestValue) {
-           smallestValue = numbers[i];
-       }
-   }
+//    for (let i = 1; i < numbers.length; i++) {
+//        if (numbers[i] < smallestValue) {
+//            smallestValue = numbers[i];
+//        }
+//    }
 
-   return "The smallest value is: " + smallestValue;
+//    return "The smallest value is: " + smallestValue;
+// }
+
+// // Example usage:
+// let numbersList = [10, 5, 8, 20, 15];
+// console.log(findSmallestValue(numbersList));
+
+
+function countDigits(number) {
+   // Convert the number to a string to easily get its length
+   const numString = Math.abs(number).toString();
+   
+   return numString.length;
 }
 
 // Example usage:
-let numbersList = [10, 5, 8, 20, 15];
-console.log(findSmallestValue(numbersList));
+let num = 12345;
+console.log("Number of digits in " + num + ": " + countDigits(num));
+
+num = -9876;
+console.log("Number of digits in " + num + ": " + countDigits(num));
