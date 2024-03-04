@@ -866,16 +866,16 @@
 // console.log(findSmallestValue(numbersList));
 
 
-function countDigits(number) {
-   // Convert the number to a string to easily get its length
-   const numString = Math.abs(number).toString();
+// function countDigits(number) {
+//    // Convert the number to a string to easily get its length
+//    const numString = Math.abs(number).toString();
    
-   return numString.length;
-}
+//    return numString.length;
+// }
 
-// Example usage:
-let num = 12345;
-console.log("Number of digits in " + num + ": " + countDigits(num));
+// // Example usage:
+// let num = 12345;
+// console.log("Number of digits in " + num + ": " + countDigits(num));
 
-num = -9876;
-console.log("Number of digits in " + num + ": " + countDigits(num));
+// num = -9876;
+// console.log("Number of digits in " + num + ": " + countDigits(num));

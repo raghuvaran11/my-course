@@ -91,3 +91,19 @@
     // // Example usage:
     // let numbersList = [10, 5, 8, 20, 15];
     // console.log(findSmallestValue(numbersList));
+
+    // 8.countdigit of number
+
+    function countDigits(number) {
+           // Convert the number to a string to easily get its length
+           const numString = Math.abs(number).toString();
+           
+           return numString.length;
+        }
+        
+        // Example usage:
+        let num = 12345;
+        console.log("Number of digits in " + num + ": " + countDigits(num));
+        
+        num = -9876;
+        console.log("Number of digits in " + num + ": " + countDigits(num));
