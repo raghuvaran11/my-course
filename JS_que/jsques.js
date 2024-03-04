@@ -45,3 +45,5 @@
 //     };
 //     console.log(pattern)
 // }
+
+// **5. largest number:**

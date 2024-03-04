@@ -817,31 +817,31 @@
    // } 
    // console.log(largest)
 
-   // const number=[1,2,3,4,5,6,7,8,9]
-   // let largest= number[0]
-   // for(let i=1;i>=number.length;i++){
-   //    if(number[i]<largest){
-   //       lnumber=number[i]
-   //    }
-   // } console.log(largest)
+   const number=[1,2,3,4,5,6,7,8,9]
+   let largest= number[0]
+   for(let i=1;i<=number.length;i++){
+      if(number[i]>largest){
+         lnumber=number[i]
+      }
+   } console.log(largest)
    
-   function findLargestNumber(numbers) {
-      if (numbers.length === 0) {
-          return "The list is empty.";
-      }
+//    function findLargestNumber(numbers) {
+//       if (numbers.length === 0) {
+//           return "The list is empty.";
+//       }
   
-      let largestNumber = numbers[0];
+//       let largestNumber = numbers[0];
   
-      for (let i = 1; i < numbers.length; i++) {
-          if (numbers[i] > largestNumber) {
-              largestNumber = numbers[i];
-          }
-      }
+//       for (let i = 1; i < numbers.length; i++) {
+//           if (numbers[i] > largestNumber) {
+//               largestNumber = numbers[i];
+//           }
+//       }
   
-      return "The largest number is: " + largestNumber;
-  }
+//       return "The largest number is: " + largestNumber;
+//   }
   
-  // Example usage:
-  let numbersList = [10, 5, 8, 20, 15];
-  console.log(findLargestNumber(numbersList));
+//   // Example usage:
+//   let numbersList = [10, 5, 8, 20, 15];
+//   console.log(findLargestNumber(numbersList));
   
