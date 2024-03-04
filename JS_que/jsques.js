@@ -46,4 +46,26 @@
 //     console.log(pattern)
 // }
 
-// **5. largest number:**
+// **6. largest number:**
+
+
+    // function findLargestNumber(numbers) {
+    //       if (numbers.length === 0) {
+    //           return "The list is empty.";
+    //       }
+      
+    //       let largestNumber = numbers[0];
+      
+    //       for (let i = 1; i < numbers.length; i++) {
+    //           if (numbers[i] > largestNumber) {
+    //               largestNumber = numbers[i];
+    //           }
+    //       }
+      
+    //       return "The largest number is: " + largestNumber;
+    //   }
+      
+    //   // Example usage:
+    //   let numbersList = [10, 5, 8, 20, 15];
+    //   console.log(findLargestNumber(numbersList));
+      
