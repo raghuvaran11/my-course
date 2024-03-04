@@ -69,3 +69,25 @@
     //   let numbersList = [10, 5, 8, 20, 15];
     //   console.log(findLargestNumber(numbersList));
       
+
+    // **7. smallest number:**
+    
+    function findSmallestValue(numbers) {
+        if (numbers.length === 0) {
+            return "The list is empty.";
+        }
+    
+        let smallestValue = numbers[0];
+    
+        for (let i = 1; i < numbers.length; i++) {
+            if (numbers[i] < smallestValue) {
+                smallestValue = numbers[i];
+            }
+        }
+    
+        return "The smallest value is: " + smallestValue;
+    }
+    
+    // Example usage:
+    let numbersList = [10, 5, 8, 20, 15];
+    console.log(findSmallestValue(numbersList));
