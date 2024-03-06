@@ -92,6 +92,31 @@
     // let numbersList = [10, 5, 8, 20, 15];
     // console.log(findSmallestValue(numbersList));
 
+
+// **08: Find the Maximum Number in an Array**
+
+//    let array= [5,6,7,9,10,2,12]
+//    let max = array[0]
+//    for (let i=0;i<array.length;i++) {
+//       if (array[i]>max) {
+//          max=array[i]
+//       }
+   
+//    }
+//    console.log(max)
+
+// ** 09: find minimum value of array **
+
+// let array = [2,1,3,5,9,8,7,0]
+// let min= array[0]
+// for(let i=0;i<array.length;i++) {
+//    if (array[i]<min) {
+//       min=array[i]
+//    }
+// }
+// console.log (min)
+
+
     // 8.countdigit of number
 
     // function countDigits(number) {
@@ -118,15 +143,3 @@
 // }
 // console.log(reverseArray)
 
-
-// **10: Find the Maximum Number in an Array**
-
-   let array= [5,6,7,9,10,2,12]
-   let max = array[0]
-   for (let i=0;i<array.length;i++) {
-      if (array[i]>max) {
-         max=array[i]
-      }
-   
-   }
-   console.log(max)
