@@ -142,4 +142,19 @@
 
 
 
+function countChar(inputString, char) {
+    let count = 0;
+    for (let i = 0; i < inputString.length; i++) {
+        if (inputString[i] === char) {
+            count++;
+        }
+    }
+    return count;
+}
+
+// Example usage:
+const inputStr = "hello world";
+const characterToCount = "o";
+const result = countChar(inputStr, characterToCount);
+console.log(`The character '${characterToCount}' appears ${result} times in the string '${inputStr}'.`);
 
