@@ -94,16 +94,26 @@
 
     // 8.countdigit of number
 
-    function countDigits(number) {
-           // Convert the number to a string to easily get its length
-           const numString = Math.abs(number).toString();
+    // function countDigits(number) {
+    //        // Convert the number to a string to easily get its length
+    //        const numString = Math.abs(number).toString();
            
-           return numString.length;
-        }
+    //        return numString.length;
+    //     }
         
-        // Example usage:
-        let num = 12345;
-        console.log("Number of digits in " + num + ": " + countDigits(num));
+    //     // Example usage:
+    //     let num = 12345;
+    //     console.log("Number of digits in " + num + ": " + countDigits(num));
         
-        num = -9876;
-        console.log("Number of digits in " + num + ": " + countDigits(num));
+    //     num = -9876;
+    //     console.log("Number of digits in " + num + ": " + countDigits(num));
+
+
+    // **10. Reverse an Array:**
+
+    let array=[1,2,3,4,5]
+let reverseArray=[];
+for (let i=array.length-1;i>=0;i--){
+    reverseArray.push(array[i])
+}
+console.log(reverseArray)

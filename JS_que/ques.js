@@ -126,12 +126,12 @@
 // **10. Reverse an Array:**
 // Write a program to reverse the elements of an array using a `for` loop.
 
-// let array=[1,2,3,4,5]
-// let reverseArray=[];
-// for (let i=array.length-1;i>=0;i--){
-//     reverseArray.push(array[i])
-// }
-// console.log(reverseArray)
+let array=[1,2,3,4,5]
+let reverseArray=[];
+for (let i=array.length-1;i>=0;i--){
+    reverseArray.push(array[i])
+}
+console.log(reverseArray)
 
 
 
