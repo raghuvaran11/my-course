@@ -109,11 +109,24 @@
     //     console.log("Number of digits in " + num + ": " + countDigits(num));
 
 
-    // **10. Reverse an Array:**
+    // **09. Reverse an Array:**
 
-    let array=[1,2,3,4,5]
-let reverseArray=[];
-for (let i=array.length-1;i>=0;i--){
-    reverseArray.push(array[i])
-}
-console.log(reverseArray)
+//     let array=[1,2,3,4,5]
+// let reverseArray=[];
+// for (let i=array.length-1;i>=0;i--){
+//     reverseArray.push(array[i])
+// }
+// console.log(reverseArray)
+
+
+// **10: Find the Maximum Number in an Array**
+
+   let array= [5,6,7,9,10,2,12]
+   let max = array[0]
+   for (let i=0;i<array.length;i++) {
+      if (array[i]>max) {
+         max=array[i]
+      }
+   
+   }
+   console.log(max)
