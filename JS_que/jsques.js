@@ -140,21 +140,38 @@
 //     num = -9876;
 //     console.log("Number of digits in " + num + ": " + countDigits(num));
 
+// **  Count the Occurrences of a Character in a String**
 
+// function countChar(inputString, char) {
+//     let count = 0;
+//     for (let i = 0; i < inputString.length; i++) {
+//         if (inputString[i] === char) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-function countChar(inputString, char) {
-    let count = 0;
-    for (let i = 0; i < inputString.length; i++) {
-        if (inputString[i] === char) {
-            count++;
-        }
+// // Example usage:
+// const inputStr = "hello world";
+// const characterToCount = "o";
+// const result = countChar(inputStr, characterToCount);
+// console.log(`The character '${characterToCount}' appears ${result} times in the string '${inputStr}'.`);
+
+// ** Average value of the numbers **
+
+function findAverage(numbers) {
+    if (numbers.length === 0) {
+        return 0; // To avoid division by zero if the array is empty
     }
-    return count;
+
+    const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    const average = sum / numbers.length;
+
+    return average;
 }
 
 // Example usage:
-const inputStr = "hello world";
-const characterToCount = "o";
-const result = countChar(inputStr, characterToCount);
-console.log(`The character '${characterToCount}' appears ${result} times in the string '${inputStr}'.`);
-
+const numbersArray = [10, 20, 30, 40, 50];
+const result = findAverage(numbersArray);
+console.log(`The average of the numbers is: ${result}`);
