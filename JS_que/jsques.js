@@ -1,4 +1,4 @@
-// **1. Sum of Natural Numbers:**
+// ** Sum of Natural Numbers:**
 
 // let number=5
 // let sum=0
@@ -7,7 +7,7 @@
 // }
 // console.log(sum)
 
-// **2. Factorial of a Number:**
+// **  Factorial of a Number:**
 
 // let number=5
 // let factorial=1
@@ -15,7 +15,7 @@
 //     factorial *= i
 // } console.log(factorial)
 
-// **3. Fibonacci Sequence:**
+// ** Fibonacci Sequence:**
 
 // let a=0,b=1;
 // let n=10
@@ -26,7 +26,7 @@
 //     console.log(temp)
 // }
 
-// **4. Reverse a String:**
+// ** Reverse a String:**
 
 // let string="hello world"
 // let reverse=""
@@ -35,7 +35,16 @@
 // }
 // console.log(reverse)
 
-// **5. Print Pattern:**
+// ** Reverse an Array:**
+
+//     let array=[1,2,3,4,5]
+// let reverseArray=[];
+// for (let i=array.length-1;i>=0;i--){
+//     reverseArray.push(array[i])
+// }
+// console.log(reverseArray)
+
+// ** Print Pattern:**
 
 // let row=5
 // for (let i=1;i<=row;i++){
@@ -46,7 +55,7 @@
 //     console.log(pattern)
 // }
 
-// **6. largest number:**
+// ** largest number:**
 
 
     // function findLargestNumber(numbers) {
@@ -70,7 +79,7 @@
     //   console.log(findLargestNumber(numbersList));
       
 
-    // **7. smallest number:**
+    // ** smallest number:**
 
     // function findSmallestValue(numbers) {
     //     if (numbers.length === 0) {
@@ -93,7 +102,7 @@
     // console.log(findSmallestValue(numbersList));
 
 
-// **08: Find the Maximum Number in an Array**
+// ** Find the Maximum Number in an Array**
 
 //    let array= [5,6,7,9,10,2,12]
 //    let max = array[0]
@@ -105,7 +114,7 @@
 //    }
 //    console.log(max)
 
-// ** 09: find minimum value of array **
+// **  find minimum value of array **
 
 // let array = [2,1,3,5,9,8,7,0]
 // let min= array[0]
@@ -117,29 +126,20 @@
 // console.log (min)
 
 
-    // 8.countdigit of number
+// **  countdigit of number  **
 
-    // function countDigits(number) {
-    //        // Convert the number to a string to easily get its length
-    //        const numString = Math.abs(number).toString();
-           
-    //        return numString.length;
-    //     }
+// function countDigits(number) 
+// Convert the number to a string to easily get its length
+//        const numString = Math.abs(number).toString();
+//        return numString.length;
+//     }        
+//    Example usage:
+//     let num = 12345;
+//     console.log("Number of digits in " + num + ": " + countDigits(num));
         
-    //     // Example usage:
-    //     let num = 12345;
-    //     console.log("Number of digits in " + num + ": " + countDigits(num));
-        
-    //     num = -9876;
-    //     console.log("Number of digits in " + num + ": " + countDigits(num));
+//     num = -9876;
+//     console.log("Number of digits in " + num + ": " + countDigits(num));
 
 
-    // **09. Reverse an Array:**
 
-//     let array=[1,2,3,4,5]
-// let reverseArray=[];
-// for (let i=array.length-1;i>=0;i--){
-//     reverseArray.push(array[i])
-// }
-// console.log(reverseArray)
 
