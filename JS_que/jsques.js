@@ -236,13 +236,31 @@
 // console.log(AreAnagram(str1,str2))
 
 
-// 17. Write a function `findIndex` that takes an array and an element as input and returns
-// the index of the first occurrence of the element in the array. If the element is not found,
-// return -1.
+// ** findIndex ** ............................................
 
-const numbers = [1,2,3,4,5,6]
-const op= numbers.findIndex(findThree)
-function findThree(value) {
-   return value===3;
-}
-console.log(op)
+// const numbers = [1,2,3,4,5,6]
+// const op= numbers.findIndex(findThree)
+// function findThree(value) {
+//    return value===3;
+// }
+// console.log(op)
+
+
+// Write a function `findIntersection` that takes two arrays as input and returns an array
+// containing the elements that are common to both input arrays.............................................
+
+function findIntersection(arr1, arr2) {
+    // Use the filter method to find common elements
+    let intersection = arr1.filter(element => arr2.includes(element));
+  
+    return intersection;
+  }
+  
+  // Example usage:
+  let array1 = [1, 2, 3, 4, 5];
+  let array2 = [3, 4, 5, 6, 7];
+  let result = findIntersection(array1, array2);
+  
+  console.log(result); // Output: [3, 4, 5]
+  
+  
