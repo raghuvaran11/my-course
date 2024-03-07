@@ -160,18 +160,38 @@
 
 // ** Average value of the numbers **
 
-function findAverage(numbers) {
-    if (numbers.length === 0) {
-        return 0; // To avoid division by zero if the array is empty
-    }
+// function findAverage(numbers) {
+//     if (numbers.length === 0) {
+//         return 0; // To avoid division by zero if the array is empty
+//     }
 
-    const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-    const average = sum / numbers.length;
+//     const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+//     const average = sum / numbers.length;
 
-    return average;
-}
+//     return average;
+// }
 
-// Example usage:
-const numbersArray = [10, 20, 30, 40, 50];
-const result = findAverage(numbersArray);
-console.log(`The average of the numbers is: ${result}`);
+// // Example usage:
+// const numbersArray = [10, 20, 30, 40, 50];
+// const result = findAverage(numbersArray);
+// console.log(`The average of the numbers is: ${result}`);
+
+// **  Remove Duplicates from an Array  **
+
+function removeDuplicates(numbers) {
+    // Use a Set to store unique values
+    let uniqueNumbers = new Set(numbers);
+  
+    // Convert the Set back to an array
+    let uniqueArray = Array.from(uniqueNumbers);
+  
+    return uniqueArray;
+  }
+  
+  // Example usage:
+  let inputArray = [1, 2, 2, 3, 4, 4, 5];
+  let resultArray = removeDuplicates(inputArray);
+  
+  console.log(resultArray);
+  
+
