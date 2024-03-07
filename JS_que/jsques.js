@@ -197,12 +197,30 @@
 
 // **  Merge Two Sorted Arrays**............................................
 
-function mergeSortedArrays(arr1,arr2) {
-       let mergearray=[...arr1,...arr2]
-       let result=[...new Set(mergearray)]
-       console.log (result)
-    }
-    let arr1 =[0,1,2,3,4]
-    let arr2 =[3,4,5,6,7,8,9]
-    mergeSortedArrays(arr1,arr2)
+// function mergeSortedArrays(arr1,arr2) {
+//        let mergearray=[...arr1,...arr2]
+//        let result=[...new Set(mergearray)]
+//        console.log (result)
+//     }
+//     let arr1 =[0,1,2,3,4]
+//     let arr2 =[3,4,5,6,7,8,9]
+//     mergeSortedArrays(arr1,arr2)
     
+// **  Check for Palindrome **.........................................
+
+function isPalindrome(str) {
+    // Remove non-alphanumeric characters and convert to lowercase
+    const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  
+    // Compare the cleaned string with its reverse
+    const reversedStr = cleanedStr.split('').reverse().join('');
+  
+    return cleanedStr === reversedStr;
+  }
+  
+  // Example usage:
+  let inputString = "A man, a plan, a canal, Panama!";
+  let result = isPalindrome(inputString);
+  
+  console.log(result); // Output: true
+  
