@@ -272,7 +272,7 @@
 // const input2 = "silent";
 // const output = isAnagram(input1, input2);
 // console.log(output); // true
-// >>>>>>> 2b7e546216a2c66aec6e48872214f91f4cf392da
+
 
 
 

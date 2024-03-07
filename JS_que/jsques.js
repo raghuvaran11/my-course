@@ -208,19 +208,29 @@
     
 // **  Check for Palindrome **.........................................
 
-function isPalindrome(str) {
-    // Remove non-alphanumeric characters and convert to lowercase
-    const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+// function isPalindrome(str) {
+//     // Remove non-alphanumeric characters and convert to lowercase
+//     const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
   
-    // Compare the cleaned string with its reverse
-    const reversedStr = cleanedStr.split('').reverse().join('');
+//     // Compare the cleaned string with its reverse
+//     const reversedStr = cleanedStr.split('').reverse().join('');
   
-    return cleanedStr === reversedStr;
-  }
+//     return cleanedStr === reversedStr;
+//   }
   
-  // Example usage:
-  let inputString = "A man, a plan, a canal, Panama!";
-  let result = isPalindrome(inputString);
+//   // Example usage:
+//   let inputString = "A man, a plan, a canal, Panama!";
+//   let result = isPalindrome(inputString);
   
-  console.log(result); // Output: true
+//   console.log(result); // Output: true
   
+
+//**    isAnagram ***...........................................
+
+let str1= "listens"
+let str2 = "slients"
+function  AreAnagram(str1, str2) {
+     return str1.split("").sort().join("")
+     === str2.split("").sort().join("")
+} 
+console.log(AreAnagram(str1,str2))
