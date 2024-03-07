@@ -227,10 +227,22 @@
 
 //**    isAnagram ***...........................................
 
-let str1= "listens"
-let str2 = "slients"
-function  AreAnagram(str1, str2) {
-     return str1.split("").sort().join("")
-     === str2.split("").sort().join("")
-} 
-console.log(AreAnagram(str1,str2))
+// let str1= "listens"
+// let str2 = "slients"
+// function  AreAnagram(str1, str2) {
+//      return str1.split("").sort().join("")
+//      === str2.split("").sort().join("")
+// } 
+// console.log(AreAnagram(str1,str2))
+
+
+// 17. Write a function `findIndex` that takes an array and an element as input and returns
+// the index of the first occurrence of the element in the array. If the element is not found,
+// return -1.
+
+const numbers = [1,2,3,4,5,6]
+const op= numbers.findIndex(findThree)
+function findThree(value) {
+   return value===3;
+}
+console.log(op)
