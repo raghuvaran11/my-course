@@ -312,14 +312,23 @@
 
 // Write a function `removeFalsyValues` that takes an array and removes all falsy values (e.g., `false`, `null`, `0`, `""`, `undefined`, `NaN`)...............................................................................
 
-function removeFalsyValues(array) {
-    // Use the filter method to remove falsy values
-    return array.filter(value => !!value);
-}
+// function removeFalsyValues(array) {
+//     // Use the filter method to remove falsy values
+//     return array.filter(value => !!value);
+// }
 
-// Example usage:
-const originalArray = [1, 0, false, "", undefined, null, NaN, 42, "hello"];
-const newArray = removeFalsyValues(originalArray);
+// // Example usage:
+// const originalArray = [1, 0, false, "", undefined, null, NaN, 42, "hello"];
+// const newArray = removeFalsyValues(originalArray);
 
-console.log(newArray);
-// Output: [1, 42, 'hello']
+// console.log(newArray);
+// // Output: [1, 42, 'hello']
+
+
+// Write a function `filterEvenNumbers` that takes an array of numbers as input and returns a new array containing only the even numbers...............................................................................................
+
+let array =[1,2,3,4,5,6]
+const evenNumber=array.filter(num =>{
+    return num%2 ==0;
+}) 
+console.log(evenNumber)
