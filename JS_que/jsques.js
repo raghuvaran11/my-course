@@ -299,12 +299,27 @@
   
 // Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions........................................................
 
-let array =[1,2,3,5,6,7]
-let k=5
-function ArrayRotation(arr,numberOfShifts) {
-    for (let i=0; i<numberOfShifts;i++) {
- arr.unshift(arr.pop());
- console.log('step ${i+1}',arr)
-    }
+// let array =[1,2,3,5,6,7]
+// let k=5
+// function ArrayRotation(arr,numberOfShifts) {
+//     for (let i=0; i<numberOfShifts;i++) {
+//  arr.unshift(arr.pop());
+//  console.log('step ${i+1}',arr)
+//     }
+// }
+// console.log('final output:',ArrayRotation(array,k));
+
+
+// Write a function `removeFalsyValues` that takes an array and removes all falsy values (e.g., `false`, `null`, `0`, `""`, `undefined`, `NaN`)...............................................................................
+
+function removeFalsyValues(array) {
+    // Use the filter method to remove falsy values
+    return array.filter(value => !!value);
 }
-console.log('final output:',ArrayRotation(array,k));
+
+// Example usage:
+const originalArray = [1, 0, false, "", undefined, null, NaN, 42, "hello"];
+const newArray = removeFalsyValues(originalArray);
+
+console.log(newArray);
+// Output: [1, 42, 'hello']
