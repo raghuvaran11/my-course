@@ -266,34 +266,45 @@
 
 //  Write a function `findUnique` that takes two arrays as input and returns an array
 // containing elements that are unique to each input array (i.e., not common between
-// them).
+// them).....................................................................................
 
-function findUnique(array1, array2) {
-    // Initialize arrays to store unique elements
-    let uniqueArray1 = [];
-    let uniqueArray2 = [];
+// function findUnique(array1, array2) {
+//     // Initialize arrays to store unique elements
+//     let uniqueArray1 = [];
+//     let uniqueArray2 = [];
     
-    // Loop through array1 and check for unique elements
-    for (let element of array1) {
-        if (!array2.includes(element)) {
-            uniqueArray1.push(element);
-        }
-    }
+//     // Loop through array1 and check for unique elements
+//     for (let element of array1) {
+//         if (!array2.includes(element)) {
+//             uniqueArray1.push(element);
+//         }
+//     }
     
-    // Loop through array2 and check for unique elements
-    for (let element of array2) {
-        if (!array1.includes(element)) {
-            uniqueArray2.push(element);
-        }
-    }
+//     // Loop through array2 and check for unique elements
+//     for (let element of array2) {
+//         if (!array1.includes(element)) {
+//             uniqueArray2.push(element);
+//         }
+//     }
     
-    // Concatenate and return unique elements from both arrays
-    return uniqueArray1.concat(uniqueArray2);
-}
+//     // Concatenate and return unique elements from both arrays
+//     return uniqueArray1.concat(uniqueArray2);
+// }
 
-// Example usage:
-const array1 = [1, 2, 3, 4, 5];
-const array2 = [3, 4, 5, 6, 7];
-console.log(findUnique(array1, array2)); // Output: [1, 2, 6, 7]
+// // Example usage:
+// const array1 = [1, 2, 3, 4, 5];
+// const array2 = [3, 4, 5, 6, 7];
+// console.log(findUnique(array1, array2)); // Output: [1, 2, 6, 7]
 
   
+// Write a function `rotateArray` that takes an array and a number `k` as input and rotates the array to the right by `k` positions........................................................
+
+let array =[1,2,3,5,6,7]
+let k=5
+function ArrayRotation(arr,numberOfShifts) {
+    for (let i=0; i<numberOfShifts;i++) {
+ arr.unshift(arr.pop());
+ console.log('step ${i+1}',arr)
+    }
+}
+console.log('final output:',ArrayRotation(array,k));
