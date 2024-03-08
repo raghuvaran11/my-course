@@ -249,18 +249,51 @@
 // Write a function `findIntersection` that takes two arrays as input and returns an array
 // containing the elements that are common to both input arrays.............................................
 
-function findIntersection(arr1, arr2) {
-    // Use the filter method to find common elements
-    let intersection = arr1.filter(element => arr2.includes(element));
+// function findIntersection(arr1, arr2) {
+//     // Use the filter method to find common elements
+//     let intersection = arr1.filter(element => arr2.includes(element));
   
-    return intersection;
-  }
+//     return intersection;
+//   }
   
-  // Example usage:
-  let array1 = [1, 2, 3, 4, 5];
-  let array2 = [3, 4, 5, 6, 7];
-  let result = findIntersection(array1, array2);
+//   // Example usage:
+//   let array1 = [1, 2, 3, 4, 5];
+//   let array2 = [3, 4, 5, 6, 7];
+//   let result = findIntersection(array1, array2);
   
-  console.log(result); // Output: [3, 4, 5]
+//   console.log(result); // Output: [3, 4, 5]
   
+
+//  Write a function `findUnique` that takes two arrays as input and returns an array
+// containing elements that are unique to each input array (i.e., not common between
+// them).
+
+function findUnique(array1, array2) {
+    // Initialize arrays to store unique elements
+    let uniqueArray1 = [];
+    let uniqueArray2 = [];
+    
+    // Loop through array1 and check for unique elements
+    for (let element of array1) {
+        if (!array2.includes(element)) {
+            uniqueArray1.push(element);
+        }
+    }
+    
+    // Loop through array2 and check for unique elements
+    for (let element of array2) {
+        if (!array1.includes(element)) {
+            uniqueArray2.push(element);
+        }
+    }
+    
+    // Concatenate and return unique elements from both arrays
+    return uniqueArray1.concat(uniqueArray2);
+}
+
+// Example usage:
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [3, 4, 5, 6, 7];
+console.log(findUnique(array1, array2)); // Output: [1, 2, 6, 7]
+
   
