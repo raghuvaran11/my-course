@@ -340,3 +340,58 @@
 //     return num%2!=0;
 // })
 // console.log(oddNumber)
+
+
+// *** vowels count ****......................................................................
+// function countVowels(str) {
+//     // Convert the string to lowercase to handle both uppercase and lowercase vowels
+//     str = str.toLowerCase();
+
+//     // Define the set of vowels
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+//     // Initialize a counter for vowels
+//     let vowelCount = 0;
+
+//     // Iterate through each character in the string
+//     for (let char of str) {
+//         // Check if the character is a vowel
+//         if (vowels.includes(char)) {
+//             vowelCount++;
+//         }
+//     }
+
+//     // Return the count of vowels
+//     return vowelCount;
+// }
+
+// // Example usage:
+// const inputString = "this is the vowels count programme";
+// const result = countVowels(inputString);
+// console.log(`Number of vowels in "${inputString}": ${result}`);
+
+
+// *** vowels remove *****.........................................................................
+
+function removeVowels(str) {
+    // Define the set of vowels
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+    // Convert the string to an array of characters
+    const charArray = str.split('');
+
+    // Filter out vowels from the array
+    const filteredArray = charArray.filter(char => !vowels.includes(char.toLowerCase()));
+
+    // Join the characters back into a string
+    const resultString = filteredArray.join('');
+
+    return resultString;
+}
+
+// Example usage:
+const inputString = "Hello, World!";
+const result = removeVowels(inputString);
+console.log(`String without vowels: ${result}`);
+
+
