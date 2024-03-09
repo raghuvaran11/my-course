@@ -343,6 +343,8 @@
 
 
 // *** vowels count ****......................................................................
+
+
 // function countVowels(str) {
 //     // Convert the string to lowercase to handle both uppercase and lowercase vowels
 //     str = str.toLowerCase();
@@ -373,25 +375,44 @@
 
 // *** vowels remove *****.........................................................................
 
-function removeVowels(str) {
-    // Define the set of vowels
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
+// function removeVowels(str) {
+//     // Define the set of vowels
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
 
-    // Convert the string to an array of characters
-    const charArray = str.split('');
+//     // Convert the string to an array of characters
+//     const charArray = str.split('');
 
-    // Filter out vowels from the array
-    const filteredArray = charArray.filter(char => !vowels.includes(char.toLowerCase()));
+//     // Filter out vowels from the array
+//     const filteredArray = charArray.filter(char => !vowels.includes(char.toLowerCase()));
 
-    // Join the characters back into a string
-    const resultString = filteredArray.join('');
+//     // Join the characters back into a string
+//     const resultString = filteredArray.join('');
+
+//     return resultString;
+// }
+
+// // Example usage:
+// const inputString = "Hello, World!";
+// const result = removeVowels(inputString);
+// console.log(`String without vowels: ${result}`);
+
+
+// rite a function `capitalizeFirstLetter` that takes a string as input and returns the same string with the first letter capitalized......................................................................................
+
+function capitalizeFirstLetter(inputString) {
+    // Check if the input is an empty string
+    if (inputString.length === 0) {
+        return inputString;
+    }
+
+    // Capitalize the first letter and concatenate with the rest of the string
+    const resultString = inputString.charAt(0).toUpperCase() + inputString.slice(1);
 
     return resultString;
 }
 
 // Example usage:
-const inputString = "Hello, World!";
-const result = removeVowels(inputString);
-console.log(`String without vowels: ${result}`);
-
-
+const inputString = "hello, world!";
+const result = capitalizeFirstLetter(inputString);
+console.log(`Original string: ${inputString}`);
+console.log(`String with first letter capitalized: ${result}`);
