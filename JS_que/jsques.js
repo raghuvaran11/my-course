@@ -399,20 +399,20 @@
 
 // rite a function `capitalizeFirstLetter` that takes a string as input and returns the same string with the first letter capitalized......................................................................................
 
-function capitalizeFirstLetter(inputString) {
-    // Check if the input is an empty string
-    if (inputString.length === 0) {
-        return inputString;
-    }
+// function capitalizeFirstLetter(inputString) {
+//     // Check if the input is an empty string
+//     if (inputString.length === 0) {
+//         return inputString;
+//     }
 
-    // Capitalize the first letter and concatenate with the rest of the string
-    const resultString = inputString.charAt(0).toUpperCase() + inputString.slice(1);
+//     // Capitalize the first letter and concatenate with the rest of the string
+//     const resultString = inputString.charAt(0).toUpperCase() + inputString.slice(1);
 
-    return resultString;
-}
+//     return resultString;
+// }
 
-// Example usage:
-const inputString = "hello, world!";
-const result = capitalizeFirstLetter(inputString);
-console.log(`Original string: ${inputString}`);
-console.log(`String with first letter capitalized: ${result}`);
+// // Example usage:
+// const inputString = "hello, world!";
+// const result = capitalizeFirstLetter(inputString);
+// console.log(`Original string: ${inputString}`);
+// console.log(`String with first letter capitalized: ${result}`);
