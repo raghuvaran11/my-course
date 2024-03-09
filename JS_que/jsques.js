@@ -416,3 +416,32 @@
 // const result = capitalizeFirstLetter(inputString);
 // console.log(`Original string: ${inputString}`);
 // console.log(`String with first letter capitalized: ${result}`);
+
+
+// ...............................................ASSIGNMENTS-QUESTIONS............................................
+
+// 1)Write a JavaScript function to extract a specified number of characters from a string.
+// Test Data :
+// console.log(truncate_string("Robin Singh",4));
+// "Robi"
+
+// let name = "Robin Singh"
+// let op = name.slice(0,4)
+// console.log(op)
+
+// function name () {
+//     let op=name.slice(0,5)
+//     console.log(op)
+// }
+// name="robin singh";
+
+
+// 2)Write a JavaScript function to convert a string into abbreviated form.
+// Test Data :
+// console.log(abbrev_name("Robin Singh"));
+// "Robin S."
+
+// let testdata ="Robin Singh"
+// let op= testdata.slice(0,7)+"."
+// let op1=op+"."
+// console.log(op)
