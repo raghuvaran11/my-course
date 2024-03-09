@@ -461,3 +461,22 @@
 // console.log(endname)
 // const finaloutput=padendname+endname
 // console.log(finaloutput)
+
+
+// 4)Write a JavaScript function to capitalize the first letter of a string.
+// Test Data :
+// console.log(capitalize('js string exercises'));
+// "Js string exercises"
+
+// let string= "js string exercises"
+// let op = string[0].toUpperCase()+string.slice(1)
+// console.log(op)
+
+
+// let string="js string exercises"
+// let output=string.replace("j","J")
+// console.log(output)
+
+// let string="js string exercises"
+// let parts=string.split()
+// console.log(parts)
