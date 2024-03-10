@@ -497,3 +497,21 @@
 // let string='js string exercises'
 // let op = string.replace("e","E")
 // console.log(op)
+
+// 6)Time of Day Greeting
+// Write a function greetTimeOfDay that takes the current hour as input (in 24-hour format) and
+// prints a greeting based on the time of day: "Good morning" for hours 6-11, "Good afternoon" for
+// hours 12-17, and "Good evening" for hours 18-23
+
+// let time=13
+// if(time<=11){
+//     console.log("Good Morning")
+// }
+// else if(time<=17) {
+//     console.log("GOOd Afternoon")
+// }
+// else if(time<=23){
+//     console.log("good evening")
+// } else {
+//     console.log("good night")
+// }
