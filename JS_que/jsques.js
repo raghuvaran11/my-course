@@ -572,3 +572,13 @@
 //     console.log("GRADE- F")
 //   }
 
+// 10)Even or Odd
+// Write a function evenOrOdd that takes an integer as input and prints "Even" if the number is
+// even, and "Odd" if the number is odd.
+
+// let number =9
+// if(number%2  ==0) {
+//     console.log("this is even number")
+// } else {
+//     console.log("this is odd number")
+// }
