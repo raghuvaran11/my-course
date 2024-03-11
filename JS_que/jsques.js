@@ -651,3 +651,14 @@
 // console.log(fruits)
 
 
+// 16): Shopping List
+// Create an empty array called `shoppingList`. Using the appropriate methods, add the items
+// "eggs", "milk", "bread", and "vegetables" to the shopping list. Then, remove the "bread" from the
+// list.
+// Print the shopping list after each operation
+
+// const shoppinglist=[ ]
+// shoppinglist.push("eggs,milk,bread,vegetables")
+// delete shoppinglist[2] 
+// console.log(shoppinglist)
+
