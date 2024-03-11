@@ -617,3 +617,20 @@
 //     console.log("Invalid")
 // }
 
+// 14)Color Selection
+// Write a function selectColor that takes a color choice ("red", "blue", "green") and whether the
+// color is available (true or false). If the color is available and the choice is "blue" or "green,"
+// return "Selected." If the choice is "red," return "Not available." For any other choice, return
+// "Invalid choice."
+
+// let color="green"
+// if (color=="blue") {
+//     console.log("is available")
+// } else if (color=="green"){
+//     console.log("is available")
+// } else if (color== "red") {
+//     console.log("is not available")
+// }else {
+//     console.log("invaild choice")
+// }
+
