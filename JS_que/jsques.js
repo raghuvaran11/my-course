@@ -603,3 +603,17 @@
 // } else {
 //     console.log ("regular price")
 // }  2 conditions ni add cheyadam ala ???????????????????????????????
+
+// 13)Username Validation
+// Write a function validateUsername that takes a username as input. The function should return
+// "Valid" if the username has at least 6 characters and contains only letters and numbers.
+// Otherwise, return "Invalid."
+
+// let username=9
+// if (username>=6) {
+//     console.log("Valid")
+// }
+//  else {
+//     console.log("Invalid")
+// }
+
