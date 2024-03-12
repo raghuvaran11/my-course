@@ -880,11 +880,20 @@
 // num = -9876;
 // console.log("Number of digits in " + num + ": " + countDigits(num));
 
+// sum
 
+// let num=5
+// let sum =0
+// for (let i=0;i<=num;i++){
+//    sum += i
+// }
+// console.log(sum)
+
+// *  Factorial of a Number:**.....................
 
 let num=5
-let sum =0
-for (let i=0;i<=num;i++){
-   sum += i
+let factorial=1
+for(let i=1;i<=num;i++){
+   factorial *=i
 }
-console.log(sum)
+console.log(factorial)
