@@ -44,6 +44,8 @@
 // }
 // console.log(reverse)
 
+// output:-hello world => dlrow olleh
+
 // ** Reverse an Array:**......................................
 
 //     let array=[1,2,3,4,5]

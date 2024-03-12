@@ -899,11 +899,20 @@
 // console.log(factorial)
 
 // ** Fibonacci Sequence:**...................................
-let a=0, b=1
-let num=10
-for(let i=1;i<=num;i++){
-   let temp =a+b
-   a=b
-   b=temp
-   console.log(temp)
+// let a=0, b=1
+// let num=10
+// for(let i=1;i<=num;i++){
+//    let temp =a+b
+//    a=b
+//    b=temp
+//    console.log(temp)
+// }
+
+
+// ** Reverse a String:**...............................
+let str="hello world"
+let reverse= ""
+for(let i=str.length-1;i>=0;i--){
+   reverse+=str[i]
 }
+console.log(reverse)
