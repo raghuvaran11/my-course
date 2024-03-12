@@ -918,16 +918,16 @@
 // console.log(reverse)
 
 
-let array=[1,2,3,4,5,6]
-let reverseArray=[]
-for(let i=array.length-1;i>=0;i--){
-   reverseArray.push(array[i])
-}
-console.log(reverseArray)
-
-// let array=[1,2,3,4,5]
-// let reverseArray=[];
-// for (let i=array.length-1;i>=0;i--){
-//     reverseArray.push(array[i])
+// let array=[1,2,3,4,5,6]
+// let reverseArray=[]
+// for(let i=array.length-1;i>=0;i--){
+//    reverseArray.push(array[i])
 // }
 // console.log(reverseArray)
+
+let array=[1,2,3,4,5]
+let reversearray=[]
+for(let i=array.length-1;i>=0;i--){
+   reversearray.push(array[i])
+} 
+console.log(reversearray)
