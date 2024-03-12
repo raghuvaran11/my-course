@@ -891,9 +891,19 @@
 
 // *  Factorial of a Number:**.....................
 
-let num=5
-let factorial=1
+// let num=5
+// let factorial=1
+// for(let i=1;i<=num;i++){
+//    factorial *=i
+// }
+// console.log(factorial)
+
+// ** Fibonacci Sequence:**...................................
+let a=0, b=1
+let num=10
 for(let i=1;i<=num;i++){
-   factorial *=i
+   let temp =a+b
+   a=b
+   b=temp
+   console.log(temp)
 }
-console.log(factorial)

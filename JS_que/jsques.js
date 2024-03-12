@@ -7,6 +7,9 @@
 // }
 // console.log(sum)
 
+// output:-  1+2+3+4+5 =15
+
+
 // **  Factorial of a Number:**.....................
 
 // let number=5
@@ -14,6 +17,9 @@
 // for(let i=1;i<=number;i++){
 //     factorial *= i
 // } console.log(factorial)
+
+// output:-1*2*3*4*5=120
+
 
 // ** Fibonacci Sequence:**...................................
 
@@ -25,6 +31,9 @@
 //     b=temp;
 //     console.log(temp)
 // }
+
+// output:-1 2 3 5 8 13 21 34 55 89()
+
 
 // ** Reverse a String:**...............................
 
