@@ -879,3 +879,12 @@
 
 // num = -9876;
 // console.log("Number of digits in " + num + ": " + countDigits(num));
+
+
+
+let num=5
+let sum =0
+for (let i=0;i<=num;i++){
+   sum += i
+}
+console.log(sum)
