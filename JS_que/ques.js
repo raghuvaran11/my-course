@@ -910,9 +910,24 @@
 
 
 // ** Reverse a String:**...............................
-let str="hello world"
-let reverse= ""
-for(let i=str.length-1;i>=0;i--){
-   reverse+=str[i]
+// let str="hello world"
+// let reverse= ""
+// for(let i=str.length-1;i>=0;i--){
+//    reverse+=str[i]
+// }
+// console.log(reverse)
+
+
+let array=[1,2,3,4,5,6]
+let reverseArray=[]
+for(let i=array.length-1;i>=0;i--){
+   reverseArray.push(array[i])
 }
-console.log(reverse)
+console.log(reverseArray)
+
+// let array=[1,2,3,4,5]
+// let reverseArray=[];
+// for (let i=array.length-1;i>=0;i--){
+//     reverseArray.push(array[i])
+// }
+// console.log(reverseArray)

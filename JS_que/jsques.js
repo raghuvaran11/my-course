@@ -55,6 +55,8 @@
 // }
 // console.log(reverseArray)
 
+// output:-[1,2,3,4,5]=> [5,4,3,2,1]
+
 // ** Print Pattern:**...........................
 
 // let row=5
