@@ -947,11 +947,25 @@
 // }
 // console.log(factorial)
 
-let a=0,b=1
-let num=10
-for(let i=1;i<=num;i++){
-   let temp=a+b
-   a=b
-   b=temp
-   console.log(temp)
+// let a=0,b=1
+// let num=10
+// for(let i=1;i<=num;i++){
+//    let temp=a+b
+//    a=b
+//    b=temp
+//    console.log(temp)
+// }
+
+// let str="hello"
+// let reversestring=""
+// for(let i=str.length-1;i>=0;i--){
+//    reversestring +=str[i]
+// }
+// console.log(reversestring)
+
+let array=[1,2,3,4,5,6]
+let reversearray=[]
+for(let i=array.length-1;i>=0;i--){
+   reversearray.push(array[i])
 }
+console.log(reversearray)
