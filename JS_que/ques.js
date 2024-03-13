@@ -925,9 +925,33 @@
 // }
 // console.log(reverseArray)
 
-let array=[1,2,3,4,5]
-let reversearray=[]
-for(let i=array.length-1;i>=0;i--){
-   reversearray.push(array[i])
-} 
-console.log(reversearray)
+// let array=[1,2,3,4,5]
+// let reversearray=[]
+// for(let i=array.length-1;i>=0;i--){
+//    reversearray.push(array[i])
+// } 
+// console.log(reversearray)
+
+
+// let num=5
+// let sum=0
+// for(let i=0;i<=num;i++){
+//    sum += i
+// }
+// console.log(sum)
+
+// let num=5
+// let factorial=1
+// for(let i=1;i<=num;i++){
+//    factorial *= i
+// }
+// console.log(factorial)
+
+let a=0,b=1
+let num=10
+for(let i=1;i<=num;i++){
+   let temp=a+b
+   a=b
+   b=temp
+   console.log(temp)
+}
