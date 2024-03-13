@@ -86,8 +86,6 @@
       
     //       return "The largest number is: " + largestNumber;
     //   }
-      
-    //   // Example usage:
     //   let numbersList = [10, 5, 8, 20, 15];
     //   console.log(findLargestNumber(numbersList));
       
