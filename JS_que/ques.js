@@ -963,9 +963,35 @@
 // }
 // console.log(reversestring)
 
-let array=[1,2,3,4,5,6]
-let reversearray=[]
-for(let i=array.length-1;i>=0;i--){
-   reversearray.push(array[i])
+// let array=[1,2,3,4,5,6]
+// let reversearray=[]
+// for(let i=array.length-1;i>=0;i--){
+//    reversearray.push(array[i])
+// }
+// console.log(reversearray)
+
+// let row=5
+// for (let i=1;i<=row;i++){
+//     let pattern=""
+//     for (let j=1;j<=i;j++){
+//         pattern += " * "()
+//     };
+//     console.log(pattern)
+// } 
+// let row=5
+// for(let i=1;i<=row;i++){
+//    let pattren=""
+//    for(let j=1;j<=i;j++){
+//       pattren += " * "
+//    } 
+//    console.log(pattren)
+// }
+
+let row=5
+for(let i=1;i<=row;i++){
+   let pattern =""
+   for (let j=1;j<=i;j++){
+      pattern += " * "
+   }
+   console.log(pattern)
 }
-console.log(reversearray)
