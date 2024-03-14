@@ -1078,8 +1078,21 @@
 //    console.log(result)
 // }
 
-let number=10
-for (let i=0;i<=20;i++){
- let   multi = number*i
- console.log(multi)
-}
+// let number=10
+// for (let i=0;i<=20;i++){
+//  let   multi = number*i
+//  console.log(multi)
+// }
+
+
+
+const number =[2,5,6,9,8,7,1,3]
+const largest =number[0]
+for (let i=1;i<=number.length;i++) {
+    if(number[i]>largest) {
+     largest = number[i]
+
+    }
+} 
+console.log(largest)
+
