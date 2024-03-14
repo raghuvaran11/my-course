@@ -1086,13 +1086,31 @@
 
 
 
-const number =[2,5,6,9,8,7,1,3]
-const largest =number[0]
-for (let i=1;i<=number.length;i++) {
-    if(number[i]>largest) {
-     largest = number[i]
+// const number =[2,5,6,9,8,7,1,3]
+// const largest =number[0]
+// for (let i=1;i<=number.length;i++) {
+//     if(number[i]>largest) {
+//      largest = number[i]
 
-    }
-} 
-console.log(largest)
+//     }
+// } 
+// console.log(largest)
 
+// let array= [5,6,7,9,10,2,12]
+//    let max = array[0]
+//    for (let i=0;i<array.length;i++) {
+//       if (array[i]>max) {
+//          max=array[i]
+//       }
+   
+//    }
+//    console.log(max)
+let array= [5,6,7,9,10,2,12]
+   let max = array[0]
+   for (let i=0;i<array.length;i++) {
+      if (array[i]>max) {
+         max=array[i]
+      }
+   
+   }
+   console.log(max)
