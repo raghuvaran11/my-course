@@ -1055,16 +1055,25 @@
     //     return "The smallest value is: " + smallestValue;
     // }
     
-    function smallestvalue(number){
-      if(number.length===0){
-         return "the list is empty"
-      }
-      let smallestvalue=number[0]
-      for(let  i=1;i<=number.length;i++){
-         if(number[i]<smallestvalue){
-         smallestvalue=number[i] }
-      }
-      return "the smallest value is : "+smallestvalue;
-    } 
-    let number = [10, 5, 8, 20, 15];
-  console.log(smallestvalue(number));
+//     function smallestvalue(number){
+//       if(number.length===0){
+//          return "the list is empty"
+//       }
+//       let smallestvalue=number[0]
+//       for(let  i=1;i<=number.length;i++){
+//          if(number[i]<smallestvalue){
+//          smallestvalue=number[i] }
+//       }
+//       return "the smallest value is : "+smallestvalue;
+//     } 
+//     let number = [10, 5, 8, 20, 15];
+//   console.log(smallestvalue(number));
+
+let a=0,b=1
+let number=5
+for(let i=1;i<=number;i++){
+   let result =a+b
+   a=b
+   b=result
+   console.log(result)
+}
