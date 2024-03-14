@@ -1069,11 +1069,18 @@
 //     let number = [10, 5, 8, 20, 15];
 //   console.log(smallestvalue(number));
 
-let a=0,b=1
-let number=5
-for(let i=1;i<=number;i++){
-   let result =a+b
-   a=b
-   b=result
-   console.log(result)
+// let a=0,b=1
+// let number=5
+// for(let i=1;i<=number;i++){
+//    let result =a+b
+//    a=b
+//    b=result
+//    console.log(result)
+// }
+
+let number=10
+let multi=0
+for (let i=0;i<=20;i++){
+   multi = number*i
 }
+console.log(multi)
