@@ -1027,17 +1027,17 @@
 // } let numbersList = [10, 5, 8, 20, 15];
 //   console.log(findLargestNumber(numbersList));
 
-  function findLargestNumber(number){
-   if(number.length===0){
-      return "this list is empty."
-   }let largestNumber=number[0]
-   for(let i=1;i<number.length;i++){
-      if (number[i]<largestNumber){
-         largestNumber=number[i]
-      }
-   } return "the largest number is: " +largestNumber
-} let numbersList = [10, 5, 8, 20, 15];
-  console.log(findLargestNumber(numbersList));
+//   function findLargestNumber(number){
+//    if(number.length===0){
+//       return "this list is empty."
+//    }let largestNumber=number[0]
+//    for(let i=1;i<number.length;i++){
+//       if (number[i]<largestNumber){
+//          largestNumber=number[i]
+//       }
+//    } return "the largest number is: " +largestNumber
+// } let numbersList = [10, 5, 8, 20, 15];
+//   console.log(findLargestNumber(numbersList));
   
     // function findSmallestValue(numbers) {
     //     if (numbers.length === 0) {
@@ -1055,3 +1055,16 @@
     //     return "The smallest value is: " + smallestValue;
     // }
     
+    function smallestvalue(number){
+      if(number.length===0){
+         return "the list is empty"
+      }
+      let smallestvalue=number[0]
+      for(let  i=1;i<=number.length;i++){
+         if(number[i]<smallestvalue){
+         smallestvalue=number[i] }
+      }
+      return "the smallest value is : "+smallestvalue;
+    } 
+    let number = [10, 5, 8, 20, 15];
+  console.log(smallestvalue(number));
