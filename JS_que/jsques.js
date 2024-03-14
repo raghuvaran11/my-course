@@ -428,6 +428,15 @@
 // console.log(`Original string: ${inputString}`);
 // console.log(`String with first letter capitalized: ${result}`);
 
+// / **4. Print Multiplication Table:**....................................................
+// Write a program to print the multiplication table of a given number `n` using a `for` loop.
+
+// let n=10
+// for (let i=0;i<=10;i++){
+//     let mult=n*i;
+//     console.log(mult)
+// }
+
 
 // ...............................................ASSIGNMENTS-QUESTIONS............................................
 

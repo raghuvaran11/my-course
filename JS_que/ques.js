@@ -1079,8 +1079,7 @@
 // }
 
 let number=10
-let multi=0
 for (let i=0;i<=20;i++){
-   multi = number*i
+ let   multi = number*i
+ console.log(multi)
 }
-console.log(multi)
