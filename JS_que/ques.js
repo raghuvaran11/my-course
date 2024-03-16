@@ -1114,6 +1114,21 @@
    
 //    }
 //    console.log(max)
+// / function findSmallestValue(numbers) {
+   //     if (numbers.length === 0) {
+   //         return "The list is empty.";
+   //     }
+   
+   //     let smallestValue = numbers[0];
+   
+   //     for (let i = 1; i < numbers.length; i++) {
+   //         if (numbers[i] < smallestValue) {
+   //             smallestValue = numbers[i];
+   //         }
+   //     }
+   
+   //     return "The smallest value is: " + smallestValue;
+   // }
 // let array= [5,6,7,9,10,2,12]
 //    let max = array[0]
 //    for (let i=0;i<array.length;i++) {
