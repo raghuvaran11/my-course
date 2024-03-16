@@ -1123,3 +1123,15 @@
    
 //    }
 //    console.log(max)
+
+// let number=10
+// for (let i=0;i<=20;i++){
+//  let   multi = number*i
+//  console.log(multi)
+// }
+
+// let number=10
+// for (let i=0;i<=20;i++){
+//  let   multi = number*i
+//  console.log(multi)
+// }
