@@ -1168,3 +1168,10 @@
    
    //     return "The smallest value is: " + smallestValue;
    // }
+
+   let email ="raghu.mr1234@gmail.com"
+   let firsthalf =email.slice(0,5)
+   let secondhalf = firsthalf.padEnd(13,"*")
+   let thirdhalf = email.slice(12)
+   let result= secondhalf.concat(thirdhalf)
+   console.log(result) 
