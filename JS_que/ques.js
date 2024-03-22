@@ -1179,6 +1179,21 @@
    // let string= "js string exercises"
 // let op = string[0].toUpperCase()+string.slice(1)
 // console.log(op)
- let string="js string exercises"
- let op=string[0].toUpperCase()+string.slice(1)
- console.log(op)
+//  let string="js string exercises"
+//  let op=string[0].toUpperCase()+string.slice(1)
+//  console.log(op)
+
+
+// let time=13
+// if(time<=11){
+//     console.log("Good Morning")
+// }
+// else if(time<=17) {
+//     console.log("GOOd Afternoon")
+// }
+// else if(time<=23){
+//     console.log("good evening")
+// } else {
+//     console.log("good night")
+// }
+
