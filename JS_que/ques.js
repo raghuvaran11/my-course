@@ -1169,9 +1169,16 @@
    //     return "The smallest value is: " + smallestValue;
    // }
 
-   let email ="raghu.mr1234@gmail.com"
-   let firsthalf =email.slice(0,5)
-   let secondhalf = firsthalf.padEnd(13,"*")
-   let thirdhalf = email.slice(12)
-   let result= secondhalf.concat(thirdhalf)
-   console.log(result) 
+   // let email ="raghu.mr1234@gmail.com"
+   // let firsthalf =email.slice(0,5)
+   // let secondhalf = firsthalf.padEnd(13,"*")
+   // let thirdhalf = email.slice(12)
+   // let result= secondhalf.concat(thirdhalf)
+   // console.log(result) 
+
+   // let string= "js string exercises"
+// let op = string[0].toUpperCase()+string.slice(1)
+// console.log(op)
+ let string="js string exercises"
+ let op=string[0].toUpperCase()+string.slice(1)
+ console.log(op)
