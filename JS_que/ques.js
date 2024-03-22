@@ -1151,6 +1151,8 @@
 //  console.log(multi)
 // }
 
+
+
 // / function findSmallestValue(numbers) {
    //     if (numbers.length === 0) {
    //         return "The list is empty.";
